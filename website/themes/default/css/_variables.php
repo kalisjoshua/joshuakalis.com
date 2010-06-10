@@ -31,3 +31,26 @@ $names = Array(
 	,"accent1"
 	,"accent2"
 );
+
+if (!empty($_GET)) { ?>
+
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8" />
+<title>Colors</title>
+</head>
+
+<body>
+<?php
+foreach( $colors as $key => $value ) {
+	echo "$names[$key]<br />$key - #$value<div style=\"background:#$value;border:1px solid #000000;height:40px;margin:1px;width:100px;\"></div>";
+}
+?>
+
+<!--[if IE]>
+<script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+<![endif]-->
+</body>
+</html>
+<?php }
