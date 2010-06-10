@@ -53,4 +53,6 @@ foreach( $colors as $key => $value ) {
 <![endif]-->
 </body>
 </html>
-<?php }
+
+<?php
+}
