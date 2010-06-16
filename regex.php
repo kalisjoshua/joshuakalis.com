@@ -1,3 +1,6 @@
+<?php require "themes/current.php"; ?>
+
+<?php function article() { ?>
 <form name="regexTester" id="regexTester">
 	<textarea name="src"></textarea>
 	<input class="text" type="text" name="regex" />
@@ -9,3 +12,4 @@
 	
 	<div id="result"></div>
 </form>
+<?php }?>

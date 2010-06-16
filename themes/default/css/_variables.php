@@ -31,3 +31,4 @@ $names = Array(
 	,"accent1"
 	,"accent2"
 );
+?>

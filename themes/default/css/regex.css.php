@@ -34,4 +34,4 @@ form#regexTester div#result {
 	height: 20em;
 	overflow: auto;
 }
-form#regexTester span.highlight { background: lightBlue; }
+form#regexTester span.highlight { background: lightCyan; }

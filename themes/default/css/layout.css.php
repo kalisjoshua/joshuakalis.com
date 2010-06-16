@@ -41,7 +41,7 @@ html {
 nav {
 	position: absolute;
 	right: 0px;
-	top: 0px;
+	top: 44px;
 	z-index: 10;
 	}
 	nav ul {
