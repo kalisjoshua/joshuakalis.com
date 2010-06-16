@@ -2,20 +2,24 @@ Options +FollowSymlinks
 RewriteEngine On
 RewriteBase /
 
+
 # *** URLS ***
 RewriteCond %{REQUEST_FILENAME} !-f
 # old pages
-RewriteRule ^(.*).php$ index.php/$1
+RewriteRule ^contact about [last,R=301]
+RewriteRule ^(about|portfolio|resume)\.php $1 [last,R=301]
 # new pages
-RewriteRule ^(|about|downloads|portfolio|resume)$ index.php/$1 [L]
+RewriteRule ^(|about|downloads|portfolio|projects|resume)\/?$ index.php/$1 [last]
+
 
 # *** DIRECTORIES ***
 RewriteCond %{REQUEST_FILENAME} -d
 # all directories
-RewriteRule ^ / [L]
+RewriteRule ^ - [F,last]
+
 
 # *** ERRORS ***
 RewriteCond %{REQUEST_FILENAME} !-f
 RewriteCond %{REQUEST_FILENAME} !-d
 # non-existant
-RewriteRule ^(.*)$ /index.php/error/404/$1 [L]
+RewriteRule ^ - [last,R=404]

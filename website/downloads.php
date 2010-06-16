@@ -12,7 +12,7 @@ if (is_dir($dir)) {
             //echo "filename: $file : filetype: " . filetype($dir . $file) . "\n";
             if(!is_dir($file)) {
                 $type = preg_replace("/.*\.([^\.]+)$/", "$1", $type = $file);
-                echo "<dd><a class=\"filetype-$type\" href=\"$dir$file\">Resume - Kalis, Joshua <span>[$type]</span></a></dd>";
+                echo "<dd><a class=\"filetype-$type\" href=\"$dir$file\">Resume - Kalis, Joshua<span>.$type</span></a></dd>";
             }
         }
         closedir($dh);

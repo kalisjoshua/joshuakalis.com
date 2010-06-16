@@ -41,7 +41,7 @@ html {
 nav {
 	position: absolute;
 	right: 0px;
-	top: 0px;
+	top: 10px;
 	z-index: 10;
 	}
 	nav ul {
@@ -55,7 +55,7 @@ nav {
 			nav ul li a {
 				color: <?php echo $menuFG1; ?>;
 				margin: 0px 4px;
-				padding: 15px 10px 3px;
+				padding: 15px 10px;
 				text-decoration: none;
 				}
 			nav ul li.active a,

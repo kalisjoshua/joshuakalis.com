@@ -32,6 +32,8 @@ $names = Array(
 	,"accent2"
 );
 
+// if the GET string contains anything this will display the color scheme
+// may want to change this so that I can call themes dynamicaly with the request string
 if (!empty($_GET)) { ?>
 
 <!DOCTYPE html>

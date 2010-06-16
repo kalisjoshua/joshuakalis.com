@@ -1,8 +1,28 @@
 <?php require "_variables.php"; ?>
 
-a { color: <?php echo $accent1; ?>; }
-a:hover { text-decoration: none; }
-h1 { display: none; }
+a {
+    color: <?php echo $accent1; ?>;
+    }
+a:hover {
+    text-decoration: none;
+    }
+    a.external {
+    	background: url(../images/external.gif) repeat top right;
+    	background: red;
+    	padding: 0px 20px 0px 0px;
+    	}
+dl {
+    margin: 1.25em;
+    }
+    dl dt {
+        font-weight: bold;
+        }
+    dl dd {
+        margin: 0.5em 1.5em;
+        }
+h1 {
+    display: none;
+    }
 h2 {
 	clear: both;
 	color: <?php echo $accent1; ?>;
@@ -10,14 +30,14 @@ h2 {
 	font-size: 155%;
 	position: relative;
 	text-transform: uppercase;
-}
-p { margin: 1em 0em; }
-ul, ol { margin: 0px 0px 0px 20px; }
-a.external {
-	background: url(../images/external.gif) repeat top right;
-	background: red;
-	padding: 0px 20px 0px 0px;
-	}
+    }
+ol, 
+ul {
+    margin: 0px 0px 0px 20px;
+    }
+p {
+    margin: 1em 0em;
+    }
 
 /* **** Portfolio **** */
 .Portfolio figure {
