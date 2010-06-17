@@ -38,6 +38,6 @@
     </footer>
     
 <!--[if IE]><script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script><![endif]-->
-<script src="<?php echo "$domain/website/themes/$theme"; ?>/js/js.min.php"></script>
+<script src="<?php echo "$domain/website/themes/$theme"; ?>/js/all.js.min.php"></script>
 </body>
 </html>
