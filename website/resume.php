@@ -80,7 +80,7 @@
 		<li>Extracurricular involvement: Broad International Business Forum, Center for Research &amp; Professional Development, Global Business Club, Student Greenhouse Project</li>
 	</ul>
 </div>
-
+<!-->
 <h2>History</h2>
 
 <div class="resElement">
@@ -154,3 +154,4 @@
 		<li>Adapted to work in high demand environments</li>
 	</ul>
 </div>
+<!-- -->
