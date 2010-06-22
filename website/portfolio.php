@@ -1,7 +1,14 @@
+<!-->
 <p>My portfolio will focus mostly on graphic design that I have done and some user interface design that is public-facing, because a lot of the work that I have done in the past is behind login screens due to membership and sensitive data issues.</p>
+<!-->
 
 
-<h2>Layout</h2>
+<h2>Code</h2>
+<h3><a href="http://code.google.com/p/js-session-extender/" title="">JavaScript Session Extender</a></h3>
+<p>This JavaScript library is for simple notifications to the user about server sessions and timeout period. A friend and I were both part of a team that was focusing on accessibility and we developed this little library to easily notify users when their sessions were about to expire on the server and offer a chance to refresh that session easily and quietly. The refresh used a simple AJAX call to the server so the user didn't need to navigate away from a page.</p>
+
+
+<h2>Development</h2>
 <h3><a href="http://aib.msu.edu" title="AIB - home page">Academy of International Business</a></h3>
 <figure>
 	<img alt="screenshot of AIB home page" src="<?php echo "$domain/website/portfolio.files"; ?>/AIB_01.png" />
@@ -12,8 +19,6 @@
 <p>I tried to create a visually appealing interface that would not be overly complicated due to its depth of content. I wanted the user interface pieces to blend with the elements around them so that over time the users would begin to recognize the site, as a whole, even from far away or at a glance.</p>
 <p>I have kept a screenshot of the <a class="Portfolio" href="<?php echo "$domain/website/portfolio.files"; ?>/AIB_logos.png" title="screenshot of AIB logos page"><span>AIB </span>logos page</a> I created as documentation for proper branding if the <a href="http://aib.msu.edu/logos.asp" title="AIB logos official use documentation">original page</a> ever goes offline.</p>
 
-
-<h2>Website</h2>
 <h3><a href="http://globalEDGE.msu.edu" title="globalEDGE - home page">globalEDGE.msu.edu</a></h3>
 <figure>
 	<img alt="screenshot of globalEDGE home page" src="<?php echo "$domain/website/portfolio.files"; ?>/globalEDGE_01.png" />
@@ -24,7 +29,7 @@
 <p>I have kept a screenshot of the <a class="Portfolio" href="<?php echo "$domain/website/portfolio.files"; ?>/globalEDGE_logos.png" title="screenshot of globalEGDE logos page"><span>globalEDGE </span>logos page</a> I created as documentation for proper branding if the <a href="http://globalEDGE.msu.edu/logos.asp" title="globalEDGE logos official use documentation">original page</a> ever goes offline.</p>
 
 
-<h2>Advertisement</h2>
+<h2>Design</h2>
 <h3><a href="http://globalEDGE.msu.edu" title="globalEDGE - home page">globalEDGE.msu.edu</a></h3>
 <figure>
 	<img alt="" src="<?php echo "$domain/website/portfolio.files"; ?>/globalEDGE_ad.png" />
@@ -37,8 +42,6 @@
 	<li><a class="pdf" href="<?php echo "$domain/website/portfolio.files"; ?>/globalEDGE_academy_ad.pdf" title="PDF link to advertisement">Ad for Academy section of the website</a></li>
 </ul>
 
-
-<h2>Banner</h2>
 <h3><a href="http://aib.msu.edu" title="AIB - home page">Academy of International Business</a></h3>
 <figure>
 	<img alt="screenshot of AIB home page" src="<?php echo "$domain/website/portfolio.files"; ?>/AIB_BackgroundBoard_small.png" />
@@ -46,8 +49,6 @@
 </figure>
 <p>For the 2006 AIB annual conference in China the host institution had an enormous stage where a large banner would fit nicely and provide a highly visible location to display logos for the various conference sponsors. This was a lot of fun because of its magnitude; if I remember correctly the width of the finished banner was 40 feet across.</p>
 
-
-<h2>Cover</h2>
 <h3><a href="http://ciber.msu.edu" title="CIBER - home page">Center for International Business Education and Research (CIBER)</a></h3>
 <figure>
 	<img alt="thumbnail of CIBER grant proposal cover" src="<?php echo "$domain/website/portfolio.files"; ?>/CIBER_GrantCover.png" />
@@ -57,8 +58,6 @@
 <p>I was charged with making the end result pretty; I did not write the proposal. I designed the cover for the proposal which you can see here and worked as art director on the project. I edited formatting in the document and kept the content flowing between sections consistent and aesthetically pleasing. There were some charts, graphs, and diagrams that I added a little style to.</p>
 <p>I'm sure that the proposal would have been accepted and approved even without my contributions but I was happy to participate and contribute to the successful grant proposal anyway.</p>
 
-
-<h2>Brochure</h2>
 <h3><a href="http://ciber.msu.edu" title="CIBER - home page">Center for International Business Education and Research (CIBER)</a></h3>
 <figure>
 	<img alt="thumbnail of Study Abroad brochure" src="<?php echo "$domain/website/portfolio.files"; ?>/CIBER_IB_Specialization.png" />
@@ -69,8 +68,6 @@
 	<li><a class="pdf" href="<?php echo "$domain/website/portfolio.files"; ?>/CIBER_IB_Specialization.pdf" title="full-size PDF">International Business Specialization brochure</a></li>
 </ul>
 
-
-<h2>Branding</h2>
 <h3><a href="http://aib.msu.edu" title="AIB - home page">Academy of International Business</a></h3>
 <figure>
 	<img alt="screenshot of AIB home page" src="<?php echo "$domain/website/portfolio.files"; ?>/AIB_Branding.png" />
