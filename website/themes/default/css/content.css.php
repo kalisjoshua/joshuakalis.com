@@ -20,11 +20,18 @@ dl {
     dl dd {
         margin: 0.5em 1.5em;
         }
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    }
 h1 {
     display: none;
     }
 h2 {
-	clear: both;
 	color: <?php echo $accent1; ?>;
 	font-family: Palatino, Serif;
 	font-size: 155%;
@@ -65,12 +72,18 @@ p {
 		.Portfolio figure a span {
 			display: none;
 			}
-.Portfolio h2 {
-	margin: 1.5em 0px 0px;
-}
+.Portfolio h2,
+.Portfolio h3,
+.Portfolio h4,
+.Portfolio h5,
+.Portfolio h6 {
+    clear: both;
+    margin: 1.5em 0px 1.0em;
+    }
 
 /* **** Resume **** */
 .Resume h2 {
+    clear: left;
 	float: left;
 	top: .65em;
 	width: 150px;
