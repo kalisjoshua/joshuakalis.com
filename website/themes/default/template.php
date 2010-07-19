@@ -5,6 +5,9 @@
 <title><?php echo ucfirst($page)." - $pageTitle"; ?></title>
 <meta name="description" content="<?php echo $pageDesc;?>" />
 
+<!--[if IE]><script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script><![endif]-->
+<script src="<?php echo "$domain/website/themes/$theme"; ?>/js/all.js.min.php"></script>
+
 <link rel="stylesheet" href="<?php echo "$domain/website/themes/$theme"; ?>/css/css.min.php" type="text/css" />
 <link rel="stylesheet" href="<?php echo "$domain/website/themes/$theme"; ?>/css/print.css" type="text/css" media="print" />
 </head>
@@ -37,7 +40,5 @@
         <a href="http://www.w3.org/WAI/WCAG2AAA-Conformance" title="Explanation of WCAG 2.0 Level Triple-A Conformance">W3C WAI-AAA WCAG 2.0</a>
     </footer>
     
-<!--[if IE]><script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script><![endif]-->
-<script src="<?php echo "$domain/website/themes/$theme"; ?>/js/all.js.min.php"></script>
 </body>
 </html>
