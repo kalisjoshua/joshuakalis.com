@@ -4,17 +4,20 @@
 
 
 <h2>Code</h2>
-<h3><a href="http://code.google.com/p/js-session-extender/" title="">JavaScript Session Extender</a></h3>
+<h3>JavaScript Session Extender</h3>
 <p>This JavaScript library is for simple notifications to the user about server sessions and timeout period. A friend and I were both part of a team that was focusing on accessibility and we developed this little library to easily notify users when their sessions were about to expire on the server and offer a chance to refresh that session easily and quietly. The refresh used a simple AJAX call to the server so the user didn't need to navigate away from a page.</p>
-<p><a href="<?php echo "$domain/website/"; ?>demos/jsx/test.html" title="">Demo JavaScript Session Extender</a></p>
+<p><a href="http://code.google.com/p/js-session-extender/" title="JavaScript Session Extender on Google Code">Project home</a><br>
+    <a href="<?php echo "$domain/website/"; ?>demos/jsx/test.html" title="JavaScript Session Extender">Demo</a></p>
 
-<h3><a href="http://code.google.com/p/lotustemplate/" title="">Lotus Templates</a></h3>
+<h3>Lotus Templates</h3>
 <p>Lotus is a preliminary name I have given to a template engine I am working on JavaScript. My goal is to create a language-agnostic template text file for display of JavaScript objects without putting actual code in the template file itself.</p>
-<p><a href="<?php echo "$domain/website/"; ?>demos/Lotus/example.htm" title="">Demo Lotus Templates</a></p>
+<p><a href="http://code.google.com/p/lotustemplate/" title="Lotus Templates on Google Code">Project home</a><br>
+    <a href="<?php echo "$domain/website/"; ?>demos/Lotus/example.htm" title="Lotus Templates">Demo</a></p>
 
-<h3><a href="<?php echo "$domain/website/"; ?>demos/LiveList/index.htm" title="">LiveList</a></h3>
+<h3>LiveList</h3>
 <p>This little library of functionality is something I developed for a very specific project (only two users ever) where the users wanted a dynamic data-table for data entry and editing. I worked very closely with the customer during this project and they were very happy with the way this worked. I tried to make this as good as I was allowed to within the time I was given.</p>
 <p>One of the caveats of the project was that we were to completely develop everything on our own; no external dependancies (i.e. libraries such as: jQuery, YUI, etc.) which already had widgets that would have filled the bill much faster and more reliably than I could have. But I stand by my work as a part of my past.</p>
+<p><a href="<?php echo "$domain/website/"; ?>demos/LiveList/index.htm" title="LiveList">Demo</a></p>
 
 
 <h2>Development</h2>
