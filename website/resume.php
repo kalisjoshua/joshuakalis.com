@@ -14,7 +14,19 @@
 <h2>Experience</h2>
 
 <div class="resElement">
-	<h3>2008 - Present</h3>
+	<h3>2002 - Present</h3>
+	<h4>Web Developer &amp; COO</h4>
+	<h5>Image Science Incorporated</h5>
+	<ul>
+		<li>Environment: CSS, Git, HTML 5, JavaScript , Mercurial, MySQL, PHP, Subversion</li>
+		<li>Founded and maintained company as creative outlet and learning experience</li>
+		<li>Designed web sites, logos, and print media in Adobe: Photoshop, Illustrator, InDesign</li>
+		<li>Published open source JavaScript library that enhances accessibility of session time-outs</li>
+	</ul>
+</div>
+
+<div class="resElement">
+	<h3>2008 - 2010</h3>
 	<h4>Information Technologist</h4>
 	<h5>Michigan State University Academic Information Systems</h5>
 	<ul>
@@ -26,18 +38,6 @@
 		<li>Designer of web application templates using Adobe Photoshop and HTML/CSS</li>
 		<li>Delivered Java web interface to SQL Server financial database system</li>
 		<li>Wrote data migration scripts as stored procedures and DTS packages</li>
-	</ul>
-</div>
-
-<div class="resElement">
-	<h3>2002 - Present</h3>
-	<h4>Web Developer &amp; COO</h4>
-	<h5>Image Science Incorporated</h5>
-	<ul>
-		<li>Environment: CSS, Git, HTML 5, JavaScript , Mercurial, MySQL, PHP, Subversion</li>
-		<li>Founded and maintained company as creative outlet and learning experience</li>
-		<li>Designed web sites, logos, and print media in Adobe: Photoshop, Illustrator, InDesign</li>
-		<li>Published open source JavaScript library that enhances accessibility of session time-outs</li>
 	</ul>
 </div>
 
