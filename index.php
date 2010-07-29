@@ -12,7 +12,7 @@ $siteMenu = Array(
 //	,"projects"
 );
 
-$domain = ($_SERVER['HTTP_HOST'] != "localhost")? "http://joshuakalis.com": "http://localhost";
+$domain = ($_SERVER['HTTP_HOST'] != "jkd")? "http://joshuakalis.com": "http://jkd";
 
 $page = strtolower(preg_replace("/^\/|\?.*/", "", $_SERVER['REQUEST_URI']));
 if ($page == "") {
