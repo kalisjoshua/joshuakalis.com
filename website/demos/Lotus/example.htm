@@ -1,0 +1,107 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+<meta charset="utf-8" />
+<title>Lotus JavaScript Templating</title>
+<meta name="description" content="" />
+
+</head>
+
+<body class="">
+    <header role="banner">
+        <h1>Lotus Template Engine</h1>
+    </header>
+    
+    <nav role="navigation">
+        <ul>
+        </ul>
+    </nav>
+    
+    <section>
+        <article id="content" role="main">
+        </article>
+    </section>
+ 	
+    <footer role="contentinfo">
+    </footer>
+    
+<!--[if IE]><script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script><![endif]-->
+<script src="Lotus.js"></script>
+<script id="template" type="text/html">
+<pre>
+#h1#{name.last}, {name.first} {name.middle}#/h1#
+#h2#{email}#/h2#
+{if:gender}
+#h3#{gender}#/h3#
+{else}
+#!--no gender given.--#
+{/if:gender}
+{if:nothing}
+#h3#{gender}#/h3#
+{/if:nothing}
+{map:nav}
+#ol#
+    #li##a href="{link}" title="{text}"#{text}#/a##/li#
+#/ol#
+{/map:nav}
+{if:calendar}
+#ul#
+    {list:calendar}#li##a href="{uri}" title="{goal}"#{goal}#/a##/li#{/list:calendar}
+#/ul#
+{/if:calendar}
+</pre>
+</script>
+<script>
+data = {
+    "calendar": [
+        {
+            "uri": "api/1/users/me/todo",
+            "goal": "todo List"
+        },
+        {
+            "uri": "api/1/users/me/reading",
+            "goal": "reading list"
+        }
+    ],
+    "email": "kalisjoshua@gmail.com",
+    "name": {
+        "first": "Joshua",
+        "last": "Kalis",
+        "middle": "T"
+    },
+    "nav": {
+        "home": {
+            "text": "home",
+            "link": "/"
+        },
+        "about": {
+            "bio": {
+                "text": "Biography",
+                "link": "/bio"
+            },
+            "history": {
+                "text": "Work History",
+                "link": "/history"
+            }
+        },
+        "projects": {
+            "wiki": {
+                "text": "Wiki",
+                "link": "/projects/wiki"
+            },
+            "lotus": {
+                "text": "Lotus Template",
+                "link": "/projects/lotus"
+            }
+        },
+        "contact": {
+            "text": "Contact Us",
+            "link": "/contact"
+        }
+    }
+};
+var tmpl = document.getElementById("template").innerHTML;
+document.getElementById("content").innerHTML = Lotus(data, tmpl);
+</script>
+</body>
+</html>
