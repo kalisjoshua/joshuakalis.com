@@ -46,7 +46,7 @@ if (!empty($_GET)) { ?>
 <body>
 <?php
 foreach( $colors as $key => $value ) {
-	echo "$names[$key]<br />$key - #$value<div style=\"background:#$value;border:1px solid #000000;height:40px;margin:1px;width:100px;\"></div>";
+	echo "<div style=\"float:left;\">$names[$key]<br />$key - #$value<div style=\"background:#$value;border:1px solid #000000;height:200px;margin:10px;width:90px;\"></div></div>";
 }
 ?>
 
