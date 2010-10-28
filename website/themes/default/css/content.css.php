@@ -11,6 +11,13 @@ a:hover {
     	background: red;
     	padding: 0px 20px 0px 0px;
     	}
+
+div.resElement {
+    clear: both;
+	margin-bottom: 1em;
+	margin-left: 170px;
+	}
+	
 dl {
     margin: 1.25em;
     }
@@ -34,9 +41,12 @@ h1 {
 h2 {
 	color: <?php echo $accent1; ?>;
 	font-family: Palatino, Serif;
-	font-size: 155%;
+	font-size: 140%;
 	position: relative;
 	text-transform: uppercase;
+    }
+h2.pointer {
+    cursor: pointer;
     }
 ol, 
 ul {
@@ -50,39 +60,40 @@ p {
 .Portfolio figure {
 	border: 1px solid <?php echo $contentFG; ?>;
 	float: right;
-	height: 250px;
-	margin: 0px 0px 2em 1em;
+	height: 190px;
+	margin: 20px 0px 2em 1em;
 	overflow: hidden;
 	position: relative;
-	width: 250px;
+	width: 170px;
+	z-index: 2;
 	}
-	.Portfolio figure a {
-		background: <?php echo $menuFG1; ?>;
-		border-top: 1px solid <?php echo $contentFG; ?>;
-		bottom: 0px;
-		color: #FFFFFF;
-		font-size: .8em;
-		display: block;
-		position: absolute;
-		right: 0px;
-		text-align: center;
-		text-decoration: none;
-		width: 100%;
+	.Portfolio figure img {
+	    position: relative;
+	    z-index: 3;
+	    }
+	.Portfolio figure ul {
+	    background: <?php echo $menuBG1; ?>;
+	    bottom: 0px;
+	    list-style-type: none;
+	    margin: 0;
+	    position: absolute;
+	    text-align: center;
+	    width: 100%;
+	    z-index: 4;
+	    
+	    <?php $opacity = 80; ?>
+	    -moz-opacity:.<?php echo $opacity; ?>;
+	    filter:alpha(opacity=<?php echo $opacity; ?>);
+	    opacity:.<?php echo $opacity; ?>;
 		}
-		.Portfolio figure a span {
-			display: none;
+		.Portfolio figure ul li a {
+			color: #FFFFFF;
 			}
+    		.Portfolio figure ul li a span {
+    			display: none;
+    			}
 
 /* **** Resume **** */
-.Resume h2 {
-    clear: left;
-	float: left;
-	width: 150px;
-}
-.Resume div.resElement {
-	margin-bottom: 1em;
-	margin-left: 170px;
-	}
     .Resume div.resElement h3 {
     	float: right;
     	font-size: 100%;
