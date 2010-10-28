@@ -1,0 +1,78 @@
+
+table.LiveList {}
+
+table.LiveList td {
+    text-align: left;
+    }
+
+table.LiveList a.Sprites {
+	background: blue;
+	border: 1px solid blue;
+	color: white;
+	cursor: pointer;
+	display: block;
+	float: left;
+	font-weight: bold;
+	overflow: hidden;
+	padding: 1px 3px;
+	}
+	table.LiveList a.Sprites:hover {
+		background: lightBlue;
+		color: blue;
+		}
+
+table.LiveList div.LiveList-Editor {
+	background: #CACACA;
+	border: 12px solid #303030;
+	border-left: 0px;
+	border-right: 0px;
+	overflow: hidden;
+	position: absolute;
+	}
+	
+	table.LiveList div.Editor-buttons {
+		background: #636363;
+		bottom: 0px;
+		position: absolute;
+		width: 100%;
+		z-index: 1000;
+		}	
+		table.LiveList div.Editor-buttons a {
+			color: #FFFFFF;
+			cursor: pointer;
+			float: left;
+			font-size: .85em;
+			margin: 0px 10px;
+			padding: 0px 10px 0px;
+		}	
+			table.LiveList div.Editor-buttons a:hover {
+				background: #303030;
+				margin: -10px 0px;
+				padding: 10px 20px;
+				}
+			table.LiveList div.Editor-buttons a.Editor-close {}
+			table.LiveList div.Editor-buttons a.Editor-copy {}
+			table.LiveList div.Editor-buttons a.Editor-copy:hover { background: #0B3665; }
+			table.LiveList div.Editor-buttons a.Editor-edit {}
+			table.LiveList div.Editor-buttons a.Editor-edit:hover { background: #34650B; }
+			table.LiveList div.Editor-buttons a.Editor-remove { float: right; }
+			table.LiveList div.Editor-buttons a.Editor-remove:hover { background: #650B0B; }
+	
+table.LiveList td.scrollbarCell { width: 17px; }
+table.LiveList td.LiveList-scroller {
+	overflow: hidden;
+	position: relative;
+	}
+	table.LiveList td.LiveList-scroller div.scrollerDIV {
+		height: 146px;
+		margin-bottom: -17px; /* to hide the horizontal scrollbar */
+		overflow: scroll;
+		}
+			table.LiveList td.LiveList-scroller div.scrollerDIV table td .cellPadding { padding: 3px 6px; }
+		
+			table.LiveList td.LiveList-scroller div.scrollerDIV table tr.rowEven td.colOdd 		{ background: #EAEAEA; }
+			table.LiveList td.LiveList-scroller div.scrollerDIV table tr.rowOdd td.colOdd 		{ background: #CACACA; }
+			table.LiveList td.LiveList-scroller div.scrollerDIV table tr.rowOdd td.colEven 		{ background: #EAEAEA; }
+				table.LiveList td.LiveList-scroller div.scrollerDIV table tr.hover td.colOdd 	{ background: #ABC7DD; }
+				table.LiveList td.LiveList-scroller div.scrollerDIV table tr.hover td.colEven 	{ background: #DCE9F1; }
+

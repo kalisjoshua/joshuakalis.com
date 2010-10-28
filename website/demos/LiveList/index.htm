@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8" />
+<title>Live List demo</title>
+
+<link rel="stylesheet" type="text/css" href="LiveList.css">
+
+<script language="JavaScript" type="text/javascript" src="LiveList.js"></script>
+<script language="JavaScript" type="text/javascript" src="lib_JSON.js"></script>
+</head>
+
+<body>
+
+<form name="feecodemap">
+	<input name="feeCodeMapJSON" value='{"ABC":123,"ABD":234,"CBA":-123,"DBA":-234}' id="feeCodeMapJSON" type="hidden">
+</form>
+
+<form name="edit" method="get" onSubmit="return true;">
+    <input type="hidden" name="source1" value="1,Andy Blatowski,1,ABC,Z,Blane Waddsworth III,Alpha,2,3,Cailee Fairglen,Beta,DBA,4,4,-A?>#2,ABC,5,Eleanore Quirrell,5,5,6,6,6,ABD" />
+    <div id="source1DIV">Hello</div>
+    <script language="JavaScript" type="text/javascript">
+
+    function validateSerial( q ) {
+        if (!this.lookup) {
+            this.lookup = JSON.parse(document.forms['feecodemap'].elements['feeCodeMapJSON'].value);
+        }
+    	return this.lookup[q]? this.lookup[q]: '#error#';
+    }
+
+    jkdLib.addEvent( window, 'load', function() {
+    	try {
+    		new jkdLib.LiveList(
+    			"List 1",
+    			[	{ title: 'Seq', width: 30, filter: function( q ) { return /^\d+$/.test( q )? q: false; } },
+    				{ title: 'Name', width: 300, filter: function( q ) { return /^[a-z]+[-a-z\s\.]*$/i.test( q )? q: false; } },
+    				{ title: 'Rank', width: 180 },
+    				{ title: 'Group', width: 35, filter: validateSerial } ],
+    			{ type: 'CSV', input: document.forms['edit'].elements['source1'] },
+    			document.getElementById( 'source1DIV' ),
+    			{ copy: true, edit: true, remove: true, sequencing: true }
+    		);
+    	} catch( e ) { jkdLib.Log().errorObject( e ); }
+    } );
+    </script>
+
+</form>
+
+<h2>Some explanation</h2>
+<p>This object enables client-side display/editing of a JSON (or CSV) data-set. JavaScript renders a UI for the data when the page loads and updates the data (in the page) when the user submits changes. All of the data is stored locally till the whole form is submitted back to the where the server receives the JSON or CSV data for processing.</p>
+<p>I wrote some good documentation on this library while I was working on it but did not bring the code with me when I left MSU. Now it is part of a project that is secured behind a password so I can no longer access it.</p>
+
+<h3>Page data storage</h3>
+<ul>
+    <li>The data stored in the page is held in a hidden form element so it can be sent back to the server with the rest of the form.</li>
+    <li>The format of the data is either JSON or CSV.</li>
+    <li>Another hidden element in the page holds a JSON string for validation of values entered for a specified column(s) via a custom filter function defined by the developer.</li>
+</ul>
+
+<h3>UI options</h3>
+<p>Each of the rows has these options</p>
+<ul>
+    <li>copy - copies the values down into the "entry row"</li>
+    <li>edit - open an existing row for changes</li>
+    <li>delete - remove the row from the list</li>
+    <li>sequencing - allows the user to reorder the list</li>
+</ul>
+
+</body>
+</html>
