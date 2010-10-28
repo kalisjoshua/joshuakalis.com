@@ -1,0 +1,95 @@
+{
+    "resume": [
+        {
+            "section": "Skills",
+            "entries": [
+                {
+                    "company": "",
+                    "date": "1994 - Present",
+                    "items": [
+                        "Certifications: MCTS Web ASP.NET 2.0 C#",
+                        "Development: ASP, C#, CSS, HTML, Java, JavaScript, PHP, T-SQL, XHTML, XML, XSL",
+                        "Software: Adobe Illustrator, InDesign, Photoshop; Eclipse & JBoss Developer Studio; Microsoft Office Suite, Query Analyzer, SQL Server 2000/2005, SQL Server Management Studio, Visual Studio 2005; MySQL; NetBeans",
+                        "Version Control: CVSNT, Git, Mercurial, Subversion"
+                    ],
+                    "title": "Technical Proficiency"
+                }
+            ]
+        },
+        {
+            "section": "Experience",
+            "entries": [
+                {
+                    "company": "Image Science Incorporated",
+                    "date": "2002 - Present",
+                    "items": [
+                        "Environment: CSS, Git, HTML 5, JavaScript , Mercurial, MySQL, PHP, Subversion",
+                        "Founded and maintained company as creative outlet and learning experience",
+                        "Designed web sites, logos, and print media in Adobe: Photoshop, Illustrator, InDesign",
+                        "Published open source JavaScript library that enhances accessibility of session time-outs"
+                    ],
+                    "title": "Web Developer & COO"
+                },
+                {
+                    "company": "Michigan State University Academic Information Systems",
+                    "date": "2008 - 2010",
+                    "items": [
+                        "Environment: Java, SQL Server 2005, HTML 4.01, HTML 5, CSS, JavaScript, ASP, CVSNT",
+                        "Supervised user experience design for Java development",
+                        "Adopted Agile development methodologies",
+                        "Developed dynamic data entry user interface with JavaScript",
+                        "Coauthor of browser stack standards and guidelines",
+                        "Designer of web application templates using Adobe Photoshop and HTML/CSS",
+                        "Delivered Java web interface to SQL Server financial database system",
+                        "Wrote data migration scripts as stored procedures and DTS packages"
+                    ],
+                    "title": "Information Technologist"
+                },
+                {
+                    "company": "Michigan State University International Business Center",
+                    "date": "2003 - 2008",
+                    "items": [
+                        "Environment: AJAX, ASP, CSS, JavaScript, SQL Server 2005, XHTML, XML, XSLT"
+                    ],
+                    "projects": [
+                        {
+                            "title": "Academy of International Business (http://aib.msu.edu)",
+                            "items": [
+                                "Built event scheduling application for annual conference using ASP and SQL Server",
+                                "Developed book review system, implemented in ASP, XML, XSLT, and PDF",
+                                "Designed collateral, following U.S. Postal guidelines, using Adobe Illustrator",
+                                "Revamped advertisement campaign created with Adobe Photoshop and Illustrator"
+                            ]
+                        },
+                        {
+                            "title": "globalEDGE.msu.edu (http://globaledge.msu.edu)",
+                            "items": [
+                                "Redesigned entire web site look and feel in Adobe Photoshop",
+                                "Normalized multiple public databases into a single SQL Server data warehouse",
+                                "Relaunched web site using more flexible non-destructive relational database model",
+                                "Wrote JavaScript form validation library using Regular expression pattern matching",
+                                "Implemented home-grown content management system written in ASP",
+                                "Created projects management system using SQL Server with an ASP front-end"
+                            ]
+                        }
+                    ],
+                    "title": "Information Technologist"
+                }
+            ]
+        },
+        {
+            "section": "Education",
+            "entries": [
+                {
+                    "company": "Michigan State University",
+                    "date": "2006",
+                    "items": [
+                        "Study Abroad - Post-modern Studies: Belgium, France, Germany, Italy, The Netherlands",
+                        "Extracurricular involvement: Broad International Business Forum, Center for Research & Professional Development, Global Business Club, Student Greenhouse Project"
+                    ],
+                    "title": "BA Telecommunication, Information Studies, and Media"
+                }
+            ]
+        }
+    ]
+}

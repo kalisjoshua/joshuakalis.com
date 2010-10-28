@@ -1,0 +1,56 @@
+Options +FollowSymlinks
+RewriteEngine On
+RewriteBase /
+
+
+# *** URLS ***
+RewriteCond %{REQUEST_FILENAME} !-f
+# old pages
+RewriteRule ^contact about [last,R=301]
+RewriteRule ^(about|portfolio|resume)\.php $1 [last,R=301]
+# new pages
+RewriteRule ^css/(\w+)/colors$ website/themes/$1/css/_variables.php?a=1 [last]
+RewriteRule css/(\w+)/all.css$ website/themes/$1/css/css.min.php [last]
+RewriteRule ^(|about|downloads|portfolio|projects|resume)\/?$ index.php/$1 [last]
+
+
+# *** DIRECTORIES ***
+RewriteCond %{REQUEST_FILENAME} -d
+# all directories
+RewriteRule ^ - [F,last]
+
+
+# *** ERRORS ***
+#RewriteCond %{REQUEST_FILENAME} !-f
+#RewriteCond %{REQUEST_FILENAME} !-d
+# non-existant
+#RewriteRule ^ - [last,R=404]
+
+
+# video
+AddType video/ogg  ogg ogv
+AddType video/mp4  mp4
+AddType video/webm webm
+
+# Proper svg serving. Required for svg webfonts on iPad
+#   twitter.com/FontSquirrel/status/14855840545
+AddType image/svg+xml                 svg svgz 
+
+# webfonts
+AddType application/vnd.ms-fontobject eot
+AddType font/ttf                      ttf
+AddType font/otf                      otf
+AddType font/x-woff                   woff
+
+AddType text/cache-manifest           manifest
+
+
+# custom 404 page
+ErrorDocument 404 /404.html
+
+
+
+# use utf-8 encoding for anything served text/plain or text/html
+AddDefaultCharset utf-8
+# force utf-8 for a number of file formats
+AddCharset utf-8 .html .css .js .xml .json .rss
