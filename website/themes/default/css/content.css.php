@@ -72,47 +72,37 @@ p {
 		.Portfolio figure a span {
 			display: none;
 			}
-.Portfolio h2,
-.Portfolio h3,
-.Portfolio h4,
-.Portfolio h5,
-.Portfolio h6 {
-    clear: both;
-    margin: 1.5em 0px 1.0em;
-    }
 
 /* **** Resume **** */
 .Resume h2 {
     clear: left;
 	float: left;
-	top: .65em;
 	width: 150px;
 }
-
-.Resume p#downloads {
-	padding: 30px 0px;
-	text-align: right;
-	}
-
 .Resume div.resElement {
+	margin-bottom: 1em;
 	margin-left: 170px;
 	}
-.Resume div.resElement h3 {
-	float: right;
-	font-size: 100%;
-	}
-.Resume div.resElement h4 {
-	border-bottom: 1px dotted <?php echo $menuBG1; ?>;
-	font-size: 114%;
-	margin: .75em 0px .25em;
-	}
-.Resume div.resElement h5 {
-	font-size: 107%;
-	margin: 0em 0px .25em;
-	text-align: right;
-	}
-.Resume div.resElement h6 {
-	font-size: 100%;
-	}
-.Resume div.resElement ul { margin-left: 2em; }
-.Resume div.resElement div.level2 { margin-left: 2em; }
+    .Resume div.resElement h3 {
+    	float: right;
+    	font-size: 100%;
+    	}
+    .Resume div.resElement h4 {
+    	border-bottom: 1px dotted <?php echo $menuBG1; ?>;
+    	font-size: 114%;
+    	margin: 0 0 .25em;
+    	}
+    .Resume div.resElement h5 {
+    	font-size: 107%;
+    	margin: 0em 0px .25em;
+    	text-align: right;
+    	}
+    .Resume div.resElement h6 {
+    	font-size: 100%;
+    	}
+    .Resume div.resElement ul {
+        margin-left: 2em;
+        }
+    .Resume div.resElement div.level2 {
+        margin-left: 2em;
+        }
