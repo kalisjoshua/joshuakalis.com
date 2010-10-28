@@ -1,6 +1,6 @@
 <h2>Skills</h2>
 
-<div class="resElement">
+<div class="resElement Skills">
 	<h3>1994 - Present</h3>
 	<h4>Technical Proficiency</h4>
 	<ul>
@@ -13,7 +13,7 @@
 
 <h2>Experience</h2>
 
-<div class="resElement">
+<div class="resElement Experience">
 	<h3>2002 - Present</h3>
 	<h4>Web Developer &amp; COO</h4>
 	<h5>Image Science Incorporated</h5>
@@ -25,7 +25,7 @@
 	</ul>
 </div>
 
-<div class="resElement">
+<div class="resElement Experience">
 	<h3>2008 - 2010</h3>
 	<h4>Information Technologist</h4>
 	<h5>Michigan State University Academic Information Systems</h5>
@@ -41,7 +41,7 @@
 	</ul>
 </div>
 
-<div class="resElement">
+<div class="resElement Experience">
 	<h3>2003 - 2008</h3>
 	<h4>Information Technologist</h4>
 	<h5>Michigan State University International Business Center</h5>
@@ -71,7 +71,7 @@
 
 <h2>Education</h2>
 
-<div class="resElement">
+<div class="resElement Education">
 	<h3>2006</h3>
 	<h4>BA Telecommunication, Information Studies, and Media</h4>
 	<h5>Michigan State University</h5>
@@ -80,10 +80,10 @@
 		<li>Extracurricular involvement: Broad International Business Forum, Center for Research &amp; Professional Development, Global Business Club, Student Greenhouse Project</li>
 	</ul>
 </div>
-<!-->
+
 <h2>History</h2>
 
-<div class="resElement">
+<div class="resElement History">
 	<h3>Apr 2001 - Aug 2005</h3>
 	<h4>Landscape Designer/Owner</h4>
 	<h5>Aquamen Landscaping, White Lake, MI</h5>
@@ -93,7 +93,7 @@
 	</ul>
 </div>
 
-<div class="resElement">
+<div class="resElement History">
 	<h3>Feb 2003 - Sep 2004</h3>
 	<h4>Landscaping Coordinator</h4>
 	<h5>Meridian Lawn Care &amp; Snow Removal, Meridian Twp, MI</h5>
@@ -103,7 +103,7 @@
 	</ul>
 </div>
 
-<div class="resElement">
+<div class="resElement History">
 	<h3>2002 - Apr 2003</h3>
 	<h4>Prep-Cook</h4>
 	<h5>Case Residence Hall Cafeteria Michigan State University, East Lansing, MI</h5>
@@ -113,7 +113,7 @@
 	</ul>
 </div>
 
-<div class="resElement">
+<div class="resElement History ">
 	<h3>June 1999 - Jan 2002</h3>
 	<h4>Machinist</h4>
 	<h5>Cobra Enterprises, Madison Heights, MI</h5>
@@ -124,7 +124,7 @@
 	</ul>
 </div>
 
-<div class="resElement">
+<div class="resElement History">
 	<h3>Sep 1996 - Apr 1999</h3>
 	<h4>Store Manager</h4>
 	<h5>Video Giant, Sterling Heights, MI</h5>
@@ -135,7 +135,7 @@
 	</ul>
 </div>
 
-<div class="resElement">
+<div class="resElement History">
 	<h3>May 1996 - Aug 1996</h3>
 	<h4>Carpenter</h4>
 	<h5>Wheeler &amp; Sons Construction, Independence Twp, MI</h5>
@@ -145,7 +145,7 @@
 	</ul>
 </div>
 
-<div class="resElement">
+<div class="resElement History">
 	<h3>Sep 1994 - May 1996</h3>
 	<h4>Swing Cook</h4>
 	<h5>Sweetwater’s Bistro, Keego Harbor, MI</h5>
@@ -154,4 +154,4 @@
 		<li>Adapted to work in high demand environments</li>
 	</ul>
 </div>
-<!-- -->
+
