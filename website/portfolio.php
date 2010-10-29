@@ -32,6 +32,7 @@
 <div class="resElement Libraries">
     <h3>LiveList</h3>
     <figure>
+        <img alt="partial image of code-file" src="/website/portfolio.files/LiveList.js.jpg" />
         <ul>
             <li><a href="/website/demos/LiveList/index.htm" title="LiveList">Demo</a></li>
         </ul>
