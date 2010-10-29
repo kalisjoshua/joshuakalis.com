@@ -39,6 +39,7 @@ h1 {
     display: none;
     }
 h2 {
+    clear: both;
 	color: <?php echo $accent1; ?>;
 	font-family: Palatino, Serif;
 	font-size: 140%;
