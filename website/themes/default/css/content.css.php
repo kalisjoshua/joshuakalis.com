@@ -46,9 +46,22 @@ h2 {
 	position: relative;
 	text-transform: uppercase;
     }
-h2.pointer {
+h2.accordion {
+    background: url(../images/accordion_expand.jpg) scroll no-repeat right 2px;
     cursor: pointer;
+    float: left;
+    padding-right: 20px;
     }
+h2.accordion:hover {
+    background-image: url(../images/accordion_collapse.jpg);
+    }
+    h2.accordion.open {
+        background-image: url(../images/accordion_collapse.jpg);
+        }
+    h2.accordion.open:hover {
+        background-image: url(../images/accordion_expand.jpg);
+        }
+
 ol, 
 ul {
     margin: 0px 0px 0px 20px;
