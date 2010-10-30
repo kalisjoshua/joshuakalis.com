@@ -2,7 +2,6 @@ Options +FollowSymlinks
 RewriteEngine On
 RewriteBase /
 
-
 # *** URLS ***
 RewriteCond %{REQUEST_FILENAME} !-f
 # old pages
