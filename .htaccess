@@ -8,9 +8,9 @@ RewriteCond %{REQUEST_FILENAME} !-f
 RewriteRule ^contact about [last,R=301]
 RewriteRule ^(about|portfolio|resume)\.php $1 [last,R=301]
 # new pages
-RewriteRule ^css/(\w+)/colors$ website/themes/$1/css/_variables.php?a=1 [last]
-RewriteRule css/(\w+)/all.css$ website/themes/$1/css/css.min.php [last]
-RewriteRule ^(|about|downloads|portfolio|projects|resume)\/?$ index.php/$1 [last]
+RewriteRule ^css/(\w+)/colors$ framework/themes/$1/css/_variables.php?a=1 [last]
+RewriteRule css/(\w+)/all.css$ framework/themes/$1/css/css.min.php [last]
+RewriteRule ^(|about|downloads|portfolio|projects|resume)\/?$ framework/controllers/main.php/$1 [last]
 
 
 # *** DIRECTORIES ***
@@ -45,7 +45,7 @@ AddType text/cache-manifest           manifest
 
 
 # custom 404 page
-ErrorDocument 404 /404.html
+ErrorDocument 404 /framework/views/404.html
 
 
 
