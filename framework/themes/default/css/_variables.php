@@ -1,5 +1,6 @@
 <?php
 $activeScheme = 0;
+$theme = json_decode(file_get_contents("../../../models/site.config.json"))->theme;
 $schemes = Array(
 	//		pageBG		contentBG	contentFG	menuBG1		menuFG1		menuBG2		menuFG2		accent1		accent2
 	//		0			1			2			3			4			5			6			7			8
