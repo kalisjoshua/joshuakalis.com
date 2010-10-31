@@ -34,7 +34,7 @@ header {
 		}
 
 html {
-	background: <?php echo $bodyBG; ?> url(../images/bg_<?php echo $activeScheme; ?>.jpg) scroll repeat-x 0px 30px;
+	background: <?php echo $bodyBG; ?> url(<?php echo $theme; ?>/images/bg_<?php echo $activeScheme; ?>.jpg) scroll repeat-x 0px 30px;
 	text-align: center;
 	}
 	
@@ -58,8 +58,11 @@ nav {
 				padding: 15px 10px;
 				text-decoration: none;
 				}
-			nav ul li.active a,
-			nav ul li a:hover {
+			nav ul li a:hover,
+			body.About nav ul li.about a,
+			body.Downloads nav ul li.downloads a,
+			body.Portfolio nav ul li.portfolio a,
+			body.Resume nav ul li.resume a {
 				color: #FFFFFF;
 				background: <?php echo $menuBG1; ?>;
 				}
