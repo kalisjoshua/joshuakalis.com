@@ -10,10 +10,9 @@
 <title>{page} - {title}</title>
 <meta name="description" content="{description}" />
 
-<script src="js/libs/modernizr-1.6.min.js"></script>
-<script src="js/all.js.min.php"></script>
+<script src="{theme}/js/libs/modernizr-1.6.min.js"></script>
 
-<link rel="stylesheet" href="css/default/all.css" />
+<link rel="stylesheet" href="{theme}/css/all.css" />
 </head>
 
 <body class="{page}">
@@ -26,15 +25,13 @@
     </header>
     
     <nav role="navigation">
-        <nav class="span-4" role="navigation">
-            <ul>{menu}
-                <li><a href="{url}">{link}</a></li>{/menu}
-            </ul>
-        </nav>
+        <ul>{menu}
+            <li class="{link}"><a href="{url}">{link}</a></li>{/menu}
+        </ul>
     </nav>
     
     <section>
-        <article class="span-12" id="content" role="main">
+        <article id="content" role="main">
             {content}
         </article>
     </section>
@@ -46,13 +43,14 @@
     </footer>
 
 <script src="//ajax.googleapis.com/ajax/libs/jquery/1.4.2/jquery.js"></script>
-<script>!window.jQuery && document.write(unescape('%3Cscript src="js/libs/jquery-1.4.2.js"%3E%3C/script%3E'))</script>
+<script>!window.jQuery && document.write(unescape('%3Cscript src="{theme}/js/libs/jquery-1.4.2.js"%3E%3C/script%3E'))</script>
 
-<script src="js/plugins.js"></script>
-<script src="js/script.js"></script>
+<script src="{theme}/js/scripts.js"></script>
+<script src="{theme}/js/plugins.js"></script>
+<script src="{theme}/js/script.js"></script>
 
 <!--[if lt IE 7 ]>
-<script src="js/libs/dd_belatedpng.js"></script>
+<script src="{theme}/js/libs/dd_belatedpng.js"></script>
 <script> DD_belatedPNG.fix('img, .png_bg'); </script>
 <![endif]-->
 
