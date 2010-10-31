@@ -7,8 +7,7 @@ header('Content-type: text/javascript');
 ob_start();
 
 foreach(Array(
-    "jquery1.4.2.min.js",
-    "lightbox0.5.min.js",
+    "libs/lightbox0.5.min.js",
     "_scripts.js",
     "regex.js"
     ) as $f) {
