@@ -6,8 +6,7 @@ $(document).ready(function(){
 					($("#global")[0].checked ? "g" : "") +
 					($("#insensitive")[0].checked ? "i" : "") +
 					($("#multiline")[0].checked ? "m" : "")),
-				result = pattern.exec(haystack),
-				matches = result.slice(1);
+				matches = pattern.exec(haystack).slice(1);
 		
 			if (haystack && pattern) {
 				$(matches).each(function(indx, ele) {
@@ -20,12 +19,12 @@ $(document).ready(function(){
 			// attempting to create a new RegExp Object with an incomplete pattern
 			// will throw and error but we don't need to handle that error here.
 		}
-		
-		if (event.keyCode === 13) {
-			event.preventDefault();
-		}
 	};
 	
+	// the form should never submit
+	$(".RegExp form#regex").submit(function () {
+		return false;
+	});
 	// add event handlers to the regex form fields
 	$(".RegExp form#regex #haystack, .RegExp form#regex input[type=checkbox]").change(regexEval);
 	$(".RegExp form#regex #pattern").keyup(regexEval);
