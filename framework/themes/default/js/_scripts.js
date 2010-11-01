@@ -2,19 +2,19 @@ $(document).ready(function(){
 	var regexEval = function (event) {
 		try {
 			var haystack = $("#haystack").val(),
-				matches = [],
 				pattern = new RegExp($("#pattern").val(), 
 					($("#global")[0].checked ? "g" : "") +
 					($("#insensitive")[0].checked ? "i" : "") +
 					($("#multiline")[0].checked ? "m" : "")),
-				groupCount = pattern.toString().split(/\((?!\?)/).length - 1;
-			
-			while (matches.length < groupCount) {
-				matches.push("<span>$" + (matches.length + 1) + "</span>");
-			}
+				result = pattern.exec(haystack),
+				matches = result.slice(1);
+			console.log(matches);
 		
 			if (haystack && pattern) {
-				$("#results").html(haystack.replace(pattern, matches.join("")));
+				$(matches).each(function(indx, ele) {
+					haystack = haystack.replace(RegExp("(" + ele + ")", "g"), "<span>$1</span>");
+				});
+				$("#results").html("<pre>" + haystack + "</pre>");
 			}
 		}
 		catch (err) {
