@@ -1,4 +1,36 @@
 $(document).ready(function(){
+	var regexEval = function (event) {
+		try {
+			var haystack = $("#haystack").val(),
+				matches = [],
+				pattern = new RegExp($("#pattern").val(), 
+					($("#global")[0].checked ? "g" : "") +
+					($("#insensitive")[0].checked ? "i" : "") +
+					($("#multiline")[0].checked ? "m" : "")),
+				groupCount = pattern.toString().split(/\((?!\?)/).length - 1;
+			
+			while (matches.length < groupCount) {
+				matches.push("<span>$" + (matches.length + 1) + "</span>");
+			}
+		
+			if (haystack && pattern) {
+				$("#results").html(haystack.replace(pattern, matches.join("")));
+			}
+		}
+		catch (err) {
+			// attempting to create a new RegExp Object with an incomplete pattern
+			// will throw and error but we don't need to handle that error here.
+		}
+		
+		if (event.keyCode === 13) {
+			event.preventDefault();
+		}
+	};
+	
+	// add event handlers to the regex form fields
+	$(".RegExp form#regex #haystack, .RegExp form#regex input[type=checkbox]").change(regexEval);
+	$(".RegExp form#regex #pattern").keyup(regexEval);
+	
     //$("a[href*=http://]").not("[href*=http://joshua]").addClass("external");
     $('a.Portfolio').lightBox(); // this is a comment
 

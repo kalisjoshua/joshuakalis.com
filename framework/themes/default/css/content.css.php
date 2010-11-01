@@ -107,6 +107,42 @@ p {
     			display: none;
     			}
 
+/* **** RegExp **** */
+.RegExp form {
+    text-align: center;
+    }
+    .RegExp form div,
+    .RegExp form input[type=text],
+    .RegExp form textarea {
+        margin: 0 auto;
+        width: 100%;
+        }
+    .RegExp form div {
+        border: 1px solid lightGray;
+        margin: 0 -1em;
+        padding: 1em;
+        text-align: left;
+        }
+        .RegExp form div span {
+            background: <?php echo $accent2; ?>;
+            }
+    .RegExp form fieldset {
+        text-align: right;
+        }
+        .RegExp form fieldset label {
+            display: inline;
+            padding-left: 5px;
+            position: relative;
+            top: 2px;
+            }
+    .RegExp form label {
+        display: block;
+        text-align: left;
+        }
+    .RegExp form textarea {
+        height: 200px;
+        }
+
 /* **** Resume **** */
     .Resume div.resElement h3 {
     	float: right;
