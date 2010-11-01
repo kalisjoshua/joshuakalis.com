@@ -48,7 +48,7 @@ $site->description = ($site->meta->description != "") ? $site->meta->description
 // render main content
 $site->content = lib_iris(
     $matches[2],
-    (is_file("../models/$page.json") ? load_json("../models/$page.json") : "[]")
+    json_encode(load_json("../models/$page.json"))
 );
 
 // render full page
