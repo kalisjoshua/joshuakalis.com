@@ -8,7 +8,6 @@ $(document).ready(function(){
 					($("#multiline")[0].checked ? "m" : "")),
 				result = pattern.exec(haystack),
 				matches = result.slice(1);
-			console.log(matches);
 		
 			if (haystack && pattern) {
 				$(matches).each(function(indx, ele) {
