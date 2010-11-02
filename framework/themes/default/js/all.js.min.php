@@ -8,8 +8,7 @@ ob_start();
 
 foreach(Array(
     "libs/lightbox0.5.min.js",
-    "_scripts.js",
-    "regex.js"
+    "main.js"
     ) as $f) {
         echo JSMin::minify(file_get_contents($f));
 }
