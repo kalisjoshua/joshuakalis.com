@@ -17,7 +17,7 @@ $schemes = Array(
         "light"     => "666666"
     ),
     Array(
-        "title"     => "",
+        "title"     => "vibrant black",
         "attachment"=> "scroll",
         "body"      => "000000",
         "text"      => "F0F7E4",
@@ -26,7 +26,7 @@ $schemes = Array(
         "light"     => "D3CAD7"
     ),
     Array(
-        "title"     => "",
+        "title"     => "blue brown",
         "attachment"=> "scroll",
         "body"      => "211603",
         "text"      => "EBE7DC",
