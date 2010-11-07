@@ -1,7 +1,7 @@
 <?php require "_variables.php"; ?>
 
 a {
-    color: <?php echo $accent1; ?>;
+    color: <?php echo $accent; ?>;
     }
 a:hover {
     text-decoration: none;
@@ -40,7 +40,7 @@ h1 {
     }
 h2 {
     clear: both;
-	color: <?php echo $accent1; ?>;
+	color: <?php echo $light; ?>;
 	font-family: Palatino, Serif;
 	font-size: 140%;
 	position: relative;
@@ -72,7 +72,7 @@ p {
 
 /* **** Portfolio **** */
 .Portfolio figure {
-	border: 1px solid <?php echo $contentFG; ?>;
+	border: 1px solid <?php echo $text; ?>;
 	float: right;
 	height: 190px;
 	margin: 20px 0px 2em 1em;
@@ -86,7 +86,7 @@ p {
 	    z-index: 3;
 	    }
 	.Portfolio figure ul {
-	    background: <?php echo $menuBG1; ?>;
+	    background: <?php echo $menu; ?>;
 	    bottom: 0px;
 	    list-style-type: none;
 	    margin: 0;
@@ -124,7 +124,7 @@ p {
         text-align: left;
         }
         .RegExp form div span {
-            background: <?php echo $accent2; ?>;
+            background: <?php echo $light; ?>;
             }
     .RegExp form fieldset {
         text-align: right;
@@ -149,7 +149,7 @@ p {
     	font-size: 100%;
     	}
     .Resume div.resElement h4 {
-    	border-bottom: 1px dotted <?php echo $menuBG1; ?>;
+    	border-bottom: 1px dotted <?php echo $menu; ?>;
     	font-size: 114%;
     	margin: 0 0 .25em;
     	}

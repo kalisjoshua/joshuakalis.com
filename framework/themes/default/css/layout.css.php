@@ -7,7 +7,7 @@ article {
 	}
 	
 body {
-	color: <?php echo $contentFG; ?>;
+	color: <?php echo $text; ?>;
 	font-family: Arial, Verdana, Helvetica, sans-serif;
 	font-size: .9em;
 	line-height: 1.35em;
@@ -34,7 +34,7 @@ header {
 		}
 
 html {
-	background: <?php echo $bodyBG; ?> url(<?php echo $theme; ?>/images/bg_<?php echo $activeScheme; ?>.jpg) scroll repeat-x 0px 30px;
+	background: <?php echo $body; ?> url(<?php echo $theme; ?>/images/bg_<?php echo $activeScheme; ?>.jpg) <?php echo $attachment; ?> repeat-x 0px 30px;
 	text-align: center;
 	}
 	
@@ -53,7 +53,7 @@ nav {
 			display: inline;
 			}
 			nav ul li a {
-				color: <?php echo $menuFG1; ?>;
+				color: <?php echo $light; ?>;
 				margin: 0px 4px;
 				padding: 15px 10px;
 				text-decoration: none;
@@ -64,5 +64,5 @@ nav {
 			body.Portfolio nav ul li.portfolio a,
 			body.Resume nav ul li.resume a {
 				color: #FFFFFF;
-				background: <?php echo $menuBG1; ?>;
+				background: <?php echo $menu; ?>;
 				}

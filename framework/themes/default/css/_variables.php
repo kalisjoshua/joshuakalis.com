@@ -1,37 +1,57 @@
 <?php
-$activeScheme = 0;
 $theme = json_decode(file_get_contents("../../../models/site.config.json"))->theme;
+
+$activeScheme = 3;
+$contentWidth = 796;
+$sidebarWidth = 200;
+$menuWidth = 100;
+
 $schemes = Array(
-	//		pageBG		contentBG	contentFG	menuBG1		menuFG1		menuBG2		menuFG2		accent1		accent2
-	//		0			1			2			3			4			5			6			7			8
-	 Array( "FFFFFF",	"FFFFFF",	"1D1E1F",	"09628D",	"666666",	"FFFFFF",	"FFFFFF",	"4E90AD",	"D2DDD5" )
-	,Array( "000000",	"000000",	"EADEDD",	"541B15",	"BBBBBB",	"000000",	"000000",	"902D24",	"000000" )
-	,Array( "211603",	"FFFFFF",	"FFFFFF",	"6FA2BC",	"666666",	"211603",	"FFFFFF",	"4E90AD",	"211603" )
+    Array(
+        "title"     => "default joshuakalis.com",
+        "attachment"=> "scroll",
+        "body"      => "FFFFFF",
+        "text"      => "1D1E1F",
+        "menu"      => "09628D",
+        "accent"    => "4E90AD",
+        "light"     => "666666"
+    ),
+    Array(
+        "title"     => "",
+        "attachment"=> "scroll",
+        "body"      => "000000",
+        "text"      => "F0F7E4",
+        "menu"      => "543E5F",
+        "accent"    => "E1EFCA",
+        "light"     => "D3CAD7"
+    ),
+    Array(
+        "title"     => "",
+        "attachment"=> "scroll",
+        "body"      => "211603",
+        "text"      => "EBE7DC",
+        "menu"      => "4E90AD",
+        "accent"    => "6FA2BC",
+        "light"     => "CFC9B8"
+    ),
+    Array(
+        "title"     => "early sunrise",
+        "attachment"=> "fixed",
+        "body"      => "212534",
+        "text"      => "D8DFE3",
+        "menu"      => "793122",
+        "accent"    => "A7B9C3",
+        "light"     => "D8DFE3"
+    )
 );
 $colors = $schemes[$activeScheme];
 
-$contentWidth = 796;
-$sidebarWidth = 200;
-
-$bodyBG =		"#" . $colors[0];
-$contentBG =	"#" . $colors[1];
-$contentFG =	"#" . $colors[2];
-$menuBG1 =		"#" . $colors[3];
-$menuFG1 =		"#" . $colors[4];
-$accent1 =		"#" . $colors[7];
-$accent2 =		"#" . $colors[8];
-
-$names = Array(
-	 "bodyBG"
-	,"contentBG"
-	,"contentFG"
-	,"menuBG1"
-	,"menuFG1"
-	,"menuBG2"
-	,"menufG2"
-	,"accent1"
-	,"accent2"
-);
+// setup variables and values
+$title = array_shift($colors);
+$attachment = array_shift($colors);
+foreach ($colors as $k => $v) {
+    $$k = $colors[$k] = ($v != "")? "#$v" : "transparent";
+}
 
 // if the GET string contains anything this will display the color scheme
 // may want to change this so that I can call themes dynamicaly with the request string
@@ -41,19 +61,28 @@ if (!empty($_GET)) { ?>
 <html>
 <head>
 <meta charset="utf-8" />
-<title>Colors</title>
+<title>CSS Colors</title>
+<style>
+body > div {
+    float: left;
+    margin: 0 4px;
+    text-align: center;
+    width: 100px;
+    }
+div > div {
+    border: 1px solid #000000;
+    height: 140px;
+    }
+</style>
 </head>
 
 <body>
 <?php
-foreach( $colors as $key => $value ) {
-	echo "<div style=\"float:left;\">$names[$key]<br />$key - #$value<div style=\"background:#$value;border:1px solid #000000;height:200px;margin:10px;width:90px;\"></div></div>";
+echo "<h1>$title</h1>\n";
+foreach ($colors as $k => $v) {
+	echo "<div>$k<div style=\"background:$v;\"></div>$v</div>\n";
 }
 ?>
-
-<!--[if IE]>
-<script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
-<![endif]-->
 </body>
 </html>
 
