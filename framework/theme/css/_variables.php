@@ -1,7 +1,7 @@
 <?php
-$theme = json_decode(file_get_contents("../../../models/site.config.json"))->theme;
+$prefs = json_decode(file_get_contents("../../models/site.config.json"));
 
-$activeScheme = 3;
+$activeScheme = $prefs->scheme;
 $contentWidth = 796;
 $sidebarWidth = 200;
 $menuWidth = 100;

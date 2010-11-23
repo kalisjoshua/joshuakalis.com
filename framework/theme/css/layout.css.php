@@ -34,7 +34,7 @@ header {
 		}
 
 html {
-	background: <?php echo $body; ?> url(<?php echo $theme; ?>/images/bg_<?php echo $activeScheme; ?>.jpg) <?php echo $attachment; ?> repeat-x 0px 30px;
+	background: <?php echo $body; ?> url(theme/images/bg_<?php echo $activeScheme; ?>.jpg) <?php echo $attachment; ?> repeat-x 0px 30px;
 	text-align: center;
 	}
 	

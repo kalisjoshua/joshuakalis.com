@@ -39,6 +39,6 @@ $site->content = lib_iris(
 
 // render full page
 echo lib_iris(
-    file_get_contents("../themes/$site->theme/layout.tmpl"),
+    file_get_contents("../theme/layout.tmpl"),
     json_encode($site)
 );

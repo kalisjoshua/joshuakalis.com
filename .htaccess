@@ -27,13 +27,12 @@ RewriteRule ^contact about [last,R=301]
 RewriteRule ^(about|portfolio|resume)\.php $1 [last,R=301]
 # new pages
 RewriteRule ^404$ - [last,R=404]
-RewriteRule ^(\w+)/css/colors$ framework/themes/$1/css/_variables.php?a=1 [last]
-RewriteRule (\w+)/css/all.css$ framework/themes/$1/css/css.min.php [last]
-RewriteRule (\w+)/images/([^$]+) framework/themes/$1/images/$2 [last]
-RewriteRule (\w+)/js/all.js$ framework/themes/$1/js/all.js.min.php [last]
-RewriteRule (\w+)/js/([^&]+)$ framework/themes/$1/js/$2 [last]
+RewriteRule ^colors$ framework/theme/css/_variables.php?a=1 [last]
+RewriteRule theme/css/all.css$ framework/theme/css/css.min.php [last]
+RewriteRule theme/images/([^$]+) framework/theme/images/$1 [last]
+RewriteRule theme/js/all.js$ framework/theme/js/all.js.min.php [last]
+RewriteRule theme/js/([^&]+)$ framework/theme/js/$1 [last]
 RewriteRule ^(|[\w\/]+)\/?$ framework/controllers/main.php/$1 [last]
-#RewriteRule images/([^$]+)$ images/$1 [last]
 
 
 # *** DIRECTORIES ***
