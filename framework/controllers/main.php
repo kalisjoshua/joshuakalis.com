@@ -11,23 +11,9 @@ $site = load_json("../models/site.config.json");
 $site->domain = "http://".(($_SERVER['HTTP_HOST'] != $site->url->local)? $site->url->live: $site->url->local);
 $site->year = gmdate("Y");
 
+$site->menu = build_menu($_SERVER['REQUEST_URI']);
+
 $page = strtolower(preg_replace("/^\/|\?.*/", "", $_SERVER['REQUEST_URI']));
-
-// build menu structure
-// **consider reading in meta information from each page for links of main menu
-preg_match_all("/\//", $page, $matches);
-$depth = str_pad("", count($matches[0]) * 3, "../");
-
-$site->menu = 
-    array_map(
-        function ($node) {
-            global $depth;
-            $page = preg_replace("/..\/views\/(.*)\.\w+$/", "$1", $node);
-            return json_decode("{\"link\": \"$page\", \"url\": \"$depth$page\"}");
-        },
-        glob("../views/*.tmpl")
-    );
-
 $page = ($page != "") ? $page : $site->menu[0]->link;
 
 if (!is_file("../views/$page.tmpl")) {
