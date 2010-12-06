@@ -20,10 +20,19 @@
             "section": "Experience",
             "entries": [
                 {
+                    "company": "Centurion Medical Products",
+                    "date": "2010 - Present",
+                    "items": [
+                        "Environment: ASP.NET C#, CSS, Git, HTML5, JavaScript, SQL Server 2010, Team Foundation Server 2010",
+						"Designed new visual elements for all internal web-applications"
+                    ],
+                    "title": "Senior UI Engineer"
+                },
+                {
                     "company": "Image Science Incorporated",
                     "date": "2002 - Present",
                     "items": [
-                        "Environment: CSS, Git, HTML 5, JavaScript , Mercurial, MySQL, PHP, Subversion",
+                        "Environment: CSS, Git, HTML5, JavaScript, Mercurial, MySQL, PHP, Subversion",
                         "Founded and maintained company as creative outlet and learning experience",
                         "Designed web sites, logos, and print media in Adobe: Photoshop, Illustrator, InDesign",
                         "Published open source JavaScript library that enhances accessibility of session time-outs"
