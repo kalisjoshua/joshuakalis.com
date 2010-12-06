@@ -22,15 +22,15 @@ $(document).ready(function(){
 	};
 	
 	// the form should never submit
-	$(".RegExp form#regex").submit(function () {
-		return false;
+	$(".RegExp form#regex").submit(function (event) {
+		event.preventDefault();
 	});
 	// add event handlers to the regex form fields
 	$(".RegExp form#regex #haystack, .RegExp form#regex input[type=checkbox]").change(regexEval);
 	$(".RegExp form#regex #pattern").keyup(regexEval);
 	
     //$("a[href*=http://]").not("[href*=http://joshua]").addClass("external");
-    $('a.Portfolio').lightBox(); // this is a comment
+    $("a.Portfolio").lightBox(); // this is a comment
 
 	// add interactivity to all sections that have more than one item
 	$(".Portfolio h2, .Resume h2").click(function () {
