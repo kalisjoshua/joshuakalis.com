@@ -11,7 +11,8 @@ $site = load_json("../models/site.config.json");
 $site->domain = "http://".(($_SERVER['HTTP_HOST'] != $site->url->local)? $site->url->live: $site->url->local);
 $site->year = gmdate("Y");
 
-$site->menu = build_menu($_SERVER['REQUEST_URI']);
+//$site->menu = build_menu($_SERVER['REQUEST_URI']);
+$site->menu = load_json("../models/sitemap.json");
 
 $page = strtolower(preg_replace("/^\/|\?.*/", "", $_SERVER['REQUEST_URI']));
 $page = ($page != "") ? $page : $site->menu[0]->link;

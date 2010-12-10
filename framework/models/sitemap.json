@@ -1,0 +1,22 @@
+[
+	{
+		"link": "about",
+		"url": "about"
+	},
+	{
+		"link": "projects",
+		"url": "projects"
+	},
+	{
+		"link": "resume",
+		"url": "resume"
+	},
+	{
+		"link": "portfolio",
+		"url": "portfolio"
+	},
+	{
+		"link": "downloads",
+		"url": "downloads"
+	}
+]

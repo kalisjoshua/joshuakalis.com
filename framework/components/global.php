@@ -6,7 +6,7 @@ function load_json ($file) {
 
 // build menu structure
 // **consider reading in meta information from each page for links of main menu
-function build_menu($request_uri) {
+/*function build_menu($request_uri) {
     $menu = glob("../views/*.tmpl");
 
     array_walk(
@@ -19,4 +19,4 @@ function build_menu($request_uri) {
     );
     
     return $menu;
-}
+}*/
