@@ -62,6 +62,7 @@ nav {
 			body.About nav ul li.about a,
 			body.Downloads nav ul li.downloads a,
 			body.Portfolio nav ul li.portfolio a,
+			body.Projects nav ul li.projects a,
 			body.Resume nav ul li.resume a {
 				color: #FFFFFF;
 				background: <?php echo $menu; ?>;

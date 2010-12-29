@@ -28,6 +28,42 @@ dl {
         margin: 0.5em 1.5em;
         }
 
+figure {
+	border: 1px solid <?php echo $text; ?>;
+	float: right;
+	height: 190px;
+	margin: 20px 0px 2em 1em;
+	overflow: hidden;
+	position: relative;
+	width: 170px;
+	z-index: 2;
+	}
+	figure img {
+	    position: relative;
+	    z-index: 3;
+	    }
+	figure ul {
+	    background: <?php echo $menu; ?>;
+	    bottom: 0px;
+	    list-style-type: none;
+	    margin: 0;
+	    position: absolute;
+	    text-align: center;
+	    width: 100%;
+	    z-index: 4;
+	    
+	    <?php $opacity = 80; ?>
+	    -moz-opacity:.<?php echo $opacity; ?>;
+	    filter:alpha(opacity=<?php echo $opacity; ?>);
+	    opacity:.<?php echo $opacity; ?>;
+		}
+		figure ul li a {
+			color: #FFFFFF;
+			}
+    		figure ul li a span {
+    			display: none;
+    			}
+
 h1,
 h2,
 h3,
@@ -69,43 +105,6 @@ ul {
 p {
     margin: 1em 0em;
     }
-
-/* **** Portfolio **** */
-.Portfolio figure {
-	border: 1px solid <?php echo $text; ?>;
-	float: right;
-	height: 190px;
-	margin: 20px 0px 2em 1em;
-	overflow: hidden;
-	position: relative;
-	width: 170px;
-	z-index: 2;
-	}
-	.Portfolio figure img {
-	    position: relative;
-	    z-index: 3;
-	    }
-	.Portfolio figure ul {
-	    background: <?php echo $menu; ?>;
-	    bottom: 0px;
-	    list-style-type: none;
-	    margin: 0;
-	    position: absolute;
-	    text-align: center;
-	    width: 100%;
-	    z-index: 4;
-	    
-	    <?php $opacity = 80; ?>
-	    -moz-opacity:.<?php echo $opacity; ?>;
-	    filter:alpha(opacity=<?php echo $opacity; ?>);
-	    opacity:.<?php echo $opacity; ?>;
-		}
-		.Portfolio figure ul li a {
-			color: #FFFFFF;
-			}
-    		.Portfolio figure ul li a span {
-    			display: none;
-    			}
 
 /* **** RegExp **** */
 .RegExp form {

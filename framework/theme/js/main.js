@@ -1,4 +1,11 @@
 $(document).ready(function(){
+    $("span.email").replaceWith(function () {
+        var email = $(this).text().replace(/~/g, "");
+        return $("<a></a>").
+            attr("href", "mailto:" + email).
+            text(email);
+    });
+    
 	var regexEval = function (event) {
 		try {
 			var haystack = $("#haystack").val(),

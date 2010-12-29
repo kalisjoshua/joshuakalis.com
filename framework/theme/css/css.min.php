@@ -7,6 +7,7 @@ function compress($buffer) {
 }
 
 include("reset.css");
+include("960.css");
 
 include("content.css.php");
 include("layout.css.php");

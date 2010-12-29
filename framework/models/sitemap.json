@@ -4,12 +4,12 @@
 		"url": "about"
 	},
 	{
-		"link": "projects",
-		"url": "projects"
-	},
-	{
 		"link": "resume",
 		"url": "resume"
+	},
+	{
+		"link": "projects",
+		"url": "projects"
 	},
 	{
 		"link": "portfolio",

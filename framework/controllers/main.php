@@ -33,10 +33,10 @@ $site->page = ($site->meta->title != "") ? $site->meta->title: $page;
 $site->description = ($site->meta->description != "") ? $site->meta->description: $site->description;
 
 // render main content
-$site->content = Markdown(lib_iris(
+$site->content = lib_iris(
     $matches[2],
     json_encode(load_json("../models/$page.json"))
-));
+);
 
 // render full page
 echo lib_iris(
