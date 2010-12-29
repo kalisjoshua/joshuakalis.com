@@ -21,9 +21,9 @@
             "entries": [
                 {
                     "company": "Centurion Medical Products",
-                    "date": "2010 - Present",
+                    "date": "Sep 2010 - Present",
                     "items": [
-                        "Environment: ASP.NET C#, CSS, Git, HTML5, JavaScript, SQL Server 2010, Team Foundation Server 2010",
+                        "Environment: ASP.NET C#, Cocoa/Touch, CSS, Git, HTML5, JavaScript, Objective-C, SQL Server 2010, Team Foundation Server 2010",
 						"Designed new overall look and feel for all internal web-applications",
 						"Teaching myself Objective-C to begin building iOS applications"
                     ],
@@ -31,7 +31,7 @@
                 },
                 {
                     "company": "Image Science Incorporated",
-                    "date": "2002 - Present",
+                    "date": "Nov 2002 - Present",
                     "items": [
                         "Environment: CSS, Git, HTML5, JavaScript, Mercurial, MySQL, PHP, Subversion",
                         "Founded and maintained company as creative outlet and learning experience",
@@ -42,7 +42,7 @@
                 },
                 {
                     "company": "Michigan State University Academic Information Systems",
-                    "date": "2008 - 2010",
+                    "date": "Sep 2008 - Jun 2010",
                     "items": [
                         "Environment: Java, SQL Server 2005, HTML 4.01, HTML 5, CSS, JavaScript, ASP, CVSNT",
                         "Supervised user experience design for Java development",
@@ -57,7 +57,7 @@
                 },
                 {
                     "company": "Michigan State University International Business Center",
-                    "date": "2003 - 2008",
+                    "date": "Apr 2003 - Sep 2008",
                     "items": [
                         "Environment: AJAX, ASP, CSS, JavaScript, SQL Server 2005, XHTML, XML, XSLT"
                     ],
@@ -97,9 +97,82 @@
                         "Study Abroad - Post-modern Studies: Belgium, France, Germany, Italy, The Netherlands",
                         "Extracurricular involvement: Broad International Business Forum, Center for Research & Professional Development, Global Business Club, Student Greenhouse Project"
                     ],
-                    "title": "BA Telecommunication, Information Studies, and Media"
+                    "title": "Telecommunication, Information Studies, and Media - BA"
+                }
+            ]
+        },
+        {
+            "section": "History",
+            "entries": [
+                {
+                    "date": "Apr 2001 - Aug 2005",
+                    "company": "Aquamen Landscaping, White Lake, MI",
+                    "items": [
+                        "Designed and installed landscapes and built structures",
+                        "Collected accounts payable and purchased requisite supplies"
+                    ],
+                    "title": "Landscape Designer/Owner"
+                },
+                {
+                    "date": "Feb 2003 - Sep 2004",
+                    "company": "Meridian Lawn Care &amp; Snow Removal, Meridian Twp, MI",
+                    "items": [
+                        "Collaborative design with customers",
+                        "Purchased materials for landscapes in excess of $50,000"
+                    ],
+                    "title": "Landscaping Coordinator"
+                },
+                {
+                    "date": "2002 - Apr 2003",
+                    "company": "Case Residence Hall Cafeteria Michigan State University, East Lansing, MI",
+                    "items": [
+                        "Prepared and served food - 2000 meals per day",
+                        "Mentored 3 students per semester in proper food preparation"
+                    ],
+                    "title": "Prep-Cook"
+                },
+                {
+                    "date": "June 1999 - Jan 2002",
+                    "company": "Cobra Enterprises, Madison Heights, MI",
+                    "items": [
+                        "Streamlined production of multi-million dollar prototype manufacturing jobs",
+                        "Modified machining techniques to reduce down time",
+                        "Verified quality control specifications"
+                    ],
+                    "title": "Machinist"
+                },
+                {
+                    "date": "Sep 1996 - Apr 1999",
+                    "company": "Video Giant, Sterling Heights, MI",
+                    "items": [
+                        "Regulated inventory and reduced theft in 7 stores",
+                        "Employee relations including: scheduling, hiring, and firing",
+                        "Trained 40 employees each year"
+                    ],
+                    "title": "Store Manager"
+                },
+                {
+                    "date": "May 1996 - Aug 1996",
+                    "company": "Wheeler &amp; Sons Construction, Independence Twp, MI",
+                    "items": [
+                        "Basic structural framing in residential housing",
+                        "Manual labor organizing building materials"
+                    ],
+                    "title": "Carpenter"
+                },
+                {
+                    "date": "Sep 1994 - May 1996",
+                    "company": "Sweetwater’s Bistro, Keego Harbor, MI",
+                    "items": [
+                        "Mediated service of an average of 900 meals per night",
+                        "Adapted to work in high demand environments"
+                    ],
+                    "title": "Swing Cook"
                 }
             ]
         }
     ]
 }
+
+
+
