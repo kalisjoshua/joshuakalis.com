@@ -15,7 +15,7 @@
 <link rel="stylesheet" href="theme/css/all.css" />
 </head>
 
-<body class="{page}">
+<body class="{page} container_12">
     <p id="SkipToContent"><a href="#content">Skip to main content</a></p>
 
     <header role="banner">
@@ -30,20 +30,27 @@
         </ul>
     </nav>
     
-    <section class="container_12">
+    <section class="container_12 clearfix">
         <article class="" id="content" role="main">
 {content}
         </article>
     </section>
  	
-    <footer role="contentinfo">
-        <p>Contact me at <span class="email">~kalisjoshua~@~gmail.com~</span> or tweet at me @kalisjoshua</p>
-        <a href="http://validator.w3.org/check?uri={domain}/{page}" title="run HTML validator">HTML 5</a> :
-        <a href="http://jigsaw.w3.org/css-validator/check/referer" title="run CSS validator">css 3.0</a> :
-        <a href="http://www.w3.org/WAI/WCAG2AAA-Conformance" title="Explanation of WCAG 2.0 Level Triple-A Conformance">W3C WAI-AAA WCAG 2.0</a>
+    <footer class="clearfix" role="contentinfo">
+        <div class="grid_8">
+            &nbsp;
+        </div>
+        <div class="grid_4">
+            <h2>Page Validations</h2>
+            <ul>
+                <li><a href="http://validator.w3.org/check?uri={domain}/{page}" title="run HTML validator">HTML 5</a></li>
+                <li><a href="http://jigsaw.w3.org/css-validator/check/referer" title="run CSS validator">css 3.0</a></li>
+                <li><a href="http://www.w3.org/WAI/WCAG2AAA-Conformance" title="Explanation of Level AAA Conformanceto WCAG 2.0">AAA WCAG 2.0</a></li>
+            </ul>
+        </div>
     </footer>
 
-<script src="//ajax.googleapis.com/ajax/libs/jquery/1.4.2/jquery.js"></script>
+<script src="//ajax.googleapis.com/ajax/libs/jquery/1.4.4/jquery.js"></script>
 <script>!window.jQuery && document.write(unescape('%3Cscript src="theme/js/libs/jquery-1.4.2.js"%3E%3C/script%3E'))</script>
 
 <script src="theme/js/all.js"></script>
