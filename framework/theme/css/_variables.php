@@ -7,41 +7,59 @@ $sidebarWidth = 200;
 $menuWidth = 100;
 
 $schemes = Array(
-    Array(
+    Array( // 0
         "title"     => "default joshuakalis.com",
         "attachment"=> "scroll",
         "body"      => "FFFFFF",
         "text"      => "1D1E1F",
         "menu"      => "09628D",
-        "accent"    => "4E90AD",
-        "light"     => "666666"
+        "section"   => "4E90AD",
+        "link"      => "666666"
     ),
-    Array(
+    Array( // 1
         "title"     => "vibrant black",
         "attachment"=> "scroll",
         "body"      => "000000",
         "text"      => "F0F7E4",
         "menu"      => "543E5F",
-        "accent"    => "E1EFCA",
-        "light"     => "D3CAD7"
+        "section"   => "E1EFCA",
+        "link"      => "D3CAD7"
     ),
-    Array(
+    Array( // 2
         "title"     => "blue brown",
         "attachment"=> "scroll",
         "body"      => "211603",
         "text"      => "EBE7DC",
         "menu"      => "4E90AD",
-        "accent"    => "6FA2BC",
-        "light"     => "CFC9B8"
+        "section"   => "6FA2BC",
+        "link"      => "CFC9B8"
     ),
-    Array(
+    Array(// 3
         "title"     => "early sunrise",
         "attachment"=> "fixed",
         "body"      => "212534",
         "text"      => "D8DFE3",
         "menu"      => "793122",
-        "accent"    => "A7B9C3",
-        "light"     => "D8DFE3"
+        "section"   => "A7B9C3",
+        "link"      => "D8DFE3"
+    ),
+    Array( // 4
+        "title"     => "psycho stripes",
+        "attachment"=> "scroll",
+        "body"      => "E9EBDA",
+        "text"      => "34403A",
+        "menu"      => "771334",
+        "section"   => "214832",
+        "link"      => "771334"
+    ),
+    Array( // 5
+        "title"     => "pale pinks and sage",
+        "attachment"=> "scroll",
+        "body"      => "233539",
+        "text"      => "E2EDEF",
+        "menu"      => "617F84",
+        "section"   => "FEFCE4",
+        "link"      => "FFFFFF"
     )
 );
 $colors = $schemes[$activeScheme];

@@ -3,7 +3,7 @@
 p#SkipToContent { display: none; }
 
 article {
-	padding-top: 50px;
+	padding-top: 70px;
 	}
 	
 body {
@@ -19,8 +19,10 @@ body {
 	}
 
 footer {
+    border-top: 1px solid;
 	clear: both;
-	font-size: .8em;
+	font-size: .9em;
+	margin: 3em 0px 0px;
 	padding: 2em 0px;
 	}
 
@@ -53,7 +55,7 @@ nav {
 			display: inline;
 			}
 			nav ul li a {
-				color: <?php echo $light; ?>;
+				color: <?php echo $section; ?>;
 				margin: 0px 4px;
 				padding: 15px 10px;
 				text-decoration: none;

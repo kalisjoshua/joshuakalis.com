@@ -1,7 +1,7 @@
 <?php require "_variables.php"; ?>
 
 a {
-    color: <?php echo $accent; ?>;
+    color: <?php echo $link; ?>;
     }
 a:hover {
     text-decoration: none;
@@ -28,7 +28,30 @@ dl {
         margin: 0.5em 1.5em;
         }
 
-figure {
+figure.book {
+    margin: 1.0em 0px 1.5em;
+    }
+    figure.book h1,
+    figure.book h2,
+    figure.book h3 {
+        display: block;
+        font-family: Palatino, Serif;
+        font-size: 100%;
+        text-transform: none;
+        }
+    figure.book h2 {
+        font-size: 100%;
+        }
+    figure.book h3 {
+        font-size: 100%;
+        }
+    figure.book img {
+        background: <?php echo $link; ?>;
+        border: 6px solid gray;
+        padding: 2px;
+        }
+
+figure.thmb {
 	border: 1px solid <?php echo $text; ?>;
 	float: right;
 	height: 190px;
@@ -38,11 +61,11 @@ figure {
 	width: 170px;
 	z-index: 2;
 	}
-	figure img {
+	figure.thmb img {
 	    position: relative;
 	    z-index: 3;
 	    }
-	figure ul {
+	figure.thmb ul {
 	    background: <?php echo $menu; ?>;
 	    bottom: 0px;
 	    list-style-type: none;
@@ -57,10 +80,10 @@ figure {
 	    filter:alpha(opacity=<?php echo $opacity; ?>);
 	    opacity:.<?php echo $opacity; ?>;
 		}
-		figure ul li a {
+		figure.thmb ul li a {
 			color: #FFFFFF;
 			}
-    		figure ul li a span {
+    		figure.thmb ul li a span {
     			display: none;
     			}
 
@@ -76,7 +99,7 @@ h1 {
     }
 h2 {
     clear: both;
-	color: <?php echo $light; ?>;
+	color: <?php echo $section; ?>;
 	font-family: Palatino, Serif;
 	font-size: 140%;
 	position: relative;
@@ -100,7 +123,7 @@ h2.accordion:hover {
 
 ol, 
 ul {
-    margin: 0px 0px 0px 20px;
+    margin: 1.0em 0px 1.0em 20px;
     }
 p {
     margin: 1em 0em;
@@ -123,7 +146,7 @@ p {
         text-align: left;
         }
         .RegExp form div span {
-            background: <?php echo $light; ?>;
+            background: <?php echo $section; ?>;
             }
     .RegExp form fieldset {
         text-align: right;
