@@ -6,11 +6,10 @@ a {
 a:hover {
     text-decoration: none;
     }
-    a.external {
-    	background: url(../images/external.gif) repeat top right;
-    	background: red;
-    	padding: 0px 20px 0px 0px;
-    	}
+a.external {
+	background: url(../images/external.gif) no-repeat top right;
+	padding: 0px 20px 0px 0px;
+	}
 
 div.resElement {
     clear: both;
@@ -45,7 +44,7 @@ figure.book {
     figure.book h3 {
         font-size: 100%;
         }
-    figure.book img {
+    figure.book img.cover {
         background: <?php echo $link; ?>;
         border: 6px solid gray;
         padding: 2px;
@@ -184,7 +183,7 @@ p {
     	font-size: 100%;
     	}
     .Resume div.resElement ul {
-        margin-left: 2em;
+        margin: 0px 0px 0px 2em;
         }
     .Resume div.resElement div.level2 {
         margin-left: 2em;

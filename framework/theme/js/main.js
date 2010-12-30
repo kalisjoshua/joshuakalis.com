@@ -8,6 +8,11 @@ $(document).ready(function(){
             attr("href", "mailto:" + email).
             text(email);
     });
+
+    $("a").filter(function () {
+        return this.hostname && window.location.hostname !== this.hostname
+    }).
+    append(" <img height=\"14px\" src=\"framework/theme/images/external.gif\" />");
     
 	var regexEval = function (event) {
 		try {

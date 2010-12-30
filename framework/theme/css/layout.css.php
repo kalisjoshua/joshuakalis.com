@@ -15,11 +15,10 @@ body {
 	padding: 5px 0px 0px;
 	position: relative;
 	text-align: left;
-	width: <?php echo $contentWidth; ?>px;
 	}
 
 footer {
-    border-top: 1px solid;
+    border-top: 1px solid <?php echo $menu; ?>;
 	clear: both;
 	font-size: .9em;
 	margin: 3em 0px 0px;
@@ -41,10 +40,7 @@ html {
 	}
 	
 nav {
-	position: absolute;
-	right: 0px;
-	top: 10px;
-	z-index: 10;
+    text-align: right;
 	}
 	nav ul {
 		list-style-type: none;
