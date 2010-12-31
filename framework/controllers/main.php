@@ -8,7 +8,7 @@ foreach (glob("../components/*.php") as $filename) {
 // start JSON object for data templating
 $site = load_json("../models/site.config.json");
 
-$site->domain = "http://".(($_SERVER['HTTP_HOST'] != $site->url->local)? $site->url->live: $site->url->local);
+$site->domain = (($_SERVER['HTTP_HOST'] != $site->url->local)? $site->url->live: $site->url->local);
 $site->year = gmdate("Y");
 
 //$site->menu = build_menu($_SERVER['REQUEST_URI']);
