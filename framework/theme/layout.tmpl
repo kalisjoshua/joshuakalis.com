@@ -6,12 +6,9 @@
 <!--[if (gt IE 9)|!(IE)]><!--> <html lang="en" class="no-js"> <!--<![endif]-->
 <head>
 <meta charset="utf-8" />
-
 <title>{page} - {title}</title>
 <meta name="description" content="{description}" />
-
 <script src="theme/js/libs/modernizr-1.6.min.js"></script>
-
 <link rel="stylesheet" href="theme/css/all.css" />
 </head>
 
@@ -20,7 +17,7 @@
 
     <div class="container_12 clearfix">
         <header class="grid_6" role="banner">
-            <a href="{domain}">{title}</a>
+            <a href="{domain}" title="{description}">{title}</a>
             <h1>{title}</h1>
             {tagline}<h2>{tagline}</h2>{/tagline}
         </header>
@@ -66,6 +63,7 @@
                 </ul>
             </div>
         </div>
+        <p class="container_12">All content copyright <a href="{domain}" title="{description}">{domain}</a> &copy; {year}. All rights reserved.</p>
     </footer>
 
 <script src="//ajax.googleapis.com/ajax/libs/jquery/1.4.4/jquery.js"></script>
