@@ -1,6 +1,6 @@
 <?php require "_variables.php"; ?>
 
-p#SkipToContent { display: none; }
+p#SkipNavigation { display: none; }
 
 article {
 	padding-top: 70px;
@@ -35,7 +35,7 @@ header {
 		}
 
 html {
-	background: <?php echo $body; ?> url(theme/images/bg_<?php echo $activeScheme; ?>.jpg) <?php echo $attachment; ?> repeat-x 0px 30px;
+	background: <?php echo $body; ?> url("theme/images/bg_<?php echo $activeScheme; ?>.jpg") <?php echo $attachment; ?> repeat-x 0px 30px;
 	text-align: center;
 	}
 	

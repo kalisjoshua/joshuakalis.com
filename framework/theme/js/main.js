@@ -12,7 +12,7 @@ $(document).ready(function(){
     $("a").filter(function () {
         return this.hostname && window.location.hostname !== this.hostname
     }).
-    append(" <img height=\"14px\" src=\"framework/theme/images/external.gif\" />");
+    append(" <img alt=\"external link icon\" height=\"14px\" src=\"framework/theme/images/external.gif\" />");
     
 	var regexEval = function (event) {
 		try {
