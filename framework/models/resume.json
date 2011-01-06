@@ -9,8 +9,7 @@
                     "items": [
                         "Certifications: MCTS Web ASP.NET 2.0 C#",
                         "Development: ASP, C#, CSS, HTML, Java, JavaScript, PHP, T-SQL, XHTML, XML, XSL",
-                        "Software: Adobe Illustrator, InDesign, Photoshop; Eclipse & JBoss Developer Studio; Microsoft Office Suite, Query Analyzer, SQL Server 2000/2005, SQL Server Management Studio, Visual Studio 2005; MySQL; NetBeans",
-                        "Version Control: CVSNT, Git, Mercurial, Subversion"
+                        "Software: Adobe: Illustrator, InDesign, Photoshop; CVSNT; Eclipse; Git; Mercurial; Microsoft: Office Suite, Query Analyzer, SQL Server 2000/2005, SQL Server Management Studio, Visual Studio 2005; MySQL; NetBeans; Subversion"
                     ],
                     "title": "Technical Proficiency"
                 }
@@ -35,7 +34,6 @@
                     "items": [
                         "Environment: CSS, Git, HTML5, JavaScript, Mercurial, MySQL, PHP, Subversion",
                         "Founded and maintained company as creative outlet and learning experience",
-                        "Designed web sites, logos, and print media in Adobe: Photoshop, Illustrator, InDesign",
                         "Published open source JavaScript library that enhances accessibility of session time-outs"
                     ],
                     "title": "Web Developer & COO"
@@ -48,10 +46,7 @@
                         "Supervised user experience design for Java development",
                         "Adopted Agile development methodologies",
                         "Developed dynamic data entry user interface with JavaScript",
-                        "Coauthor of browser stack standards and guidelines",
-                        "Designer of web application templates using Adobe Photoshop and HTML/CSS",
-                        "Delivered Java web interface to SQL Server financial database system",
-                        "Wrote data migration scripts as stored procedures and DTS packages"
+                        "Coauthor of browser stack standards and guidelines"
                     ],
                     "title": "Information Technologist"
                 },
@@ -74,9 +69,8 @@
                         {
                             "title": "globalEDGE.msu.edu (http://globaledge.msu.edu)",
                             "items": [
-                                "Redesigned entire web site look and feel in Adobe Photoshop",
                                 "Normalized multiple public databases into a single SQL Server data warehouse",
-                                "Relaunched web site using more flexible non-destructive relational database model",
+                                "Engineered flexible non-destructive relational database model",
                                 "Wrote JavaScript form validation library using Regular expression pattern matching",
                                 "Implemented home-grown content management system written in ASP",
                                 "Created projects management system using SQL Server with an ASP front-end"
