@@ -50,6 +50,19 @@ figure.book {
         padding: 2px;
         }
 
+figure.photos {
+    height: 250px;
+    margin: 1.0em 0px 1.5em;
+    overflow: hidden;
+    position: relative;
+    width: 250px;
+    }
+    figure.photos img {
+        left: 0px;
+        position: absolute;
+        top: 0px;
+        }
+
 figure.thmb {
 	border: 1px solid <?php echo $text; ?>;
 	float: right;

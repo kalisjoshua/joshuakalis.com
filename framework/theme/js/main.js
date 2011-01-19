@@ -36,6 +36,8 @@ $(document).ready(function(){
 		}
 	};
 	
+	$("figure.photos").slideShow({AlbumID: "15391642"});
+	
 	// the form should never submit
 	$(".RegExp form#regex").submit(function (event) {
 		event.preventDefault();
