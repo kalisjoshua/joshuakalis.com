@@ -1,4 +1,5 @@
 $(document).ready(function(){
+    // email links in plain-text
     $("span.email").replaceWith(function () {
         if (this === window) {
             return;
@@ -9,10 +10,14 @@ $(document).ready(function(){
             text(email);
     });
 
-    $("a").filter(function () {
-        return this.hostname && window.location.hostname !== this.hostname && !$(this).find("img").length;
-    }).
-    append(" <img alt=\"external link icon\" height=\"14px\" src=\"framework/theme/images/external.gif\" />");
+    // external links
+    $("a").
+        filter(function () {
+            return this.hostname && window.location.hostname !== this.hostname && !$(this).find("img").length;
+        }).
+        append(" <img alt=\"external link icon\" height=\"14px\" src=\"framework/theme/images/external.gif\" />");
+	
+	$("figure.photos").slideShow({AlbumID: "15391642"});
     
 	var regexEval = function (event) {
 		try {
@@ -36,8 +41,6 @@ $(document).ready(function(){
 		}
 	};
 	
-	$("figure.photos").slideShow({AlbumID: "15391642"});
-	
 	// the form should never submit
 	$(".RegExp form#regex").submit(function (event) {
 		event.preventDefault();
@@ -49,8 +52,8 @@ $(document).ready(function(){
     $("a.Portfolio").lightBox(); // this is a comment
 
     // add interactivity to all sections that have more than one item		
-    $(".Resume h2").
-        add(".Portfolio h2").
+    $(".Resume article h2").
+        add(".Portfolio article h2").
         unbind("click").
         click(function () {
             // show/hide all but the first item in a section
