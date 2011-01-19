@@ -10,7 +10,7 @@ $(document).ready(function(){
     });
 
     $("a").filter(function () {
-        return this.hostname && window.location.hostname !== this.hostname
+        return this.hostname && window.location.hostname !== this.hostname && !$(this).find("img").length;
     }).
     append(" <img alt=\"external link icon\" height=\"14px\" src=\"framework/theme/images/external.gif\" />");
     

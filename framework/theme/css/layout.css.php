@@ -24,6 +24,19 @@ footer {
 	margin: 3em 0px 0px;
 	padding: 2em 0px;
 	}
+	footer div {
+    	position: relative;
+	    }
+    	footer div a#html5_badges {
+    	    margin: -10px;
+    	    padding: 10px;
+    	    position: absolute;
+    	    right: 0px;
+    	    top: 0px;
+    	    }
+    	footer div a#html5_badges:hover {
+    	    background: <?php echo $section; ?>;
+    	    }
 
 header {
 	position: relative;
