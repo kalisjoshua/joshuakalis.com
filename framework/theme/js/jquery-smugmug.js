@@ -1,5 +1,5 @@
 (function($) {
-    var Smugmug = {
+    var Smugmug = window.Smugmug = {
             APIKey: "MAukm4dbY4HtE1JSbA2tZ48mIYt3rJO8",
             APIVersion: "1.2.0",
             EndPoint: {
@@ -194,17 +194,31 @@
     
     $.fn.slideShow = function(options) {
         options = $.extend({}, {
-                delay: 3000,
+                delay: 10000,
                 Heavy: 1,
                 size: "Medium"
             }, options);
         
-    	var img = this.find("img")[0] ? this.find("img") : $("<img />").appendTo(this),
-    	    photos = [],
+        while (this.append(this.find("img").first().clone()).find("img").length < 2);
+        
+    	var images = this.find("img"),
+    	    gallery = [],
     	    rotate = function () {
-    	        img.attr("src", photos[0]);
-    	        photos.push(photos.shift());
-    	        setTimeout(rotate, options.delay);
+    	        images.
+    	            first().
+    	                fadeOut(1000, function () {
+    	                    images.
+    	                        last().
+    	                            css({zIndex: "1"});
+                	        images.
+                	            first().
+                	                css({zIndex: "0"}).
+                	                attr("src", gallery[0]).
+                	                show();
+                	        gallery.push(gallery.shift());
+                	        images.push(Array.prototype.shift.call(images));
+                	        setTimeout(rotate, options.delay);
+    	                });
 	        };
     	
 	    Smugmug.login(function () {
@@ -215,9 +229,19 @@
         	    },
         	    function(response) {
             		$.each(response.Images, function() {
-            			photos.push(this[(options.size || "Medium") + "URL"]);
+            			gallery.push(this[(options.size || "Medium") + "URL"]);
             		});
-            		rotate();
+            		// initialize the images
+            		images.
+            		    first().
+	                        css({zIndex: 1}).
+            		        attr("src", gallery[0]);
+            		images.
+            		    last().
+	                        css({zIndex: 0}).
+            		        attr("src", gallery[1]);
+            		gallery.push(gallery.shift(), gallery.shift());
+            		setTimeout(rotate, options.delay);
             	});
 	    });
     };

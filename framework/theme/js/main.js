@@ -17,7 +17,7 @@ $(document).ready(function(){
         }).
         append(" <img alt=\"external link icon\" height=\"14px\" src=\"framework/theme/images/external.gif\" />");
 	
-	$("figure.photos").slideShow({AlbumID: "15391642"});
+	$("figure.slideshow").slideShow({AlbumID: "15391642"});
     
 	var regexEval = function (event) {
 		try {

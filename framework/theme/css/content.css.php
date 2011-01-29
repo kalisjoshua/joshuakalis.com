@@ -50,14 +50,16 @@ figure.book {
         padding: 2px;
         }
 
-figure.photos {
+figure.slideshow {
+    border: 10px solid;
     height: 250px;
     margin: 1.0em 0px 1.5em;
     overflow: hidden;
     position: relative;
+    text-align: center;
     width: 250px;
     }
-    figure.photos img {
+    figure.slideshow img {
         left: 0px;
         position: absolute;
         top: 0px;
