@@ -60,6 +60,7 @@ figure.slideshow {
     width: 250px;
     }
     figure.slideshow img {
+        display: none; /* javascript will show the pictures */
         left: 0px;
         position: absolute;
         top: 0px;

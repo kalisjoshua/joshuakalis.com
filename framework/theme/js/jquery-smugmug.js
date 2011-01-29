@@ -1,18 +1,18 @@
-(function($) {
+!!window.jQuery && (function($) {
     var Smugmug = window.Smugmug = {
-            APIKey: "MAukm4dbY4HtE1JSbA2tZ48mIYt3rJO8",
-            APIVersion: "1.2.0",
             EndPoint: {
                 "1.2.0": "/hack/json/1.2.0/",
                 "1.2.1": "/services/api/json/1.2.1/",
                 "1.2.2": "/services/api/json/1.2.2/"
             },
-            SessionID: ""
+            Key: "6C3JkTZdWzQjswrYpAMOUgBAhIkpJtTx", // joshuakalis.smugmug.com API key
+            SessionID: "",
+            Version: "1.2.0"
         };
     
     Smugmug.apiCall = function(method, params, callback, use_https) {
         params.method = method;
-        params.APIKey = Smugmug.APIKey;
+        params.APIKey = Smugmug.Key;
 
         if (Smugmug.SessionID) {
             params.SessionID = Smugmug.SessionID;
@@ -20,9 +20,9 @@
         
         var url =
             "http" + (use_https ? "s" : "") + "://api.smugmug.com" +
-            Smugmug.EndPoint[Smugmug.APIVersion] +
+            Smugmug.EndPoint[Smugmug.Version] +
             "?" + $.param(params) +
-            (Smugmug.APIVersion > "1.2.1" ? "&Callback=?" : "&JSONCallback=?");
+            (Smugmug.Version > "1.2.1" ? "&Callback=?" : "&JSONCallback=?");
             
         $.get(url, null, callback, 'jsonp');
     };
@@ -193,13 +193,22 @@
     ]));
     
     $.fn.slideShow = function(options) {
+        if (!this.length) {
+            // if the element doesn't exist on the page exit
+            return;
+        }
         options = $.extend({}, {
                 delay: 10000,
-                Heavy: 1,
                 size: "Medium"
             }, options);
         
-        while (this.append(this.find("img").first().clone()).find("img").length < 2);
+        // use two images so that fading works
+        // clone the image already in the markup to keep alt and title attributes
+        this.
+            find("img").
+                first().
+                    clone().
+                    appendTo(this);
         
     	var images = this.find("img"),
     	    gallery = [],
@@ -235,11 +244,19 @@
             		images.
             		    first().
 	                        css({zIndex: 1}).
-            		        attr("src", gallery[0]);
+            		        attr("src", gallery[0]).
+            		        load(function () {
+            		            $(this).
+            		                show();
+            		        });
             		images.
             		    last().
 	                        css({zIndex: 0}).
-            		        attr("src", gallery[1]);
+            		        attr("src", gallery[1]).
+            		        load(function () {
+            		            $(this).
+            		                show();
+            		        });
             		gallery.push(gallery.shift(), gallery.shift());
             		setTimeout(rotate, options.delay);
             	});
