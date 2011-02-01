@@ -1,4 +1,4 @@
-!!window.jQuery && (function($) {
+!!window.jQuery && (function ($) {
     var Smugmug = window.Smugmug = {
             EndPoint: {
                 "1.2.0": "/hack/json/1.2.0/",
@@ -10,7 +10,7 @@
             Version: "1.2.0"
         };
     
-    Smugmug.apiCall = function(method, params, callback, use_https) {
+    Smugmug.apiCall = function (method, params, callback, use_https) {
         params.method = method;
         params.APIKey = Smugmug.Key;
 
@@ -48,7 +48,7 @@
     == anonymously
         options = {} or null
     */
-    Smugmug.login = function(options, callback) {
+    Smugmug.login = function (options, callback) {
         // if no arguments were passed in, fix the first one
         options = options || {};
         
@@ -68,10 +68,12 @@
         Smugmug.apiCall(
             "smugmug.login." + login_method,
             options,
-            function(data) {
+            function (data) {
                 // almost curry, so we can set the SessionID from smugmug
                 Smugmug.SessionID = data.Login.Session.id;
-                if (callback) callback();
+                if (callback) {
+                    callback();
+                }
             },
             true
         );
@@ -82,29 +84,27 @@
     = API Hooks (IIFE - Imediately Invoked Function Expression)
     Create functions for all API hooks provided by Smugmug proxy them through Smugmug.apiCall function.
     */
-    (function(list) {
-        var method, node, signature;
-        
+    (function (list, api, method, node, obj, signature) {
         // loop through all the API actions in the given array
         //      add new ones to the array as necessary
-        while (function (obj, api) {
+        while (list.length) {
+            api = list.shift();
+            obj = Smugmug;
             signature = "smugmug." + api;
             api = api.split(".");
             method = api.pop();
-            
-            while (node = api.shift()) {
+        
+            while (!!(node = api.shift())) {
                 obj = obj[node] = obj[node] || {};
             }
-            
+        
             // alias API function through Smugmug.apiCall
             obj[method] = (function (signature) {
                 return function (params, callback) {
                     return Smugmug.apiCall(signature, params || {}, callback);
                 };
             }(signature));
-            
-            return list[0];
-        }(Smugmug, list.shift()));
+        }
     }([
         "albums.applyWatermark",
         "albums.changeSettings",
@@ -192,7 +192,7 @@
         "watermarks.getInfo"
     ]));
     
-    $.fn.slideShow = function(options) {
+    $.fn.slideShow = function (options) {
         if (!this.length) {
             // if the element doesn't exist on the page exit
             return;
@@ -236,10 +236,18 @@
         	        AlbumID: options.AlbumID,
         	        Heavy: 1
         	    },
-        	    function(response) {
-            		$.each(response.Images, function() {
+        	    function(response, len, rand) {
+            		$.each(response.Images, function () {
             			gallery.push(this[(options.size || "Medium") + "URL"]);
             		});
+            		
+            		// randomize the gallery array
+        	        len = gallery.length;
+        	        while (len--) {
+        	            rand = parseInt(Math.random() * gallery.length, 10);
+        	            gallery = gallery.slice(0, rand).concat(gallery[len], gallery.slice(rand + 1));
+        	        }
+            	    
             		// initialize the images
             		images.
             		    first().
