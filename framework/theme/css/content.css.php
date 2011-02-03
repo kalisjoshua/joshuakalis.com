@@ -138,11 +138,30 @@ h2.accordion:hover {
 
 ol, 
 ul {
-    margin: 1.0em 0px 1.0em 20px;
+    margin: 1.0em;
     }
+
 p {
     margin: 1em 0em;
     }
+
+/* **** projectElement **** */
+div.projects {
+    
+    }
+    div.projects figure {
+        border: 1px solid;
+        float: left;
+        height: 100px;
+        margin-right: 1em;
+        overflow: hidden;
+        position: relative;
+        width: 100px;
+        }
+    div.projects li {
+        display: inline;
+        }
+
 
 /* **** RegExp **** */
 .RegExp form {

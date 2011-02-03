@@ -1,0 +1,26 @@
+{
+    "javascript": [
+        {
+            "description": "Slideshow plugin to replace Flash version provided by <a href=\"//Smugmug.com\" title=\"Smugmug home page\">Smugmug</a>. Included is a private JavaScript object providing access to the Smugmug API. Check out the <a href=\"/framework/theme/js/jquery-smugmug.js\" title=\"view the source code for this project\">code</a>.",
+            "image": "/images/projects/",
+            "title": "jQuery Smugmug slideshow plugin"
+        },
+        {
+            "description": "Accessibility enhancement providing a notification to offer the user a chance to extend their session while not leaving the page. Visit the project, hosted on <a href=\"http://code.google.com/p/js-session-extender/\" title=\"JavaScript Session Extender on Google Code\">Google Code</a> or just try a <a href=\"/demos/jsx/test.html\" title=\"JavaScript Session Extender\">demo</a>.",
+            "image": "/images/portfolio/code_Session.js.jpg",
+            "title": "JavaScript Session Extender"
+        },
+        {
+            "description": "Templating engine for JSON objects and markup, free of programming logic or variables, with very little syntax or extra cruft. Visit the project, hosted on <a href=\"http://code.google.com/p/lotustemplate/\" title=\"Lotus Templates on Google Code\">Google Code</a> or just try a <a href=\"/demos/Lotus/example.htm\" title=\"Lotus Templates\">demo</a>.",
+            "image": "/images/portfolio/code_Lotus.js.jpg",
+            "title": "Iris/Lotus Templates"
+        }
+    ],
+    "other": [
+        {
+            "description": "PHP based View/Controller framework, similar to MVC, for projects with no need of a Model layer.",
+            "image": "/images/projects/",
+            "title": "Self Control View Framework"
+        }
+    ]
+}
