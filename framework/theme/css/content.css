@@ -1,7 +1,6 @@
-<?php require "_variables.php"; ?>
 
 a {
-    color: <?php echo $link; ?>;
+    color: _link;
     }
 a:hover {
     text-decoration: none;
@@ -45,7 +44,7 @@ figure.book {
         font-size: 100%;
         }
     figure.book img.cover {
-        background: <?php echo $link; ?>;
+        background: _link;
         border: 6px solid gray;
         padding: 2px;
         }
@@ -67,7 +66,7 @@ figure.slideshow {
         }
 
 figure.thmb {
-	border: 1px solid <?php echo $text; ?>;
+	border: 1px solid _text;
 	float: right;
 	height: 190px;
 	margin: 20px 0px 2em 1em;
@@ -81,7 +80,7 @@ figure.thmb {
 	    z-index: 3;
 	    }
 	figure.thmb ul {
-	    background: <?php echo $menu; ?>;
+	    background: _menu;
 	    bottom: 0px;
 	    list-style-type: none;
 	    margin: 0;
@@ -90,10 +89,9 @@ figure.thmb {
 	    width: 100%;
 	    z-index: 4;
 	    
-	    <?php $opacity = 80; ?>
-	    -moz-opacity:.<?php echo $opacity; ?>;
-	    filter:alpha(opacity=<?php echo $opacity; ?>);
-	    opacity:.<?php echo $opacity; ?>;
+	    -moz-opacity: 0.8;
+	    filter: alpha(opacity=80);
+	    opacity: 0.8;
 		}
 		figure.thmb ul li a {
 			color: #FFFFFF;
@@ -114,7 +112,7 @@ h1 {
     }
 h2 {
     clear: both;
-	color: <?php echo $section; ?>;
+	color: _section;
 	font-family: Palatino, Serif;
 	font-size: 140%;
 	position: relative;
@@ -180,7 +178,7 @@ div.projects {
         text-align: left;
         }
         .RegExp form div span {
-            background: <?php echo $section; ?>;
+            background: _section;
             }
     .RegExp form fieldset {
         text-align: right;
@@ -205,7 +203,7 @@ div.projects {
     	font-size: 100%;
     	}
     .Resume div.resElement h4 {
-    	border-bottom: 1px dotted <?php echo $menu; ?>;
+    	border-bottom: 1px dotted _menu;
     	font-size: 114%;
     	margin: 0 0 .25em;
     	}
