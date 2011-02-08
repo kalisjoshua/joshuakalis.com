@@ -16,7 +16,7 @@ $min = array('\1', '');
 ob_start(function ($buffer) {
         global $colors, $names, $replace, $min;
         $buffer = str_replace($names, $colors, $buffer);
-        $buffer = preg_replace($replace, $min, $buffer);
+        //$buffer = preg_replace($replace, $min, $buffer);
         return $buffer;
     });
 

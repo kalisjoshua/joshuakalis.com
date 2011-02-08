@@ -4,26 +4,24 @@ description=
 -->
 
 <h2>Projects</h2>
-<p>These are the libraries I am currently working.</p>
+<p>Here are some things (Projects, Libraries, Plugins, etc.) that I am currently working.</p>
 
-<div class="container_12 projects">
-    <div class="grid_6 alpha">
-        {javascript}
-        <figure>
-            <img alt="partial image of code-file" src="{image}" />
-        </figure>
+<div class="clearfix container_12 projects">
+    {current}
+    <div class="grid_6">
         <h3>{title}</h3>
-        <p>{description}</p>
-        {/javascript}
+        <p>{description}{project} <a href="{project}">more...</a>{/project}</p>
     </div>
-    
-    <div class="grid_6 omega">
-        {other}
-        <figure>
-            <img alt="partial image of code-file" src="{image}" />
-        </figure>
-        <h3>{title}</h3>
-        <p>{description}</p>
-        {/other}
+    {/current}
+</div>
+
+<h2>Other</h2>
+<p>These are some older things I have done in the past which aren't currently my primary focus.</p>
+<div class="container_12 clearfix">
+    {past}
+    <div class="grid_6">
+        <h4>{title}</h4>
+        <p>{description}{project} <a href="{project}">more...</a>{/project}</p>
     </div>
+    {/past}
 </div>
