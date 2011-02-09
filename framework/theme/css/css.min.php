@@ -7,18 +7,21 @@ $prefs = json_decode(file_get_contents("../../models/site.config.json"));
 $ini = parse_ini_file("variables.ini", true);
 $ini = $ini[$prefs->scheme];
 
-$names = array_map(function ($v) { return "_$v"; }, array_keys($ini));
-$colors = array_map(function ($v) { return "$v"; }, array_values($ini));
+function map_names($v) { return "_$v"; }
+$names = array_map("map_names", array_keys($ini));
+function map_colors($v) { return "$v"; }
+$colors = array_map("map_colors", array_values($ini));
 
 $replace = array('/\s*([,\{\}:;])\s*/', '/[\n\r\t]+/', '!/\*[^*]*\*+([^/][^*]*\*+)*/!');
 $min = array('\1', '');
 /* */
-ob_start(function ($buffer) {
-        global $colors, $names, $replace, $min;
-        $buffer = str_replace($names, $colors, $buffer);
-        //$buffer = preg_replace($replace, $min, $buffer);
-        return $buffer;
-    });
+function min_css($buffer) {
+    global $colors, $names, $replace, $min;
+    $buffer = str_replace($names, $colors, $buffer);
+    $buffer = preg_replace($replace, $min, $buffer);
+    return $buffer;
+};
+ob_start("min_css");
 
 include("reset.css");
 include("960.css");
