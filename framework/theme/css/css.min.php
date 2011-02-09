@@ -23,7 +23,7 @@ function min_css($buffer) {
 };
 ob_start("min_css");
 
-include("reset.css");
+include("html5boilerplate.css");
 include("960.css");
 
 include("layout.css");
