@@ -142,60 +142,6 @@ p {
     margin: 1em 0em;
     }
 
-/* **** projectElement **** */
-div.projects {
-    
-    }
-    div.projects figure {
-        border: 1px solid;
-        float: left;
-        height: 100px;
-        margin-right: 1em;
-        overflow: hidden;
-        position: relative;
-        width: 100px;
-        }
-    div.projects li {
-        display: inline;
-        }
-
-
-/* **** RegExp **** */
-.RegExp form {
-    text-align: center;
-    }
-    .RegExp form div,
-    .RegExp form input[type=text],
-    .RegExp form textarea {
-        margin: 0 auto;
-        width: 100%;
-        }
-    .RegExp form div {
-        border: 1px solid lightGray;
-        margin: 0 -1em;
-        padding: 1em;
-        text-align: left;
-        }
-        .RegExp form div span {
-            background: _section;
-            }
-    .RegExp form fieldset {
-        text-align: right;
-        }
-        .RegExp form fieldset label {
-            display: inline;
-            padding-left: 5px;
-            position: relative;
-            top: 2px;
-            }
-    .RegExp form label {
-        display: block;
-        text-align: left;
-        }
-    .RegExp form textarea {
-        height: 200px;
-        }
-
 /* **** Resume **** */
     .Resume div.resElement h3 {
     	float: right;
@@ -220,3 +166,6 @@ div.projects {
     .Resume div.resElement div.level2 {
         margin-left: 2em;
         }
+
+::-moz-selection{ background: _menu; color:#fff; text-shadow: none; }
+::selection { background: _menu; color:#fff; text-shadow: none; }
