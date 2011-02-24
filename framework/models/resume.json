@@ -22,7 +22,10 @@
                     "company": "Centurion Medical Products",
                     "date": "Sep 2010 - Present",
                     "items": [
-                        "Environment: ASP.NET C#, Cocoa/Touch, CSS, Git, HTML5, JavaScript, Objective-C, SQL Server 2010, Team Foundation Server 2010",
+                        "Environment: CSS, Git, HTML5, JavaScript, Objective-C, Team Foundation Server 2010",
+                        "Migrated projects from Microsoft Team Foundation Server to Git for more flexible version control workflows",
+                        "Helped establish continuous deployment strategy using Jenkins (continuous integration server)",
+                        "Established static content server for CSS, images, and JavaScript common among similar internal applications",
 						"Designed new overall look and feel for all internal web-applications",
 						"Teaching myself Objective-C to begin building iOS applications"
                     ],
@@ -32,7 +35,7 @@
                     "company": "Image Science Incorporated",
                     "date": "Nov 2002 - Present",
                     "items": [
-                        "Environment: CSS, Git, HTML5, JavaScript, Mercurial, MySQL, PHP, Subversion",
+                        "Environment: CSS, Git, HTML5, JavaScript, Mercurial, PHP",
                         "Founded and maintained company as creative outlet and learning experience",
                         "Published open source JavaScript library that enhances accessibility of session time-outs"
                     ],
