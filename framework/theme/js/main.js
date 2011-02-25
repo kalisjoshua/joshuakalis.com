@@ -72,7 +72,7 @@ $(document).ready(function(){
         }).
         filter(function () {
             // only apply behavior to sections with more than one item in the section
-            return $(this).nextUntil("h2").length > 1;
+            return $(this).nextUntil("h2").length > 2;
         }).
         addClass("accordion").
         click();
