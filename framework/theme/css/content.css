@@ -1,6 +1,6 @@
 
 a {
-    color: _link;
+    color: #link;
     }
 a:hover {
     text-decoration: none;
@@ -43,7 +43,7 @@ figure.book {
         font-size: 100%;
         }
     figure.book img.cover {
-        background: _link;
+        background: #link;
         border: 6px solid gray;
         padding: 2px;
         }
@@ -65,7 +65,7 @@ figure.slideshow {
         }
 
 figure.thmb {
-	border: 1px solid _text;
+	border: 1px solid #text;
 	float: right;
 	height: 190px;
 	margin: 20px 0px 2em 1em;
@@ -79,7 +79,7 @@ figure.thmb {
 	    z-index: 3;
 	    }
 	figure.thmb ul {
-	    background: _menu;
+	    background: #menu;
 	    bottom: 0px;
 	    list-style-type: none;
 	    margin: 0;
@@ -111,7 +111,7 @@ h1 {
     }
 h2 {
     clear: both;
-	color: _section;
+	color: #section;
 	font-family: Palatino, Serif;
 	font-size: 140%;
 	position: relative;
@@ -142,13 +142,22 @@ p {
     margin: 1em 0em;
     }
 
+strong {
+    color: #menu;
+    display: block;
+    font-family: Palatino, Serif;
+    font-size: 200%;
+    line-height: 130%;
+    margin-bottom: 1em;
+    }
+
 /* **** Resume **** */
     .Resume div.resElement h3 {
     	float: right;
     	font-size: 100%;
     	}
     .Resume div.resElement h4 {
-    	border-bottom: 1px dotted _menu;
+    	border-bottom: 1px dotted #menu;
     	font-size: 114%;
     	margin: 0 0 .25em;
     	}
@@ -167,5 +176,5 @@ p {
         margin-left: 2em;
         }
 
-::-moz-selection{ background: _menu; color:#fff; text-shadow: none; }
-::selection { background: _menu; color:#fff; text-shadow: none; }
+::-moz-selection{ background: #menu; color:#fff; text-shadow: none; }
+::selection { background: #menu; color:#fff; text-shadow: none; }

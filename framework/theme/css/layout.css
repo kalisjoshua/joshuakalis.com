@@ -6,7 +6,7 @@ article {
 	}
 	
 body {
-	color: _text;
+	color: #text;
 	font-family: Arial, Verdana, Helvetica, sans-serif;
 	font-size: .9em;
 	line-height: 1.35em;
@@ -17,7 +17,7 @@ body {
 	}
 
 footer {
-    border-top: 1px solid _menu;
+    border-top: 1px solid #menu;
 	clear: both;
 	font-size: .9em;
 	margin: 3em 0px 0px;
@@ -34,7 +34,7 @@ footer {
     	    top: 0px;
     	    }
     	footer div a#html5_badges:hover {
-    	    background: _section;
+    	    background: #section;
     	    }
 
 header {
@@ -47,7 +47,7 @@ header {
 		}
 
 html {
-	background: _body url("theme/images/bg__bg_image.jpg") _attachment repeat-x 0px 30px;
+	background: #body url("theme/images/bg_#bg_image.jpg") #attachment repeat-x 0px 30px;
 	text-align: center;
 	}
 	
@@ -63,7 +63,7 @@ nav {
 			display: inline;
 			}
 			nav ul li a {
-				color: _section;
+				color: #section;
 				margin: 0px 4px;
 				padding: 15px 10px;
 				text-decoration: none;
@@ -75,5 +75,5 @@ nav {
 			body.Projects nav ul li.projects a,
 			body.Resume nav ul li.resume a {
 				color: #FFFFFF;
-				background: _menu;
+				background: #menu;
 				}
