@@ -40,7 +40,26 @@
                         "Published open source JavaScript library that enhances accessibility of session time-outs"
                     ],
                     "title": "Web Developer & COO"
-                },
+                }
+            ]
+        },
+        {
+            "section": "Education",
+            "entries": [
+                {
+                    "company": "Michigan State University",
+                    "date": "2006",
+                    "items": [
+                        "Study Abroad - Post-modern Studies: Belgium, France, Germany, Italy, The Netherlands",
+                        "Extracurricular involvement: Broad International Business Forum, Center for Research & Professional Development, Global Business Club, Student Greenhouse Project"
+                    ],
+                    "title": "Telecommunication, Information Studies, and Media - BA"
+                }
+            ]
+        },
+        {
+            "section": "History",
+            "entries": [
                 {
                     "company": "Michigan State University Academic Information Systems",
                     "date": "Sep 2008 - Jun 2010",
@@ -81,26 +100,7 @@
                         }
                     ],
                     "title": "Information Technologist"
-                }
-            ]
-        },
-        {
-            "section": "Education",
-            "entries": [
-                {
-                    "company": "Michigan State University",
-                    "date": "2006",
-                    "items": [
-                        "Study Abroad - Post-modern Studies: Belgium, France, Germany, Italy, The Netherlands",
-                        "Extracurricular involvement: Broad International Business Forum, Center for Research & Professional Development, Global Business Club, Student Greenhouse Project"
-                    ],
-                    "title": "Telecommunication, Information Studies, and Media - BA"
-                }
-            ]
-        },
-        {
-            "section": "History",
-            "entries": [
+                },
                 {
                     "date": "Apr 2001 - Aug 2005",
                     "company": "Aquamen Landscaping, White Lake, MI",
