@@ -142,14 +142,6 @@ p {
     margin: 1em 0em;
     }
 
-strong {
-    color: #menu;
-    display: block;
-    font-family: Palatino, Serif;
-    font-size: 190%;
-    line-height: 130%;
-    margin-bottom: 1em;
-    }
 
 /* **** Resume **** */
     .Resume div.resElement h3 {

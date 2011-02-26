@@ -7,7 +7,7 @@ header('Content-type: text/javascript');
 ob_start();
 
 foreach(Array(
-    "libs/lightbox0.5.min.js",
+    "Whitepaper.js",
     "jquery-smugmug.js",
     "main.js"
     ) as $f) {

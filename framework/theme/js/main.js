@@ -23,6 +23,8 @@ $(document).ready(function(){
         }));
 	
 	$("figure.slideshow").slideShow({AlbumID: "15391642"});
+	
+	$("article.whitepaper").Whitepaper();
     
     (function (regexEval) {
     	// the form should never submit
@@ -54,11 +56,9 @@ $(document).ready(function(){
 			// will throw and error but we don't need to handle that error here.
 		}
 	}));
-	
-    $("a.Portfolio").lightBox(); // this is a comment
 
     // add interactivity to all sections that have more than one item		
-    $(".Resume article h2, .Portfolio article h2").
+    $(".Resume article h2").
         unbind("click").
         click(function () {
             // show/hide all but the first item in a section
@@ -77,3 +77,4 @@ $(document).ready(function(){
         addClass("accordion").
         click();
 });
+

@@ -28,9 +28,10 @@ include("960.css");
 
 include("layout.css");
 include("content.css");
+include("portfolio.css");
+include("Whitepaper.css");
 
 include("regex.css");
-include("lightbox0.5.css");
 
 ob_end_flush();
 /* */

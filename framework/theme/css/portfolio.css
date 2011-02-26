@@ -1,0 +1,31 @@
+
+.Portfolio article article {
+    margin-bottom: 0.5em;
+    margin-top: 0.5em;
+    }
+    .Portfolio article article figure {
+        border: 1px solid transparent;
+        height: 100px;
+        overflow: hidden;
+        position: relative;
+        width: 300px;
+        }
+    .Portfolio article article figure:hover {
+        border-color: #link;
+        }
+        .Portfolio article article figure a {
+            }
+    .no-js .Portfolio article article h3 {
+        display: block;
+        }
+    .Portfolio article article h3 {
+        display: none;
+        }
+    .Portfolio article article p {
+        display: none;
+        }
+    .no-js .Portfolio article article p {
+        display: block;
+        }
+    .Portfolio article article {    
+        }

@@ -1,0 +1,130 @@
+{
+    "web": [
+        {
+            "big_logo": "",
+            "contact": "Phil Lamoureux",
+            "content": [
+                "The Student Greenhouse Project was the first website I redesigned and built on my own. That site was built with Dreamweaver MX, using page templates and various other evil software specific technologies. The site lasted a good long time being maintained by the people of SGP, but finally had become too unwieldy to change.",
+                "I was asked again for help. I began with an idea I had been kicking around in my head for a few years without situation to use it. I would create a way for each page to call a builder script that would allow all source files to be plain HTML. This way the pages that would be edited would be simple to understand and therefore maintain; and the site would also have some power to handle: master template for site layout, CSS (w/variables) minification, HTML5 semantics, jQuery effects, and other stuff."
+            ],
+            "images": [],
+            "preview": "/images/portfolio/SGP_home.png",
+            "project": "Student Greenhouse Project",
+            "quote": "",
+            "summary": "",
+            "url": "//sgp.msu.edu"
+        },
+        {
+            "big_logo": "",
+            "contact": "Tunga Kiyak",
+            "content": [
+                "The Academy of International Business was the very first website I ever designed, and oddly enough, my first draft of the design was accepted. As the project matured, and more requirements were realized, more artistic elements were added but my original design remained intact.",
+                "My personal design sense has changed quite a lot since I created that design sometime in the years 2003-2004; but I think that the design has held up considerably well given my complete lack of web-technology knowledge at the time.",
+                "I tried to create a visually appealing interface that would not be overly complicated due to its depth of content. I wanted the user interface pieces to blend with the elements around them so that over time the users would begin to recognize the site, as a whole, even from far away or at a glance.",
+                "I have kept a screenshot of the <a href='/images/portfolio/AIB_logos.png' title=''>AIB logos page</a> I created as documentation for proper branding if the <a href='//aib.msu.edu/logos.asp' title='AIB logos official use documentation'>original page</a> ever goes offline."
+            ],
+            "images": [],
+            "preview": "/images/portfolio/AIB_01.png",
+            "project": "Academy of International Business",
+            "quote": "",
+            "summary": "",
+            "url": "//aib.msu.edu"
+        },
+        {
+            "big_logo": "",
+            "contact": "Irem Kiyak",
+            "content": [
+                "Working on globalEDGE turned into the primary focus of my career while working for the International Business Center. The website was a huge project with students working on adding content daily through a home-grown CMS. After years of development changing the look and feel of the site became required; with the change of the look came the opportunity to redefine the data storage as well.",
+                "The old database was set up fairly flat and only partially relationally; with the new structure we wanted to create more flexibility in how data would relate to other data we kept. Moving from the old structure to the new, reduced the number of tables on the server from 300 to 70 (these numbers are approximations only but reflect the size and scope) while creating far more options for future augmentation of how the data would be used.",
+                "I have kept a screenshot of the <a href='/images/portfolio/globalEDGE_logos.png' title=''>globalEDGE logos page</a> I created as documentation for proper branding if the <a href='//globaledge.msu.edu/logos.asp' title='globalEDGE logos official use documentation'>original page</a> ever goes offline."
+            ],
+            "images": [],
+            "preview": "/images/portfolio/globalEDGE_01.png",
+            "project": "globalEDGE.msu.edu",
+            "quote": "",
+            "summary": "",
+            "url": "//globalEDGE.msu.edu"
+        }
+    ],
+    
+    "graphics": [
+        {
+            "contact": "",
+            "content": [
+                "Frequently globalEDGE would run advertisements in various publication they were affiliated with. Publication size was generally a full page due to the close relationship with the organizations involved; however, sometimes half and quarter page ads were used but they were simply pared down versions of the original.",
+                "The advertisements went through some evolution during my time as graphic designer at the International Business Center but here are some examples of what they looked like when I was still there."
+            ],
+            "documents": [
+                "/images/portfolio/globalEDGE_ad.pdf",
+                "/images/portfolio/globalEDGE_diagnostic_tools_ad.pdf",
+                "/images/portfolio/globalEDGE_academy_ad.pdf"
+            ],
+            "images": [],
+            "preview": "/images/portfolio/globalEDGE_ad.png",
+            "project": "globalEDGE.msu.edu",
+            "summary": "",
+            "url": "//globalEDGE.msu.edu"
+        },
+        {
+            "contact": "",
+            "content": [
+                "For the 2006 AIB annual conference in China the host institution had an enormous stage where a large banner would fit nicely and provide a highly visible location to display logos for the various conference sponsors. This was a lot of fun because of its magnitude; if I remember correctly the width of the finished banner was 40 feet across."
+            ],
+            "documents": [
+                "/images/portfolio/AIB_BackgroundBoard_small.pdf"
+            ],
+            "images": [],
+            "preview": "/images/portfolio/AIB_BackgroundBoard_small.png",
+            "project": "<abbr title='Academy of International Business'>AIB</abbr>",
+            "summary": "",
+            "url": "//aib.msu.edu"
+        },
+        {
+            "contact": "",
+            "content": [
+                "The Center for International Business Education and Research at Michigan State University is one of 30+ government funded research centers around the nation. Every 2 years they must submit a proposal for funds to the U.S. government for the Business and International Education (BIE) grant.",
+                "I was charged with making the end result pretty; I did not write the proposal. I designed the cover for the proposal which you can see here and worked as art director on the project. I edited formatting in the document and kept the content flowing between sections consistent and aesthetically pleasing. There were some charts, graphs, and diagrams that I added a little style to.",
+                "I'm sure that the proposal would have been accepted and approved even without my contributions but I was happy to participate and contribute to the successful grant proposal anyway."
+            ],
+            "documents": [
+                "/images/portfolio/CIBER_GrantCover.pdf"
+            ],
+            "images": [],
+            "preview": "/images/portfolio/CIBER_GrantCover.png",
+            "project": "<abbr title='Center for International Business Education and Research'>CIBER</abbr>",
+            "summary": "",
+            "url": ""
+        },
+        {
+            "contact": "",
+            "content": [
+                "Designing brochures was a fun departure from websites, so when a new brochure was needed or it was time to edit previous years' I enjoyed the alternate work. I loved searching through photos from students' trips to put in the brochure each year. I also challenged myself each year to make the incorporation of the photos on the cover and back different than those of the years before; had I stayed working there longer I might have run into a problem with overcoming that challenge."
+            ],
+            "documents": [
+                "/images/portfolio/CIBER_IB_Specialization.pdf",
+                "/images/portfolio/CIBER_StudyAbroad.pdf"
+            ],
+            "images": [],
+            "preview": "/images/portfolio/CIBER_IB_Specialization.png",
+            "project": "<abbr title='International Business Center'>IBC</abbr>",
+            "summary": "",
+            "url": "//ibc.msu.edu"
+        },
+        {
+            "contact": "",
+            "content": [
+                "The supervisors and administrators of AIB had a firm commitment to the branding of AIB; continually enforcing, perpetuating, and protecting the brand for the integrity of the organization. I drew up a simple graphic to go along with the logo on many different deliverables over the years; here are a few examples of that work in use."
+            ],
+            "documents": [
+                "/images/portfolio/AIB_cd_envelope.pdf",
+                "/images/portfolio/AIB_cd_label.pdf",
+                "/images/portfolio/AIB_mail_pack.pdf"
+            ],
+            "images": [],
+            "preview": "/images/portfolio/AIB_Branding.png",
+            "project": "<abbr title='Academy of International Business'>AIB</abbr>",
+            "summary": "",
+            "url": "//aib.msu.edu"
+        }
+    ]
+}

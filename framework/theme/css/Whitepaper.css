@@ -1,0 +1,26 @@
+div#Whitepaper_modal {
+    background: #body;
+    display: none;
+    height: 100%;
+    left: 0px;
+    opacity: 0.8;
+    -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=80)";
+    filter: alpha(opacity=80);
+    position: fixed;
+    top: 0px;
+    width: 100%;
+    z-index: 9999;
+    }
+div#Whitepaper_content {
+    background: #body;
+    border: 3px solid #text;
+    display: none;
+    left: 50%;
+    margin: 0px auto;
+    margin-left: -350px;
+    padding: 2em;
+    position: absolute;
+    top: 0px;
+    width: 700px;
+    z-index: 9999;
+    }
