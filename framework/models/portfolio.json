@@ -1,18 +1,18 @@
 {
     "web": [
         {
-            "big_logo": "",
+            "big_image": "/images/portfolio/SGP_big.png",
             "contact": "Phil Lamoureux",
             "content": [
                 {
                     "image": "/images/portfolio/SGP_logo.png",
-                    "position": "left",
+                    "position": "right",
                     "p": "The Student Greenhouse Project was the first website I redesigned and built on my own. That site was built with Dreamweaver MX, using page templates and various other evil software specific technologies. The site lasted a good long time being maintained by the people of SGP, but finally had become too unwieldy to change."
                 },
                 {
                     "image": "/images/portfolio/SGP_site_thumbnail.png",
-                    "position": "right",
-                    "p": "I was asked again for help. I began with an idea I had been kicking around in my head for a few years without situation to use it. I would create a way for each page to call a builder script that would allow all source files to be plain HTML. This way the pages that would be edited would be simple to understand and therefore maintain; and the site would also have some power to handle: master template for site layout, CSS (w/variables) minification, HTML5 semantics, jQuery effects, and other stuff."
+                    "position": "left",
+                    "p": "I began with an idea I had been kicking around in my head for a few years without situation to use it. I would create a way for each page to call a builder script that would allow all source files to be plain HTML. This way the pages that would be edited would be simple to understand and therefore maintain; and the site would also have some power to handle: master template for site layout, CSS (w/variables) + minification, HTML5, jQuery, etc."
                 }
             ],
             "preview": "/images/portfolio/SGP_home.png",
@@ -22,7 +22,7 @@
             "url": "//sgp.msu.edu"
         },
         {
-            "big_logo": "",
+            "big_image": "/images/portfolio/AIB_big.png",
             "contact": "Tunga Kiyak",
             "content": [
                 {
@@ -49,17 +49,17 @@
             "url": "//aib.msu.edu"
         },
         {
-            "big_logo": "",
+            "big_image": "/images/portfolio/globalEDGE_big.png",
             "contact": "Irem Kiyak",
             "content": [
                 {
                     "image": "/images/portfolio/globalEDGE_logo.png",
-                    "position": "left",
+                    "position": "right",
                     "p": "Working on globalEDGE turned into the primary focus of my career while working for the International Business Center. The website was a huge project with students working on adding content daily through a home-grown CMS. After years of development changing the look and feel of the site became required; with the change of the look came the opportunity to redefine the data storage as well."
                 },
                 {
                     "image": "/images/portfolio/globalEDGE_site_thumbnail.png",
-                    "position": "right",
+                    "position": "left",
                     "p": "The old database was set up fairly flat and only partially relationally; with the new structure we wanted to create more flexibility in how data would relate to other data we kept. Moving from the old structure to the new, reduced the number of tables on the server from 300 to 70 (these numbers are approximations only but reflect the size and scope) while creating far more options for future augmentation of how the data would be used."
                 },
                 {
@@ -98,6 +98,7 @@
             "url": "//globalEDGE.msu.edu"
         },
         {
+            "big_image": "/images/portfolio/AIB_big_banner.png",
             "contact": "",
             "content": [
                 {
@@ -118,9 +119,13 @@
             "contact": "",
             "content": [
                 {
+                    "image": "/images/portfolio/CIBER_logo.png",
+                    "position": "right",
                     "p": "The Center for International Business Education and Research at Michigan State University is one of 30+ government funded research centers around the nation. Every 2 years they must submit a proposal for funds to the U.S. government for the Business and International Education (BIE) grant."
                 },
                 {
+                    "image": "/images/portfolio/CIBER_GrantCover_art.png",
+                    "position": "left",
                     "p": "I was charged with making the end result pretty; I did not write the proposal. I designed the cover for the proposal which you can see here and worked as art director on the project. I edited formatting in the document and kept the content flowing between sections consistent and aesthetically pleasing. There were some charts, graphs, and diagrams that I added a little style to."
                 },
                 {
@@ -146,9 +151,11 @@
             ],
             "documents": [
                 "/images/portfolio/IBC_IB_Specialization.pdf",
-                "/images/portfolio/IBC_StudyAbroad.pdf"
+                "/images/portfolio/CIBER_StudyAbroad_2005.pdf",
+                "/images/portfolio/CIBER_StudyAbroad_2006.pdf",
+                "/images/portfolio/CIBER_StudyAbroad_2007.pdf"
             ],
-            "preview": "/images/portfolio/IBC_IB_Specialization.png",
+            "preview": "/images/portfolio/CIBER_StudyAbroad.png",
             "project": "<abbr title='International Business Center'>IBC</abbr>",
             "summary": "",
             "url": "//ibc.msu.edu"
@@ -176,18 +183,18 @@
             "contact": "",
             "content": [
                 {
-                    "image": "/images/portfolio/CIBER_logo.png",
-                    "position": "right",
-                    "p": ""
+                    "p": "<a href='/images/portfolio/globalEDGE_DiagTools_Splash1.png' title=''><img alt='screenshot of DiagnosticTools' class='image_left' src='/images/portfolio/globalEDGE_DiagTools_Splash1.png' width='180px' /></a>CIBER developed a suite of tools for education and evaluation of business environments. The interface was simply a wizard that steps the user through a series of multiple-choice questions. At the end of the questions the answers, compiled together, illuminate strengths and weaknesses with various data visualizations."
+                },
+                {
+                    "p": "<a href='/images/portfolio/globalEDGE_DiagTools_Splash2.png' title=''><img alt='screenshot of DiagnosticTools' class='image_right' src='/images/portfolio/globalEDGE_DiagTools_Splash2.png' width='180px' /></a>Because these tools were fairly isolated in their scope in relation to user-base, redesigns could be done easily and quickly. I tried to up to complete redesigns whenever there were lulls in the development demand. I don't know that these designs ever made their way into production but I wish they had. The <a href='/images/portfolio/globalEDGE_DiagTools_Splash0.png' title='original DiagnosticTools design'>original design</a> was something that always seemed a flat and dated."
                 }
             ],
             "documents": [
-                "/images/portfolio/CIBER_StudyAbroad.pdf"
             ],
-            "preview": "/images/portfolio/CIBER_StudyAbroad.png",
-            "project": "<abbr title='International Business Center'>IBC</abbr>",
+            "preview": "/images/portfolio/globalEDGE_Splash1.png",
+            "project": "globalEDGE.msu.edu",
             "summary": "",
-            "url": "//ibc.msu.edu"
+            "url": "//globalEDGE.msu.edu"
         }
     ]
 }

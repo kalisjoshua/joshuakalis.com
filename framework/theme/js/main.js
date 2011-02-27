@@ -25,7 +25,7 @@ $(document).ready(function(){
 	$("figure.slideshow").slideShow({AlbumID: "15391642"});
 	
 	$("article.whitepaper").Whitepaper();
-    
+	
     (function (regexEval) {
     	// the form should never submit
     	$(".RegExp form#regex").
@@ -77,4 +77,3 @@ $(document).ready(function(){
         addClass("accordion").
         click();
 });
-
