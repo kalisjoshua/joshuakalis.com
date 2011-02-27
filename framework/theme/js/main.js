@@ -17,7 +17,7 @@ $(document).ready(function(){
         }).
         append($("<img>", {
             alt: "external link icon",
-            class: "external",
+            "class": "external",
             height: 14,
             src: "framework/theme/images/external.gif"
         }));

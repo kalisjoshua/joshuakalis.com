@@ -1,5 +1,5 @@
 div#Whitepaper_modal {
-    background: #body;
+    background: #text;
     display: none;
     height: 100%;
     left: 0px;
@@ -13,14 +13,33 @@ div#Whitepaper_modal {
     }
 div#Whitepaper_content {
     background: #body;
-    border: 3px solid #text;
+    border: 1px solid #text;
     display: none;
     left: 50%;
     margin: 0px auto;
     margin-left: -350px;
-    padding: 2em;
     position: absolute;
-    top: 0px;
+    top: 20px;
     width: 700px;
     z-index: 9999;
     }
+div#Whitepaper_title {
+    background: #text;
+    color: #body;
+    font-size: .85em;
+    opacity: 0.4;
+    -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=40)";
+    filter: alpha(opacity=40);
+    overflow: hidden;
+    padding: 4px 10px;
+    }
+    div#Whitepaper_title a {
+        color: #body;
+        float: right;
+        padding: 0px 5px;
+        text-decoration: none;
+        }
+    div#Whitepaper_title a:hover {
+        margin: -10px;
+        padding: 10px 15px;
+        }

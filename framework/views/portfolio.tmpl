@@ -13,7 +13,8 @@ description=
         <a href="{url}" title=""><img alt="preview of website" src="{preview}" /></a>
     </figure>
     {content}
-    <p>{#}</p>{/content}
+    {image}<img class="image_{position}" src="{image}" />{/image}
+    <p>{p}</p>{/content}
 </article>
 {/web}
 
@@ -25,6 +26,11 @@ description=
         <a href="{url}" title=""><img alt="preview of website" src="{preview}" /></a>
     </figure>
     {content}
-    <p>{#}</p>{/content}
+    {image}<img class="image_{position}" src="{image}" />{/image}
+    <p>{p}</p>{/content}
+    <ul>
+        {documents}
+        <li><a href="{#}">{#}</a></li>{/documents}
+    </ul>
 </article>
 {/graphics}

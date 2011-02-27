@@ -11,6 +11,7 @@ foreach(Array(
     "jquery-smugmug.js",
     "main.js"
     ) as $f) {
+        //echo file_get_contents($f);
         echo JSMin::minify(file_get_contents($f));
 }
 
