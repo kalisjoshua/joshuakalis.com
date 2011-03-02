@@ -8,6 +8,7 @@ ob_start();
 
 foreach(Array(
     "Whitepaper.js",
+    "Imagezoom.js",
     "jquery-smugmug.js",
     "main.js"
     ) as $f) {

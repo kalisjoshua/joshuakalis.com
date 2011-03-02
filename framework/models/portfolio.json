@@ -39,7 +39,7 @@
                     "p": "I tried to create a visually appealing interface that would not be overly complicated due to its depth of content. I wanted the user interface pieces to blend with the elements around them so that over time the users would begin to recognize the site, as a whole, even from far away or at a glance."
                 },
                 {
-                    "p": "I have kept a screenshot of the <a href='/images/portfolio/AIB_logos.png' title=''>AIB logos page</a> I created as documentation for proper branding if the <a href='//aib.msu.edu/logos.asp' title='AIB logos official use documentation'>original page</a> ever goes offline."
+                    "p": "I have kept a screenshot of the <a href='/images/portfolio/AIB_logos.png' rel='Imagezoom' title=''>AIB logos page</a> I created as documentation for proper branding if the <a href='//aib.msu.edu/logos.asp' title='AIB logos official use documentation'>original page</a> ever goes offline."
                 }
             ],
             "preview": "/images/portfolio/AIB_01.png",
@@ -63,7 +63,7 @@
                     "p": "The old database was set up fairly flat and only partially relationally; with the new structure we wanted to create more flexibility in how data would relate to other data we kept. Moving from the old structure to the new, reduced the number of tables on the server from 300 to 70 (these numbers are approximations only but reflect the size and scope) while creating far more options for future augmentation of how the data would be used."
                 },
                 {
-                    "p": "I have kept a screenshot of the <a href='/images/portfolio/globalEDGE_logos.png' title=''>globalEDGE logos page</a> I created as documentation for proper branding if the <a href='//globaledge.msu.edu/logos.asp' title='globalEDGE logos official use documentation'>original page</a> ever goes offline."
+                    "p": "I have kept a screenshot of the <a href='/images/portfolio/globalEDGE_logos.png' rel='Imagezoom' title=''>globalEDGE logos page</a> I created as documentation for proper branding if the <a href='//globaledge.msu.edu/logos.asp' title='globalEDGE logos official use documentation'>original page</a> ever goes offline."
                 }
             ],
             "preview": "/images/portfolio/globalEDGE_01.png",
@@ -183,10 +183,10 @@
             "contact": "",
             "content": [
                 {
-                    "p": "<a href='/images/portfolio/globalEDGE_DiagTools_Splash1.png' title=''><img alt='screenshot of DiagnosticTools' class='image_left' src='/images/portfolio/globalEDGE_DiagTools_Splash1.png' width='180px' /></a>CIBER developed a suite of tools for education and evaluation of business environments. The interface was simply a wizard that steps the user through a series of multiple-choice questions. At the end of the questions the answers, compiled together, illuminate strengths and weaknesses with various data visualizations."
+                    "p": "<a href='/images/portfolio/globalEDGE_DiagTools_Splash1.png' rel='Imagezoom' title=''><img alt='screenshot of DiagnosticTools' class='image_left' src='/images/portfolio/globalEDGE_DiagTools_Splash1.png' width='180px' /></a>CIBER developed a suite of tools for education and evaluation of business environments. The interface was simply a wizard that steps the user through a series of multiple-choice questions. At the end of the questions the answers, compiled together, illuminate strengths and weaknesses with various data visualizations."
                 },
                 {
-                    "p": "<a href='/images/portfolio/globalEDGE_DiagTools_Splash2.png' title=''><img alt='screenshot of DiagnosticTools' class='image_right' src='/images/portfolio/globalEDGE_DiagTools_Splash2.png' width='180px' /></a>Because these tools were fairly isolated in their scope in relation to user-base, redesigns could be done easily and quickly. I tried to up to complete redesigns whenever there were lulls in the development demand. I don't know that these designs ever made their way into production but I wish they had. The <a href='/images/portfolio/globalEDGE_DiagTools_Splash0.png' title='original DiagnosticTools design'>original design</a> was something that always seemed a flat and dated."
+                    "p": "<a href='/images/portfolio/globalEDGE_DiagTools_Splash2.png' rel='Imagezoom' title=''><img alt='screenshot of DiagnosticTools' class='image_right' src='/images/portfolio/globalEDGE_DiagTools_Splash2.png' width='180px' /></a>Because these tools were fairly isolated in their scope in relation to user-base, redesigns could be done easily and quickly. I tried to up to complete redesigns whenever there were lulls in the development demand. I don't know that these designs ever made their way into production but I wish they had. The <a href='/images/portfolio/globalEDGE_DiagTools_Splash0.png' rel='Imagezoom' title='original DiagnosticTools design'>original design</a> was something that always seemed a flat and dated."
                 }
             ],
             "documents": [

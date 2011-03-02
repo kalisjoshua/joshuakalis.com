@@ -30,6 +30,7 @@ include("layout.css");
 include("content.css");
 include("portfolio.css");
 include("Whitepaper.css");
+include("Imagezoom.css");
 
 include("regex.css");
 

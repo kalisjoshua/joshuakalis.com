@@ -26,6 +26,8 @@ $(document).ready(function(){
 	
 	$("article.whitepaper").Whitepaper();
 	
+	$("a[rel=Imagezoom]").Imagezoom();
+	
     (function (regexEval) {
     	// the form should never submit
     	$(".RegExp form#regex").
@@ -77,3 +79,4 @@ $(document).ready(function(){
         addClass("accordion").
         click();
 });
+
