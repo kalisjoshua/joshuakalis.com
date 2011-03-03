@@ -9,6 +9,16 @@ $(document).ready(function(){
             attr("href", "mailto:" + email).
             text(email);
     });
+    
+    $("nav a").
+        click(function (event) {
+            event.preventDefault();
+            $("body").
+                fadeOut(300, function () {
+                    window.location.href = event.target;
+                });
+        });
+    $("body").fadeIn(1000);
 
     // external links
     $("a").
