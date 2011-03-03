@@ -71,6 +71,23 @@
             "quote": "",
             "summary": "",
             "url": "//globalEDGE.msu.edu"
+        },
+        {
+            "contact": "",
+            "content": [
+                {
+                    "p": "<a href='/images/portfolio/globalEDGE_DiagTools_Splash1.png' rel='Imagezoom' title=''><img alt='screenshot of DiagnosticTools' class='image_left' src='/images/portfolio/globalEDGE_DiagTools_Splash1.png' width='180px' /></a>CIBER developed a suite of tools for education and evaluation of business environments. The interface was simply a wizard that steps the user through a series of multiple-choice questions. At the end of the questions the answers, compiled together, illuminate strengths and weaknesses with various data visualizations."
+                },
+                {
+                    "p": "<a href='/images/portfolio/globalEDGE_DiagTools_Splash2.png' rel='Imagezoom' title=''><img alt='screenshot of DiagnosticTools' class='image_right' src='/images/portfolio/globalEDGE_DiagTools_Splash2.png' width='180px' /></a>Because these tools were fairly isolated in their scope in relation to user-base, redesigns could be done easily and quickly. I tried to up to complete redesigns whenever there were lulls in the development demand. I don't know that these designs ever made their way into production but I wish they had. The <a href='/images/portfolio/globalEDGE_DiagTools_Splash0.png' rel='Imagezoom' title='original DiagnosticTools design'>original design</a> was something that always seemed a flat and dated."
+                }
+            ],
+            "documents": [
+            ],
+            "preview": "/images/portfolio/globalEDGE_Splash1.png",
+            "project": "globalEDGE.msu.edu",
+            "summary": "",
+            "url": "//globalEDGE.msu.edu"
         }
     ],
     
@@ -178,23 +195,6 @@
             "project": "<abbr title='Academy of International Business'>AIB</abbr>",
             "summary": "",
             "url": "//aib.msu.edu"
-        },
-        {
-            "contact": "",
-            "content": [
-                {
-                    "p": "<a href='/images/portfolio/globalEDGE_DiagTools_Splash1.png' rel='Imagezoom' title=''><img alt='screenshot of DiagnosticTools' class='image_left' src='/images/portfolio/globalEDGE_DiagTools_Splash1.png' width='180px' /></a>CIBER developed a suite of tools for education and evaluation of business environments. The interface was simply a wizard that steps the user through a series of multiple-choice questions. At the end of the questions the answers, compiled together, illuminate strengths and weaknesses with various data visualizations."
-                },
-                {
-                    "p": "<a href='/images/portfolio/globalEDGE_DiagTools_Splash2.png' rel='Imagezoom' title=''><img alt='screenshot of DiagnosticTools' class='image_right' src='/images/portfolio/globalEDGE_DiagTools_Splash2.png' width='180px' /></a>Because these tools were fairly isolated in their scope in relation to user-base, redesigns could be done easily and quickly. I tried to up to complete redesigns whenever there were lulls in the development demand. I don't know that these designs ever made their way into production but I wish they had. The <a href='/images/portfolio/globalEDGE_DiagTools_Splash0.png' rel='Imagezoom' title='original DiagnosticTools design'>original design</a> was something that always seemed a flat and dated."
-                }
-            ],
-            "documents": [
-            ],
-            "preview": "/images/portfolio/globalEDGE_Splash1.png",
-            "project": "globalEDGE.msu.edu",
-            "summary": "",
-            "url": "//globalEDGE.msu.edu"
         }
     ]
 }
