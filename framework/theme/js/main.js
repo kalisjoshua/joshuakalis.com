@@ -13,10 +13,14 @@ $(document).ready(function(){
     $("nav a").
         click(function (event) {
             event.preventDefault();
-            $("body").
-                fadeOut(300, function () {
-                    window.location.href = event.target;
-                });
+            this.blur();
+            
+            if (window.location.pathname !== event.target.pathname) {
+                $("body").
+                    fadeOut(300, function () {
+                        window.location.href = event.target.href;
+                    });
+            }
         });
     $("body").fadeIn(1000);
 
@@ -29,7 +33,8 @@ $(document).ready(function(){
             alt: "external link icon",
             "class": "external",
             height: 14,
-            src: "framework/theme/images/external.gif"
+            src: "framework/theme/images/external.gif",
+            width: "14px"
         }));
 	
 	$("figure.slideshow").slideShow({AlbumID: "15391642"});
