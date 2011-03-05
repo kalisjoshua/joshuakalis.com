@@ -155,7 +155,7 @@
             "preview": "/images/portfolio/CIBER_GrantCover.png",
             "project": "<abbr title='Center for International Business Education and Research'>CIBER</abbr>",
             "summary": "",
-            "url": ""
+            "url": "//CIBER.msu.edu"
         },
         {
             "contact": "",
@@ -195,6 +195,22 @@
             "project": "<abbr title='Academy of International Business'>AIB</abbr>",
             "summary": "",
             "url": "//aib.msu.edu"
+        },
+        {
+            "contact": "",
+            "content": [
+                {
+                    "image": "/images/portfolio/IBC_logo_archive_thmb.png",
+                    "position": "right",
+                    "p": "When IBC went through a re-branding phase I had a chance to work on logos for the identity. This is a capture of <a href='/images/portfolio/IBC_logo_archive.png' rel='Imagezoom' title=''>my workshop file</a> when I was done working on the brand. I started off slow and boring but I think it ended nice. I can't, however, defend some of the logos as they remind me on road-side hotel/motel signs; I'm so glad that none of those were chosen for the final."
+                }
+            ],
+            "documents": [
+            ],
+            "preview": "/images/portfolio/IBC_logo_archive.png",
+            "project": "<abbr title='International Business Center'>IBC</abbr>",
+            "summary": "",
+            "url": "//ibc.msu.edu"
         }
     ]
 }
