@@ -39,7 +39,7 @@ $(document).ready(function(){
 	
 	$("figure.slideshow").slideShow({AlbumID: "15391642"});
 	
-	$("article.whitepaper figure").Whitepaper();
+	$("article.whitepaper figure").Whitepaper("article");
 	
 	$("a[rel=Imagezoom]").Imagezoom();
 

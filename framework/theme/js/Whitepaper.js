@@ -1,5 +1,5 @@
 (function ($) {
-    $.fn.Whitepaper = function () {
+    $.fn.Whitepaper = function (parent) {
         if (!this.length) {
             return;
         }
@@ -43,8 +43,18 @@
         return this.
             click(function (event) {
                 event.preventDefault();
-                Whitepaper.show($("<article class=\"whitepaper\"><h1>Whitepaper</h1></article>").
-                    append($(this).parents("article:first").html()));
+                var content = $(this).
+                                parents(parent + ":first").
+                                clone().
+                                find("figure").
+                                    remove().
+                                end().
+                                html();
+                
+                Whitepaper.show($("<article />").
+                    addClass("whitepaper").
+                    append("<h1>Whitepaper</h1>").
+                    append(content));
             });
     };
 }(jQuery));

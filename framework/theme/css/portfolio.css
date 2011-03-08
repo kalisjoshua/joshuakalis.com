@@ -29,9 +29,8 @@
     #Whitepaper_content article {
         padding: 1em 2em;
         }
-    #Whitepaper_content figure {
-        display: none;
-        }
+        #Whitepaper_content article figure {
+            }
     #Whitepaper_content h1 {
         color: #text;
         display: block;
