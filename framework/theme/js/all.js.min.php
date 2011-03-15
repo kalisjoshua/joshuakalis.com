@@ -10,6 +10,7 @@ foreach(Array(
     "Whitepaper.js",
     "Imagezoom.js",
     "regex_form.js",
+    "smugmug.api.js",
     "jquery-smugmug.js",
     "main.js"
     ) as $f) {
