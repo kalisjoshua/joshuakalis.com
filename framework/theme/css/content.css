@@ -61,6 +61,7 @@ figure.book {
 
 figure.slideshow {
     border: 10px solid;
+    display: none;
     height: 250px;
     margin: 1.0em 0px 1.5em;
     overflow: hidden;
