@@ -1,3 +1,5 @@
+Smugmug("6C3JkTZdWzQjswrYpAMOUgBAhIkpJtTx");
+
 $(document).ready(function(){
     // email links in plain-text
     $("span.email").replaceWith(function () {

@@ -2,7 +2,8 @@
     $.fn.slideShow = function (options) {
         options = $.extend({}, {
             delay: 10000,
-            size: "Medium"
+            size: "Medium",
+            transition: 1000
         }, options);
         
     	var wrapper = this,
@@ -10,20 +11,12 @@
     	    rotate = function () {
     	        $.when($("<img/>", {"src": gallery[0]})).
     	            done(function (element) {
-    	                wrapper.
-    	                    slideDown(function () {
-    	                        element.
-    	                            appendTo(wrapper).
-    	                            hide().
-    	                            fadeIn(function () {
-    	                                wrapper.
-    	                                    find("img").
-    	                                        not(":last").
-    	                                            remove();
-    	                            });
-                                gallery.push(gallery.shift());
-                                setTimeout(rotate, options.delay);
-    	                    });
+                        element.
+                            appendTo(wrapper).
+                            hide().
+                            fadeIn(options.transition);
+                        gallery.push(gallery.shift());
+                        setTimeout(rotate, options.delay);
     	            });
 	        };
     	
@@ -45,7 +38,11 @@
         	            gallery = gallery.slice(0, rand).concat(gallery[len], gallery.slice(rand + 1));
         	        }
         	        
-            		rotate();
+        	        $.when($("<img/>", {"src": gallery[0]})).
+        	            done(function (element) {
+        	                wrapper.
+        	                    slideDown(rotate);
+        	            });
                 });
 	    });
 	    
