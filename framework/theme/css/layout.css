@@ -1,11 +1,8 @@
 
 p#SkipNavigation { display: none; }
 
-html.no-js body {
-    display: block;
-    }
 html.js body {
-    display: none;
+    visibility: hidden;
     }
 article {
 	padding-top: 70px;

@@ -24,7 +24,12 @@ var Smugmug = function (apiKey) {
             "?" + $.param(params) +
             (Smugmug.Version > "1.2.1" ? "&Callback=?" : "&JSONCallback=?");
         
-        $.get(url, null, callback, 'jsonp');
+        $.ajax({
+            "data": null,
+            "dataType": "jsonp",
+            "success": callback,
+            "urL": url
+        });
     };
 
     /* //doc//

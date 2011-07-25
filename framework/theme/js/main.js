@@ -24,7 +24,11 @@ $(document).ready(function(){
                     });
             }
         });
-    $("body").fadeIn(1000);
+    
+    $("body").
+        fadeOut(0).
+        css("visibility", "visible").
+        fadeIn(1000);
 
     // external links
     $("a").
