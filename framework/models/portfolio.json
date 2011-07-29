@@ -1,6 +1,27 @@
 {
     "web": [
         {
+            "big_image": "/images/portfolio/CMP_big.png",
+            "contact": "Kathy McDaniel",
+            "content": [
+                {
+                    "image": "/images/portfolio/CMP_logo.png",
+                    "position": "right",
+                    "p": "I was originally hired at Centurion to skin an implementation of Sitecore CMS for their corporate website. After some time examining the needs of the business and the cost of using it, an alternative CMS was decided upon. <a href=\"//umbraco.com\">Umbraco</a> was a designer's dream to work with. Creating a skin/theme from the ground up was easy as could be expected; simply create the master-pages and CSS and off you are."
+                },
+                {
+                    "image": "/images/portfolio/CMP_site_thumbnail.png",
+                    "position": "left",
+                    "p": "The website held a number of opportunities for me to learn about writing jQuery plugins for: content and image rotators, DOM animation and manipulation, library integration, and AJAX requests. I was the sole UI developer and I worked with a dedicated back-end .Net developer which worked out nicely. One other main skill picked up while working on this project is CMS basics; prior to this I had no experience working in a <acronym title=\"Out of the box\">OOTB</acronym> CMS solution."
+                }
+            ],
+            "preview": "/images/portfolio/CMP_home.png",
+            "project": "Centurion Medical Products",
+            "quote": "",
+            "summary": "",
+            "url": "//www.centurionmp.com"
+        },
+        {
             "big_image": "/images/portfolio/SGP_big.png",
             "contact": "Phil Lamoureux",
             "content": [
@@ -128,7 +149,7 @@
                 "/images/portfolio/AIB_BackgroundBoard_small.pdf"
             ],
             "preview": "/images/portfolio/AIB_BackgroundBoard_small.png",
-            "project": "<abbr title='Academy of International Business'>AIB</abbr>",
+            "project": "Academy of International Business",
             "summary": "",
             "url": "//aib.msu.edu"
         },
@@ -153,7 +174,7 @@
                 "/images/portfolio/CIBER_GrantCover.pdf"
             ],
             "preview": "/images/portfolio/CIBER_GrantCover.png",
-            "project": "<abbr title='Center for International Business Education and Research'>CIBER</abbr>",
+            "project": "Center for International Business Education and Research",
             "summary": "",
             "url": "//CIBER.msu.edu"
         },
@@ -173,7 +194,7 @@
                 "/images/portfolio/CIBER_StudyAbroad_2007.pdf"
             ],
             "preview": "/images/portfolio/CIBER_StudyAbroad.png",
-            "project": "<abbr title='International Business Center'>IBC</abbr>",
+            "project": "International Business Center",
             "summary": "",
             "url": "//ibc.msu.edu"
         },
@@ -192,7 +213,7 @@
                 "/images/portfolio/AIB_mail_pack.pdf"
             ],
             "preview": "/images/portfolio/AIB_Branding.png",
-            "project": "<abbr title='Academy of International Business'>AIB</abbr>",
+            "project": "Academy of International Business",
             "summary": "",
             "url": "//aib.msu.edu"
         },
@@ -208,7 +229,7 @@
             "documents": [
             ],
             "preview": "/images/portfolio/IBC_logo_archive.png",
-            "project": "<abbr title='International Business Center'>IBC</abbr>",
+            "project": "International Business Center",
             "summary": "",
             "url": "//ibc.msu.edu"
         }
