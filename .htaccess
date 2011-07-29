@@ -27,7 +27,7 @@ RewriteRule ^contact about [last,R=301]
 RewriteRule ^(about|portfolio|resume)\.php $1 [last,R=301]
 # new pages
 RewriteRule 404$ /framework/views/404.html [last,R=404]
-#RewriteRule ^colors$ framework/theme/css/_variables.php?a=1 [last]
+RewriteRule ^theme$ framework/theme/css/theme.php [last]
 RewriteRule theme/css/all.css$ framework/theme/css/css.min.php [last]
 RewriteRule theme/images/([^$]+) framework/theme/images/$1 [last]
 RewriteRule theme/js/all.js$ framework/theme/js/all.js.min.php [last]

@@ -28,7 +28,7 @@ var Smugmug = function (apiKey) {
             "data": null,
             "dataType": "jsonp",
             "success": callback,
-            "urL": url
+            "url": url
         });
     };
 
@@ -69,16 +69,14 @@ var Smugmug = function (apiKey) {
             options = {};
             login_method = "anonymously";
         }
-    
+        
         Smugmug.apiCall(
             "smugmug.login." + login_method,
             options,
             function (data) {
                 // almost curry, so we can set the SessionID from smugmug
                 Smugmug.SessionID = data.Login.Session.id;
-                if (callback) {
-                    callback();
-                }
+                !!callback && callback();
             },
             true
         );
