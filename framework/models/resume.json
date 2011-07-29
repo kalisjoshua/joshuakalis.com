@@ -1,17 +1,16 @@
 {
     "resume": [
         {
-            "section": "Skills",
+            "section": "",
             "entries": [
                 {
                     "company": "",
-                    "date": "1994 - Present",
                     "items": [
-                        "Certifications: MCTS Web ASP.NET 2.0 C#",
-                        "Development: ASP, C#, CSS, HTML, Java, JavaScript, PHP, T-SQL, XHTML, XML, XSL",
-                        "Software: Adobe: Illustrator, InDesign, Photoshop; CVSNT; Eclipse; Git; Mercurial; Microsoft: Office Suite, Query Analyzer, SQL Server 2000/2005, SQL Server Management Studio, Visual Studio 2005; MySQL; NetBeans; Subversion"
+                        "Languages: CSS, HTML5, JavaScript",
+                        "Software: Adobe CS5, TextMate",
+                        "Version Control: Git, Mercurial"
                     ],
-                    "title": "Technical Proficiency"
+                    "title": "Everyday Tools"
                 }
             ]
         },
@@ -22,12 +21,12 @@
                     "company": "Centurion Medical Products",
                     "date": "Sep 2010 - Present",
                     "items": [
-                        "Environment: CSS, Git, HTML5, JavaScript, Objective-C, Team Foundation Server 2010",
-                        "Migrated projects from Microsoft Team Foundation Server to Git for more flexible version control workflows",
-                        "Helped establish continuous deployment strategy using Jenkins (continuous integration server)",
-                        "Established static content server for CSS, images, and JavaScript common among similar internal applications",
+                        "Environment: CSS, Git, HTML5, JavaScript, Objective-C",
+                        "Developed Umbraco CMS solution to replace existing corporate website(s)",
+                        "Migrated projects from Microsoft TFS 2010 to Git for more flexible version control",
 						"Designed new overall look and feel for all internal web-applications",
-						"Teaching myself Objective-C to begin building iOS applications"
+                        "Established static content server for CSS, images, and JavaScript for internal applications",
+						"Teaching myself: Objective-C, HTML5 canvas, DOM/local storage"
                     ],
                     "title": "Senior UI Engineer"
                 },
