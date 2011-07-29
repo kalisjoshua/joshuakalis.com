@@ -1,14 +1,6 @@
 {
     "current": [
         {
-            "description": "Photobox is a simple little plugin that drops images into an area with a random rotation and location.",
-            "title": "Photobox, jQuery image plugin"
-        },
-        {
-            "description": "PHP based View/Controller framework, similar to MVC, for projects with no need of a Model layer.",
-            "title": "Self Control View Framework"
-        },
-        {
             "description": "Slideshow plugin to replace Flash version provided by <a href=\"//Smugmug.com\" title=\"Smugmug home page\">Smugmug</a>. Included is a private JavaScript object providing access to the Smugmug API. Check out the <a href=\"/framework/theme/js/jquery-smugmug.js\" title=\"view the source code for this project\">code</a>.",
             "title": "jQuery Smugmug slideshow plugin"
         },
@@ -20,6 +12,14 @@
     ],
     
     "past": [
+        {
+            "description": "Photobox is a simple little plugin that drops images into an area with a random rotation and location; as seen on the homepage of the <a href=\"//sgp.msu.edu\">MSU Student Greenhouse Project</a>.",
+            "title": "Photobox, jQuery image plugin"
+        },
+        {
+            "description": "PHP based View/Controller framework, similar to MVC, for projects with no need of a Model layer. Used on a rewrite of the <a href=\"//sgp.msu.edu\">MSU SGP</a> website in 2010.",
+            "title": "Self Control View Framework"
+        },
         {
             "description": "Livelist was purposefully developed without dependancies such as jQuery or YUI as a learning exercise on a very small project which would only ever have two users. <a href=\"/demos/LiveList/index.htm\" title=\"LiveList\">Demo</a>",
             "title": "LiveList"
