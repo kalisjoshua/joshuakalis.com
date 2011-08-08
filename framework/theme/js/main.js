@@ -14,15 +14,7 @@ $(document).ready(function(){
     
     $("nav a").
         click(function (event) {
-            event.preventDefault();
             this.blur();
-            
-            if (window.location.pathname !== event.target.pathname) {
-                $("body").
-                    fadeOut(300, function () {
-                        window.location.href = event.target.href;
-                    });
-            }
         });
     
     $("body").
@@ -42,12 +34,12 @@ $(document).ready(function(){
             src: "framework/theme/images/external.gif",
             width: "14px"
         }));
-	
-	$("figure.slideshow").slideShow({AlbumID: "17358575"});
-	
-	$("article.whitepaper figure").Whitepaper("article");
-	
-	$("a[rel=Imagezoom]").Imagezoom();
+
+    $("figure.slideshow").slideShow({AlbumID: "17358575"});
+
+    $("article.whitepaper figure").Whitepaper("article");
+
+    $("a[rel=Imagezoom]").Imagezoom();
 
     // add interactivity to all sections that have more than one item		
     $(".Resume article h2").
