@@ -12,8 +12,12 @@ a:hover {
 div.resElement {
     clear: both;
 	margin-bottom: 1em;
-	margin-left: 170px;
 	}
+@media only screen and (min-width: 959px) {
+div.resElement {
+    margin-left: 170px;
+    }
+    }
 
 div.rotator {
     height: 230px;
@@ -156,8 +160,10 @@ p {
 
 
 /* **** Resume **** */
+    .Resume h2 {
+        margin: 1em 0px;
+        }
     .Resume div.resElement h3 {
-    	float: right;
     	font-size: 100%;
     	}
     .Resume div.resElement h4 {
@@ -168,7 +174,6 @@ p {
     .Resume div.resElement h5 {
     	font-size: 107%;
     	margin: 0em 0px .25em;
-    	text-align: right;
     	}
     .Resume div.resElement h6 {
     	font-size: 100%;
@@ -179,6 +184,17 @@ p {
     .Resume div.resElement div.level2 {
         margin-left: 2em;
         }
+@media only screen and (min-width: 600px) {
+    .Resume h2 {
+        margin: 0px;
+        }
+    .Resume div.resElement h3 {
+        float: right;
+        }
+    .Resume div.resElement h5 {
+        text-align: right;
+        }
+    }
 
 ::-moz-selection{ background: #menu; color:#fff; text-shadow: none; }
 ::selection { background: #menu; color:#fff; text-shadow: none; }

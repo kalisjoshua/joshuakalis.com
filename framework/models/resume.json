@@ -7,8 +7,8 @@
                     "company": "",
                     "items": [
                         "Languages: CSS, HTML5, JavaScript",
-                        "Software: Adobe CS5, TextMate",
-                        "Version Control: Git, Mercurial"
+                        "Software: Adobe CS5, Chrome, Firefox, SublimeText2",
+                        "Version Control: Git"
                     ],
                     "title": "Everyday Tools"
                 }
@@ -21,12 +21,12 @@
                     "company": "Centurion Medical Products",
                     "date": "Sep 2010 - Present",
                     "items": [
-                        "Environment: CSS, Git, HTML5, JavaScript, Objective-C",
+                        "Environment: CSS, Git, HTML5, JavaScript",
                         "Developed Umbraco CMS solution to replace existing corporate website(s)",
                         "Migrated projects from Microsoft TFS 2010 to Git for more flexible version control",
 						"Designed new overall look and feel for all internal web-applications",
                         "Established static content server for CSS, images, and JavaScript for internal applications",
-						"Teaching myself: Objective-C, HTML5 canvas, DOM/local storage"
+						"Teaching myself: Objective-C, HTML5 canvas, local storage"
                     ],
                     "title": "Senior UI Engineer"
                 },

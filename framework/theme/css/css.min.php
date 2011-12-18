@@ -19,6 +19,7 @@ ob_start("min_css");
 
 include("html5boilerplate.css");
 include("960.css");
+include("960_responsive.css");
 
 include("layout.css");
 include("content.css");

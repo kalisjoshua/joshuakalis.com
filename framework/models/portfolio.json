@@ -5,9 +5,9 @@
             "contact": "Kathy McDaniel",
             "content": [
                 {
-                    "image": "/images/portfolio/CMP_logo.png",
+                    "image": "",
                     "position": "right",
-                    "p": "I was originally hired at Centurion to skin an implementation of Sitecore CMS for their corporate website. After some time examining the needs of the business and the cost of using it, an alternative CMS was decided upon. <a href=\"//umbraco.com\">Umbraco</a> was a designer's dream to work with. Creating a skin/theme from the ground up was easy as could be expected; simply create the master-pages and CSS and off you are."
+                    "p": "I was originally hired at Centurion to skin an implementation of Sitecore CMS for their corporate website. After some time examining the needs of the business and the cost of using it, an alternative CMS was decided upon. <a href=\"//umbraco.com\">Umbraco</a> was a designer's dream to work with. Creating a skin/theme from the ground up was as easy as could be expected; simply create the master-pages and CSS and off you are."
                 },
                 {
                     "image": "/images/portfolio/CMP_site_thumbnail.png",

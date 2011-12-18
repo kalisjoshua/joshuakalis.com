@@ -14,21 +14,21 @@
 </head>
 
 <body class="{page}">
-    <p class="visuallyhidden"><a href="#content" title="">Skip Navigation</a></p>
+    <p class="visuallyhidden focusable"><a href="#content" title="">Skip Navigation</a></p>
 
-    <div class="container_12 clearfix">
-        <header class="grid_6" role="banner">
+    <header class="container_12 clearfix" role="banner">
+        <hgroup class="grid_6 alpha omega">
             <a href="//{domain}" title="{description}">{title}</a>
             <h1>{title}</h1>
-            {tagline}<h2>{tagline}</h2>{/tagline}
-        </header>
-    
-        <nav class="grid_6" role="navigation">
+        </hgroup>
+        
+        <nav role="navigation">
             <ul>{menu}
                 <li class="{link}"><a href="/{url}">{link}</a></li>{/menu}
             </ul>
         </nav>
-    </div>
+    </header>
+        
     
     <section class="container_12 clearfix">
         <article id="content" role="main">
@@ -72,14 +72,11 @@
         <p class="container_12">All content copyright <a href="{domain}" title="{description}">{domain}</a> &copy; {year}. All rights reserved.</p>
     </footer>
 
-<script src="//ajax.googleapis.com/ajax/libs/jquery/1.6.1/jquery.min.js"></script>
-<script>!window.jQuery && document.write(unescape('%3Cscript src="theme/js/libs/jquery.min.js"%3E%3C/script%3E'))</script>
-<script src="theme/js/all.js"></script>
 
-<!--[if lt IE 7 ]>
-<script src="/framework/theme/js/libs/dd_belatedpng.js"></script>
-<script> DD_belatedPNG.fix('img, .png_bg'); </script>
-<![endif]-->
+<script src="//ajax.googleapis.com/ajax/libs/jquery/1.7.0/jquery.min.js"></script>
+<script>window.jQuery || document.write('<script src="theme/js/libs/jquery.min.js"><\/script>')</script>
+
+<script src="theme/js/all.js"></script>
 
 <script>
 var _gaq=[['_setAccount','UA-19419400-1'],['_trackPageview']];

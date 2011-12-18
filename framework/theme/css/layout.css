@@ -1,11 +1,8 @@
-
-p#SkipNavigation { display: none; }
-
 html.js body {
     visibility: hidden;
     }
 article {
-	padding-top: 70px;
+    padding-top: 1em;
 	}
 	article article {
 	    padding: 0px;
@@ -63,20 +60,18 @@ html {
 	}
 	
 nav {
-    text-align: right;
 	}
 	nav ul {
 		list-style-type: none;
-		margin: 0px;
+		margin: 40px 0px 0px;
 		padding: 0px;
 		}
 		nav ul li {
-			display: inline;
 			}
 			nav ul li a {
 				color: #section;
-				margin: 0px 4px;
-				padding: 15px 10px;
+                display: block;
+                padding: 5px 10px;
 				text-decoration: none;
 				}
 			nav ul li a:hover,
@@ -88,3 +83,23 @@ nav {
 				color: #FFFFFF;
 				background: #menu;
 				}
+@media only screen and (min-width: 600px) {
+article {
+    padding-top: 70px;
+    }
+
+nav {
+    text-align: right;
+    }
+    nav ul {
+        margin: 0px;
+        }
+        nav ul li {
+            display: inline;
+            }
+            nav ul li a {
+                display: inline;
+                margin: 0px;
+                padding: 10px;
+                }
+    }
