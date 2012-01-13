@@ -17,10 +17,22 @@ $(document).ready(function(){
             this.blur();
         });
     
-    $("body").
-        fadeOut(0).
-        css("visibility", "visible").
-        fadeIn(1000);
+    if (/Jan 18 2012/.test(Date())) {
+        $("#StopSOPA")
+            .click(function () {
+                $(this).remove();
+            })
+            .show();
+
+        $("body")
+            .css("visibility", "visible")
+            .show();
+    } else {
+        $("body").
+            fadeOut(0).
+            css("visibility", "visible").
+            fadeIn(1000);
+    }
 
     // external links
     $("a").

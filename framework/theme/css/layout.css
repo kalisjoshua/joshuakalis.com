@@ -18,6 +18,33 @@ body {
 	position: relative;
 	text-align: left;
 	}
+    body div#StopSOPA {
+        background: black;
+        color: #1a1e1d;
+        height: 100%;
+        left: 0px;
+        margin: 0px;
+        padding: 10em 0px;
+        position: fixed;
+        text-align: center;
+        top: 0px;
+        width: 100%;
+        z-index: 999;
+        }
+        body div#StopSOPA *:hover {
+            color: gray;
+            }
+        body div#StopSOPA a
+        ,body div#StopSOPA a:hover {
+            color: goldenrod;
+            }
+        body div#StopSOPA em {
+            color: gray;
+            }
+        body div#StopSOPA h1 {
+            display: block;
+            font-size: 200%;
+            }
 
 footer {
     background: #text;
