@@ -98,6 +98,7 @@ nav {
 			nav ul li a {
 				color: #section;
                 display: block;
+                outline: none !important;
                 padding: 5px 10px;
 				text-decoration: none;
 				}
