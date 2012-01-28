@@ -6,8 +6,8 @@
                 {
                     "company": "",
                     "items": [
-                        "Languages: CSS, HTML5, JavaScript",
-                        "Software: Adobe CS5, Chrome, Firefox, SublimeText2",
+                        "Languages: CSS, HTML5, JavaScript, jQuery",
+                        "Software: Adobe CS5, Chrome, Firefox, Sublime Text 2",
                         "Version Control: Git"
                     ],
                     "title": "Everyday Tools"
@@ -21,7 +21,7 @@
                     "company": "Centurion Medical Products",
                     "date": "Sep 2010 - Present",
                     "items": [
-                        "Environment: CSS, Git, HTML5, JavaScript",
+                        "Environment: CSS, Git, HTML5, JavaScript, jQuery",
                         "Developed Umbraco CMS solution to replace existing corporate website(s)",
                         "Migrated projects from Microsoft TFS 2010 to Git for more flexible version control",
 						"Designed new overall look and feel for all internal web-applications",
@@ -34,7 +34,7 @@
                     "company": "Image Science Incorporated",
                     "date": "Nov 2002 - Present",
                     "items": [
-                        "Environment: CSS, Git, HTML5, JavaScript, Mercurial, PHP",
+                        "Environment: CSS, Git, HTML5, JavaScript, jQuery, Mercurial, MySQL, NodeJS, PHP, SVN",
                         "Founded and maintained company as creative outlet and learning experience",
                         "Published open source JavaScript library that enhances accessibility of session time-outs"
                     ],
@@ -63,10 +63,10 @@
                     "company": "Michigan State University Academic Information Systems",
                     "date": "Sep 2008 - Jun 2010",
                     "items": [
-                        "Environment: Java, SQL Server 2005, HTML 4.01, HTML 5, CSS, JavaScript, ASP, CVSNT",
-                        "Supervised user experience design for Java development",
+                        "Environment: ASP (classic), CSS, CVSNT, HTML 4/5, Java, JavaScript, SQL Server 2005",
+                        "Supervised user experience design for Java development team",
                         "Adopted Agile development methodologies",
-                        "Developed dynamic data entry user interface with JavaScript",
+                        "Developed dynamic data entry user interface",
                         "Coauthor of browser stack standards and guidelines"
                     ],
                     "title": "Information Technologist"
@@ -75,26 +75,26 @@
                     "company": "Michigan State University International Business Center",
                     "date": "Apr 2003 - Sep 2008",
                     "items": [
-                        "Environment: AJAX, ASP, CSS, JavaScript, SQL Server 2005, XHTML, XML, XSLT"
+                        "Environment: AJAX, ASP (classic), CSS, JavaScript, SQL Server 2005, XHTML, XML, XSLT"
                     ],
                     "projects": [
                         {
                             "title": "Academy of International Business (http://aib.msu.edu)",
                             "items": [
-                                "Built event scheduling application for annual conference using ASP and SQL Server",
-                                "Developed book review system, implemented in ASP, XML, XSLT, and PDF",
-                                "Designed collateral, following U.S. Postal guidelines, using Adobe Illustrator",
-                                "Revamped advertisement campaign created with Adobe Photoshop and Illustrator"
+                                "Built event scheduling application for annual conference",
+                                "Developed book review system",
+                                "Designed collateral, following U.S. Postal guidelines",
+                                "Revamped advertisement campaign"
                             ]
                         },
                         {
                             "title": "globalEDGE.msu.edu (http://globaledge.msu.edu)",
                             "items": [
-                                "Normalized multiple public databases into a single SQL Server data warehouse",
-                                "Engineered flexible non-destructive relational database model",
-                                "Wrote JavaScript form validation library using Regular expression pattern matching",
-                                "Implemented home-grown content management system written in ASP",
-                                "Created projects management system using SQL Server with an ASP front-end"
+                                "Normalized multiple public databases into a single data warehouse",
+                                "Wrote JavaScript form validation library",
+                                "Implemented home-grown content management system (CMS)",
+                                "Designed flexible non-destructive relational database for home-grown CMS",
+                                "Created projects management system and bug tracker"
                             ]
                         }
                     ],
