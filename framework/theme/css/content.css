@@ -198,3 +198,21 @@ p {
 
 ::-moz-selection{ background: #menu; color:#fff; text-shadow: none; }
 ::selection { background: #menu; color:#fff; text-shadow: none; }
+
+
+#noticetorecruiters {
+    position: relative;
+    text-align: center;
+    top: 50px;
+    }
+    #noticetorecruiters h3 {
+        cursor: pointer;
+        padding: .25em;
+        }
+    #noticetorecruiters h3:hover {
+        background: #body;
+        }
+
+#tinybox {position:absolute; display:none; padding:10px; background:#fff url(images/preload.gif) no-repeat 50% 50%; border:10px solid #e3e3e3; z-index:2000}
+#tinymask {position:absolute; display:none; top:0; left:0; height:100%; width:100%; background:#000; z-index:1500}
+#tinycontent {background:#fff}

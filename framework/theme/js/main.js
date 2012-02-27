@@ -32,7 +32,7 @@ $.fn.ready(function(){
             ,"class": "external"
             ,"height": 14
             ,"src": "framework/theme/images/external.gif"
-            ,"width": "14px"
+            ,"width": 14
         }));
 
     $("figure.slideshow").slideShow({AlbumID: "17358575"});
@@ -59,4 +59,24 @@ $.fn.ready(function(){
         })
         .addClass("accordion")
         .trigger("click");
+
+    (function () {
+        var
+            notice = $("#noticetorecruiters")
+            ,popup = notice.clone().html()
+            ,show = function () {
+                TINY.box.show(popup, 0, 400);
+            };
+
+        notice
+            .children(":first")
+                .addClass("button")
+                .on("click", show)
+                .end()
+            .children()
+                .not(":first")
+                .hide();
+
+        /#notice/i.test(window.location.hash) && show();
+    }());
 });

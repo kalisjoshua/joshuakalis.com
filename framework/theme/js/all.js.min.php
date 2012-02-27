@@ -12,6 +12,7 @@ foreach(Array(
     "regex_form.js",
     "smugmug.api.js",
     "jquery-smugmug.js",
+    "libs/tinybox.js",
     "main.js"
     ) as $f) {
         //echo file_get_contents($f);
