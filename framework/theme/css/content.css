@@ -13,10 +13,9 @@ div.resElement {
     clear: both;
 	margin-bottom: 1em;
 	}
-@media only screen and (min-width: 959px) {
+
 div.resElement {
     margin-left: 170px;
-    }
     }
 
 div.rotator {
@@ -184,7 +183,6 @@ p {
     .Resume div.resElement div.level2 {
         margin-left: 2em;
         }
-@media only screen and (min-width: 600px) {
     .Resume h2 {
         margin: 0px;
         }
@@ -194,25 +192,23 @@ p {
     .Resume div.resElement h5 {
         text-align: right;
         }
-    }
 
 ::-moz-selection{ background: #menu; color:#fff; text-shadow: none; }
 ::selection { background: #menu; color:#fff; text-shadow: none; }
 
 
 #noticetorecruiters {
-    position: relative;
+    margin-top: 2.5em;
     text-align: center;
-    top: 50px;
     }
-    #noticetorecruiters h3 {
+    #noticetorecruiters h4 {
         cursor: pointer;
         padding: .25em;
         }
-    #noticetorecruiters h3:hover {
+    #noticetorecruiters h4:hover {
         background: #body;
         }
 
-#tinybox {position:absolute; display:none; padding:10px; background:#fff url(images/preload.gif) no-repeat 50% 50%; border:10px solid #e3e3e3; z-index:2000}
+#tinybox {position:absolute; display:none; padding:10px; background:#fff; border:10px solid #e3e3e3; z-index:2000}
 #tinymask {position:absolute; display:none; top:0; left:0; height:100%; width:100%; background:#000; z-index:1500}
 #tinycontent {background:#fff}
