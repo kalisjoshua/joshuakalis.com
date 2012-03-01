@@ -1,33 +1,47 @@
 {
     "current": [
         {
-            "description": "Slideshow plugin to replace Flash version provided by <a href=\"//Smugmug.com\" title=\"Smugmug home page\">Smugmug</a>. Included is a private JavaScript object providing access to the Smugmug API. Check out the <a href=\"/framework/theme/js/jquery-smugmug.js\" title=\"view the source code for this project\">code</a>.",
-            "title": "jQuery Smugmug slideshow plugin"
-        },
-        {
-            "description": "Accessibility enhancement providing a notification to offer the user a chance to extend their session while not leaving the page. Visit the project, hosted on <a href=\"http://code.google.com/p/js-session-extender/\" title=\"JavaScript Session Extender on Google Code\">Google Code</a> or just try a <a href=\"/demos/jsx/test.html\" title=\"JavaScript Session Extender\">demo</a>.",
-            "image": "/images/portfolio/code_Session.js.jpg",
-            "title": "JavaScript Session Extender"
+            "description": "A templating engine in JavaScript, a light-weight code base and simple syntax. The source file is tiny but the features are growing. Project <a href=\"https://github.com/kalisjoshua/Lotus-Templating\">hosted on GitHub</a> a few basic test in QUnit and more coming as features are built up from <a href=\"https://github.com/janl/mustache.js/\">Mustache.js</a>. I am also using a primitive version of this templating engine ported to php on this site."
+            ,"title": "Lotus Templates"
         }
-    ],
+        ,{
+            "description": "Heavily inspired by <a href=\"http://960.gs\">960.gs</a> with some added responsive-ness and flixible grid (at compile-time). I enjoy working with the 960 system but needed a smaller gutter on some projects - professionally - so with my step into using .LESS in place of plain CSS I created this nice little builder. Project <a href=\"https://github.com/kalisjoshua/ManyGrids.LESS\">hosted on GitHub</a> and an available <a href=\"http://kalisjoshua.github.com/ManyGrids.LESS/\">demo page</a>"
+            ,"title": "ManyGrids.LESS"
+        }
+        ,{
+            "description": "At work we made the switch from Viddler to <a href=\"http://vimeo.com\">Vimeo</a> and I saw an opportunity for a small, well-defined, starter project to get me familiar with F#. I have learned a lot so far and still have a little way to go before it is completely up and working."
+            ,"title": "F#.NET OAuth Wrapper"
+        }
+        ,{
+            "description": "Styln is focused on the layout of properly marked up html forms, therefore it only affects the form elements' position and layout. Styln only attempts to baseline and enhance some aspects of the form elements. Project <a href=\"https://github.com/kalisjoshua/Styln.css\">hosted on GitHub</a>"
+            ,"title": "Styln.css"
+        }
+        ,{
+            "description": "SLOC - single linnes of code - is a jQuery plugin for textareas that will be used for code editing. Project <a href=\"https://github.com/kalisjoshua/SLOC/\">hosted on GitHub</a> with <a href=\"http://kalisjoshua.github.com/SLOC/\">simple demo</a>."
+            ,"title": "SLOC"
+        }
+        ,{
+            "description": "Slideshow plugin to replace Flash version provided by <a href=\"//Smugmug.com\" title=\"Smugmug home page\">Smugmug</a>. Included is a private JavaScript object providing access to the Smugmug API. Check out the <a href=\"/framework/theme/js/jquery-smugmug.js\" title=\"view the source code for this project\">code</a>."
+            ,"title": "jQuery Smugmug slideshow plugin"
+        }
+        ,{
+            "description": "Accessibility enhancement providing a notification to offer the user a chance to extend their session while not leaving the page. Visit the project, hosted on <a href=\"http://code.google.com/p/js-session-extender/\" title=\"JavaScript Session Extender on Google Code\">Google Code</a> or just try a <a href=\"/demos/jsx/test.html\" title=\"JavaScript Session Extender\">demo</a>."
+            ,"title": "JavaScript Session Extender"
+        }
+    ]
     
-    "past": [
+    ,"past": [
         {
-            "description": "Photobox is a simple little plugin that drops images into an area with a random rotation and location; as seen on the homepage of the <a href=\"//sgp.msu.edu\">MSU Student Greenhouse Project</a>.",
-            "title": "Photobox, jQuery image plugin"
-        },
-        {
-            "description": "PHP based View/Controller framework, similar to MVC, for projects with no need of a Model layer. Used on a rewrite of the <a href=\"//sgp.msu.edu\">MSU SGP</a> website in 2010.",
-            "title": "Self Control View Framework"
-        },
-        {
-            "description": "Livelist was purposefully developed without dependancies such as jQuery or YUI as a learning exercise on a very small project which would only ever have two users. <a href=\"/demos/LiveList/index.htm\" title=\"LiveList\">Demo</a>",
-            "title": "LiveList"
-        },
-        {
-            "description": "Templating engine for JSON objects and markup, free of programming logic or variables, with very little syntax or extra cruft. Visit the project, hosted on <a href=\"http://code.google.com/p/lotustemplate/\" title=\"Lotus Templates on Google Code\">Google Code</a> or just try a <a href=\"/demos/Lotus/example.htm\" title=\"Lotus Templates\">demo</a>. <i>I have kind-of dropped this as a project since finding other much better libraries such as: micro-templating, mustachejs, and others.</i>",
-            "image": "/images/portfolio/code_Lotus.js.jpg",
-            "title": "Iris/Lotus Templates"
+            "description": "Photobox is a simple little plugin that drops images into an area with a random rotation and location; as seen on the homepage of the <a href=\"//sgp.msu.edu\">MSU Student Greenhouse Project</a>."
+            ,"title": "Photobox, jQuery image plugin"
+        }
+        ,{
+            "description": "PHP based View/Controller framework, similar to MVC, for projects with no need of a Model layer. Used on a rewrite of the <a href=\"//sgp.msu.edu\">MSU SGP</a> website in 2010."
+            ,"title": "Self Control View Framework"
+        }
+        ,{
+            "description": "Livelist was purposefully developed without dependancies such as jQuery or YUI as a learning exercise on a very small project which would only ever have two users. <a href=\"/demos/LiveList/index.htm\" title=\"LiveList\">Demo</a>"
+            ,"title": "LiveList"
         }
     ]
 }
