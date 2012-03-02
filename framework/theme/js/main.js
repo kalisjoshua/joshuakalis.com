@@ -1,6 +1,17 @@
 Smugmug("6C3JkTZdWzQjswrYpAMOUgBAhIkpJtTx");
 
 $.fn.ready(function(){
+    var section = document.body.className;
+
+    function sprite (text, type) {
+        return $("<span>")
+            .append(text.split(" ")[0])
+            .addClass("sprite sprite-" + type)
+            .bind("toggle", function () {
+                this.innerHTML = text.replace(this.innerHTML, "");
+            });
+    }
+
     // email links in plain-text
     $("span.email")
         .replaceWith(function () {
@@ -23,17 +34,13 @@ $.fn.ready(function(){
         .fadeIn(1000);
 
     // external links
-    $("a")
-        .filter(function () {
-            return this.hostname && window.location.hostname !== this.hostname && !$(this).find("img").length;
-        })
-        .append($("<img>", {
-            "alt": "external link icon"
-            ,"class": "external"
-            ,"height": 14
-            ,"src": "framework/theme/images/external.gif"
-            ,"width": 14
-        }));
+    (function (ext) {
+        $("a")
+            .filter(function () {
+                return this.hostname && window.location.hostname !== this.hostname && !$(this).find("img").length;
+            })
+            .append(ext);
+        }(sprite("&rarr;", "external")));
 
     $("figure.slideshow").slideShow({AlbumID: "17358575"});
 
@@ -42,30 +49,68 @@ $.fn.ready(function(){
     $("a[rel=Imagezoom]").Imagezoom();
 
     // add interactivity to all sections that have more than one item		
-    $(".Resume article h2")
+    $(".Resume section")
+        .find("h2")
+        .filter(function (indx, node) {
+            var
+                self = $(node)
+
+                siblings = self
+                    .nextUntil("h2")
+                    .slice(2);
+
+            // only apply behavior to sections with more than one item in the section
+            if (siblings.length) {
+
+                self.data("siblings", siblings);
+
+                return true;
+            }
+        })
+        .addClass("accordion open")
+        .append(sprite("", "openclose"))
         .on("click", function () {
             // show/hide all but the first item in a section
             $(this)
-                .toggleClass("open")
-                .nextUntil("h2")
-                .not("h2 + div, h2 + div + div")
+                .toggleClass("open close")
+                .find(".sprite")
+                    .trigger("toggle")
+                    .end()
+                .data("siblings")
                 .stop()
-                .delay(200)
-                .slideToggle(700);
+                .slideToggle();
         })
-        .filter(function () {
-            // only apply behavior to sections with more than one item in the section
-            return $(this).nextUntil("h2").length > 2;
-        })
-        .addClass("accordion")
         .trigger("click");
+
+    if ("Projects" === section) {
+        $(".grid_8")
+            .find("h3, h4")
+            .addClass("accordion")
+            .append(sprite("+ -", "plusminus"))
+            .hover(function () {
+                $(this)
+                    .find(".sprite")
+                    .trigger("toggle");
+            })
+            .on("click", function () {
+                $(this)
+                    .find(".sprite")
+                        .trigger("toggle")
+                        .end()
+                    .nextUntil(this.nodeName)
+                    .stop()
+                    .slideToggle();
+            })
+            .trigger("click");
+    }
 
     (function () {
         var
             notice = $("#noticetorecruiters")
             ,popup = notice.clone().html()
+            ,width = $(document).width()
             ,show = function () {
-                TINY.box.show(popup, 0, 400);
+                TINY.box.show(popup, 0, width > 400 ? 400 : width);
             };
 
         notice

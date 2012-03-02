@@ -4,23 +4,23 @@ description=Current coding projects that I am working on professionally or just 
 -->
 
 <div class="grid_8">
-    <h2>Projects</h2>
-    <p>Current coding projects that I am working on professionally or just for fun.</p>
-    {current}
-    <div class="grid_8">
-        <h3>{title}</h3>
-        <p>{description}{project} <a href="{project}">more...</a>{/project}</p>
+    <div class="grid_8 alpha">
+        <h2>Projects</h2>
+        <p>Current coding projects that I am working on professionally or just for fun.</p>
+        {current}
+        <h4>{title}</h4>
+        <p class="project">{description}{project} <a href="{project}">more...</a>{/project}</p>
+        {/current}
     </div>
-    {/current}
-    
-    <h2>Other</h2>
-    <p>These are some older things I have done in the past which aren't currently my primary focus.</p>
-    {past}
-    <div class="grid_8">
+
+    <div class="grid_8 alpha">
+        <h2>Past Projects</h2>
+        <p>Hese are some older things I have done in the past.</p>
+        {past}
         <h4>{title}</h4>
         <p>{description}{project} <a href="{project}">more...</a>{/project}</p>
+        {/past}
     </div>
-    {/past}
 </div>
 
 <div class="grid_4">

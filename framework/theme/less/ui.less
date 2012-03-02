@@ -1,0 +1,93 @@
+body {
+    #bg;
+    color: @text;
+    font-family: Arial, Verdana, Helvetica, sans-serif;
+    font-size: .95em;
+    line-height: 1.35em;
+    margin: 0px auto;
+    position: relative;
+    text-align: left;
+
+    html.js & {visibility: hidden;}
+}
+
+footer {
+    background: @text;
+    border-top: 4px solid @menu;
+    clear: both;
+    font-size: .9em;
+    margin: 3em 0px 0px;
+    padding: 2em 0px;
+
+    *,
+    a {
+        color: @body !important;
+    }
+
+    div {
+        position: relative;
+
+         a#html5_badges {
+            margin: -10px;
+            padding: 10px;
+            position: absolute;
+            right: 0px;
+            top: 0px;
+
+            &:hover {
+                background: @body;
+            }
+        }
+    }
+}
+
+header {
+    position: relative;
+    z-index: 1;
+
+    hgroup {
+        font-size: 120%;
+        padding: .25em 0px;
+
+        a {
+            text-decoration: none;
+        }
+    }
+
+    nav {
+        text-align: right;
+
+        ul {
+            list-style-type: none;
+
+            li {
+                display: inline-block;
+
+                a
+                ,a:active
+                ,a:visited {
+                    color: @text;
+                    display: inline-block;
+                    outline: none !important;
+                    padding: 5px 10px 5px;
+                    text-decoration: none;
+                }
+
+                a:hover,
+                .About      &.about a,
+                .Downloads  &.downloads a,
+                .Portfolio  &.portfolio a,
+                .Projects   &.projects a,
+                .Resume     &.resume a {
+                    color: #FFFFFF;
+                    background: @menu;
+                }
+            }
+        }
+    }
+}
+
+html {
+    background-color: @text;
+    text-align: center;
+}

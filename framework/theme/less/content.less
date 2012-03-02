@@ -1,0 +1,137 @@
+/* content styles */
+a
+,a:active
+,a:hover
+,a:visited {
+    color: @link;
+}
+a:hover {
+    text-decoration: none;
+}
+
+h1, h2, h3, h4, h5, h6 { margin: .5em 0px; }
+h1 { display: none; }
+h2 {
+    clear: both;
+    color: @section;
+    font-family: Palatino, Serif;
+    font-size: 140%;
+    margin-top: 1em;
+    position: relative;
+    text-transform: uppercase;
+}
+
+#noticetorecruiters {
+    margin-top: 2.75em;
+    text-align: center;
+
+    h4 {
+        cursor: pointer;
+        margin: 0px;
+        padding: .25em;
+
+        &:hover {
+            background: @body;
+        }
+    }
+}
+
+.accordion {
+    cursor: pointer;
+
+    .Projects & {
+        border-bottom: 1px dotted @text;
+        padding: 8px 10px 6px;
+    }
+
+    .Projects &:hover {
+        border-bottom-style: solid;
+    }
+}
+
+.book {
+    margin: 1.0em 0px 1.5em;
+
+    h2,
+    h3 {
+        display: block;
+        font-family: Palatino, Serif;
+        font-size: 100%;
+        margin: 0px;
+        text-transform: none;
+    }
+
+    .cover {
+        background: @link;
+        border: 6px solid gray;
+        padding: 2px;
+    }
+}
+
+.slideshow {
+    @size: 250px;
+
+    border: 10px solid;
+    display: none;
+    height: @size * 1.5;
+    margin: 1.0em 0px 1.5em;
+    overflow: hidden;
+    position: relative;
+    text-align: center;
+    width: @size;
+
+    img {
+        display: none; /* javascript will show the pictures */
+        left: 0px;
+        position: absolute;
+        top: 0px;
+    }
+}
+
+p.project {
+    padding: .5em 2em;
+}
+
+.sprite {
+    @size: 14px;
+
+    cursor: pointer;
+    display: inline-block;
+    font-weight: bold;
+    height: @size;
+    left: 0px;
+    margin-right: 6fipx;
+    position: relative;
+    text-align: center;
+    top: 0px;
+    width: @size;
+
+    &.sprite-external {
+        .rotation(-45deg);
+    }
+
+    &.sprite-openclose {
+        #open()  {background-image: url(../images/accordion_collapse.jpg);}
+        #close() {background-image: url(../images/accordion_expand.jpg);}
+
+        background-attachment: scroll;
+        background-position: left top;
+        background-repeat: no-repeat;
+        cursor: pointer;
+        left: 1em;
+
+        .open       & { #close; }
+        .open:hover & { #open; }
+
+        .close       & { #open; }
+        .close:hover & { #close; }
+    }
+
+    &.sprite-plusminus {
+        float: right;
+    }
+}
+
+#selection() { background: @menu; color:#fff; text-shadow: none; }
+::-moz-selection { #selection; }
+::selection      { #selection; }

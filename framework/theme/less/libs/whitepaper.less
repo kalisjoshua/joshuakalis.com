@@ -1,19 +1,19 @@
+
 div#Whitepaper_modal {
-    background: #text;
+    background: @text;
     display: none;
     height: 100%;
     left: 0px;
-    opacity: 0.8;
-    -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=80)";
-    filter: alpha(opacity=80);
+    margin: 0px;
+    .opacity(.8);
     position: fixed;
     top: 0px;
     width: 100%;
     z-index: 9999;
-    }
+}
 div#Whitepaper_content {
-    background: #body;
-    border: 1px solid #text;
+    background: @body;
+    border: 1px solid @text;
     display: none;
     left: 50%;
     margin: 0px auto;
@@ -23,19 +23,19 @@ div#Whitepaper_content {
     top: 20px;
     width: 700px;
     z-index: 9999;
-    }
+
+    h1 { margin: 0px; }
+}
 div#Whitepaper_title {
-    background: #text;
-    color: #body;
+    background: @text;
+    color: @body;
     font-size: .85em;
-    opacity: 0.4;
-    -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=40)";
-    filter: alpha(opacity=40);
+    .opacity(.4);
     overflow: hidden;
     padding: 4px 10px;
     }
     div#Whitepaper_title a {
-        color: #body;
+        color: @body;
         float: right;
         padding: 0px 5px;
         text-decoration: none;

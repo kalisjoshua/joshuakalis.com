@@ -1,0 +1,75 @@
+
+.Portfolio {
+    article {
+        article {
+            margin-bottom: 0.5em;
+            margin-top: 0.5em;
+            position: relative;
+
+            .no-js & {
+                overflow: hidden;
+            }
+
+            .js & > * {
+                display: none;
+            }
+
+            figure {
+                border: 3px solid transparent;
+                display: block !important;
+                height: 140px;
+                overflow: hidden;
+                position: relative;
+                width: 300px;
+
+                &:hover {
+                    border-color: @link;
+                    cursor: pointer;
+                    top: -5px;
+                }
+            }
+        }
+    }
+}
+
+#Whitepaper_content {
+    article {
+        padding: 1em 2em;
+    }
+
+    h1 {
+        color: @text;
+        display: block;
+        font-family: Palatino, serif;
+        font-size: 300%;
+        line-height: 150%;
+        .opacity(.3);
+    }
+
+    h3 {
+        border-bottom: 1px solid;
+        font-size: 1.3em;
+        margin-bottom: 1.0em;
+
+        a {
+            color: @text;
+            text-decoration: none;
+        }
+
+        img {
+            display: none;
+        }
+    }
+
+    img {
+        &.image_left {
+            float: left;
+            margin-right: 1em;
+        }
+
+        &.image_right {
+            float: right;
+            margin-left: 1em;
+        }
+    }
+}

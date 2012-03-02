@@ -9,12 +9,12 @@
         var wrapper = this,
             gallery = [],
             rotate = function () {
-                $.when($("<img/>", {"src": gallery[0]})).
-                    done(function (element) {
-                          element.
-                              appendTo(wrapper).
-                              hide().
-                              fadeIn(options.transition);
+                $.when($("<img/>", {"src": gallery[0]}))
+                    .done(function (element) {
+                          element
+                              .appendTo(wrapper)
+                              .hide()
+                              .fadeIn(options.transition);
                           gallery.push(gallery.shift());
                           setTimeout(rotate, options.delay);
                     });
