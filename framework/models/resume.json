@@ -18,27 +18,24 @@
             "section": "Experience",
             "entries": [
                 {
-                    "company": "Centurion Medical Products",
-                    "date": "Sep 2010 - Present",
+                    "company": "Quicken Loans",
+                    "date": "April 2012 - present",
                     "items": [
-                        "Environment: CSS, Git, HTML5, JavaScript, jQuery",
-                        "Developed Umbraco CMS solution to replace existing corporate website(s)",
-                        "Migrated projects from Microsoft TFS 2010 to Git for more flexible version control",
-						"Designed new overall look and feel for all internal web-applications",
-                        "Established static content server for CSS, images, and JavaScript for internal applications",
-						"Teaching myself: Objective-C, HTML5 canvas, local storage"
                     ],
                     "title": "Senior UI Engineer"
                 },
                 {
-                    "company": "Image Science Incorporated",
-                    "date": "Nov 2002 - Present",
+                    "company": "Centurion Medical Products",
+                    "date": "September 2010 - April 2012",
                     "items": [
-                        "Environment: CSS, Git, HTML5, JavaScript, jQuery, Mercurial, MySQL, NodeJS, PHP, SVN",
-                        "Founded and maintained company as creative outlet and learning experience",
-                        "Published open source JavaScript library that enhances accessibility of session time-outs"
+                        "Environment: CSS, Git, HTML5, JavaScript, jQuery",
+                        "Developed Umbraco CMS solution to replace existing corporate website(s)",
+                        "Migrated projects from Microsoft TFS 2010 to Git for more flexible version control",
+                        "Designed new overall look and feel for all internal web-applications",
+                        "Established static content server for CSS, images, and JavaScript for internal applications",
+                        "Teaching myself: Objective-C, HTML5 canvas, local storage"
                     ],
-                    "title": "Web Developer & COO"
+                    "title": "Senior UI Engineer"
                 }
             ]
         },
@@ -47,7 +44,7 @@
             "entries": [
                 {
                     "company": "Michigan State University",
-                    "date": "2006",
+                    "date": "May 2006",
                     "items": [
                         "Study Abroad - Post-modern Studies: Belgium, France, Germany, Italy, The Netherlands",
                         "Extracurricular involvement: Broad International Business Forum, Center for Research & Professional Development, Global Business Club, Student Greenhouse Project"
@@ -60,8 +57,18 @@
             "section": "History",
             "entries": [
                 {
+                    "company": "Image Science Incorporated",
+                    "date": "November 2002 - December 2010",
+                    "items": [
+                        "Environment: CSS, Git, HTML5, JavaScript, jQuery, Mercurial, MySQL, NodeJS, PHP, SVN",
+                        "Founded and maintained company as creative outlet and learning experience",
+                        "Published open source JavaScript library that enhances accessibility of session time-outs"
+                    ],
+                    "title": "Web Developer & COO"
+                },
+                {
                     "company": "Michigan State University Academic Information Systems",
-                    "date": "Sep 2008 - Jun 2010",
+                    "date": "September 2008 - June 2010",
                     "items": [
                         "Environment: ASP (classic), CSS, CVSNT, HTML 4/5, Java, JavaScript, SQL Server 2005",
                         "Supervised user experience design for Java development team",
@@ -73,7 +80,7 @@
                 },
                 {
                     "company": "Michigan State University International Business Center",
-                    "date": "Apr 2003 - Sep 2008",
+                    "date": "April 2003 - September 2008",
                     "items": [
                         "Environment: AJAX, ASP (classic), CSS, JavaScript, SQL Server 2005, XHTML, XML, XSLT"
                     ],
@@ -101,7 +108,7 @@
                     "title": "Information Technologist"
                 },
                 {
-                    "date": "Apr 2001 - Aug 2005",
+                    "date": "April 2001 - August 2005",
                     "company": "Aquamen Landscaping, White Lake, MI",
                     "items": [
                         "Designed and installed landscapes and built structures",
@@ -110,7 +117,7 @@
                     "title": "Landscape Designer/Owner"
                 },
                 {
-                    "date": "Feb 2003 - Sep 2004",
+                    "date": "February 2003 - September 2004",
                     "company": "Meridian Lawn Care &amp; Snow Removal, Meridian Twp, MI",
                     "items": [
                         "Collaborative design with customers",
@@ -119,7 +126,7 @@
                     "title": "Landscaping Coordinator"
                 },
                 {
-                    "date": "2002 - Apr 2003",
+                    "date": "March 2002 - April 2003",
                     "company": "Case Residence Hall Cafeteria Michigan State University, East Lansing, MI",
                     "items": [
                         "Prepared and served food - 2000 meals per day",
@@ -128,7 +135,7 @@
                     "title": "Prep-Cook"
                 },
                 {
-                    "date": "June 1999 - Jan 2002",
+                    "date": "June 1999 - January 2002",
                     "company": "Cobra Enterprises, Madison Heights, MI",
                     "items": [
                         "Streamlined production of multi-million dollar prototype manufacturing jobs",
@@ -138,7 +145,7 @@
                     "title": "Machinist"
                 },
                 {
-                    "date": "Sep 1996 - Apr 1999",
+                    "date": "September 1996 - April 1999",
                     "company": "Video Giant, Sterling Heights, MI",
                     "items": [
                         "Regulated inventory and reduced theft in 7 stores",
@@ -148,7 +155,7 @@
                     "title": "Store Manager"
                 },
                 {
-                    "date": "May 1996 - Aug 1996",
+                    "date": "May 1996 - August 1996",
                     "company": "Wheeler &amp; Sons Construction, Independence Twp, MI",
                     "items": [
                         "Basic structural framing in residential housing",
@@ -157,7 +164,7 @@
                     "title": "Carpenter"
                 },
                 {
-                    "date": "Sep 1994 - May 1996",
+                    "date": "September 1994 - May 1996",
                     "company": "Sweetwater’s Bistro, Keego Harbor, MI",
                     "items": [
                         "Mediated service of an average of 900 meals per night",
