@@ -42,7 +42,7 @@ $.fn.ready(function(){
             .append(ext);
         }(sprite("&rarr;", "external")));
 
-    $("figure.slideshow").slideShow({AlbumID: "17358575"});
+    // $("figure.slideshow").slideShow({AlbumID: "17358575"});
 
     $("article.whitepaper figure").Whitepaper("article");
 

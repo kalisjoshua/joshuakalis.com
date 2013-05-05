@@ -6,7 +6,7 @@
         });
     };
     $.fn.Imagezoom = function (options) {
-        this.live("click", function (event) {
+        this.on("click", function (event) {
             event.preventDefault();
             
             var blind = $("<div/>", {id: "Imagezoom_blind"}),
